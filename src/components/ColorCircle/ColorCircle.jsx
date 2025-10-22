@@ -1,0 +1,10 @@
+import clsx from "clsx";
+import styles from "./ColorCircle.module.scss";
+
+export default function ColorCircle({ color, size = "md" }) {
+  return (
+    <span
+      className={clsx(styles.circle, styles[color], size === "sm" && styles.sm)}
+    ></span>
+  );
+}
