@@ -1,14 +1,13 @@
 import styles from "./Statistics.module.scss";
 import YearItem from "./YearItem/YearItem";
 import ColorItem from "./ColorItem/ColorItem";
-import EmphasisItem from "./EmphasisItem/EmphasisItem";
 import RowItem from "./RowItem/RowItem";
 
 export default function Statistics({ statistics }) {
   return (
     <ul className={styles.container}>
       <li className={styles.item}>
-        <p className={styles.title}>Year</p>
+        <p className={styles.title}>YEAR</p>
         <YearItem list={statistics?.year} />
       </li>
       <li className={styles.item}>
@@ -21,7 +20,7 @@ export default function Statistics({ statistics }) {
       </li>
       <li className={styles.item}>
         <p className={styles.title}>EMPHASIS</p>
-        <EmphasisItem list={statistics?.emphasis} />
+        <RowItem category="emphasis" list={statistics?.emphasis} />
       </li>
       <li className={styles.item}>
         <p className={styles.title}>BALANCE</p>

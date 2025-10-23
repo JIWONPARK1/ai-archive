@@ -8,15 +8,17 @@ import {
   CONTRAST_OPTIONS,
   WHITE_SPACE_OPTIONS,
 } from "../../constants/config";
-import ColorCircle from "../ColorCircle/ColorCircle";
+import ColorCircle from "../ColorCircle";
 import { useEffect, useState } from "react";
 import FilterDetail from "../FilterDetail";
 import clsx from "clsx";
+import { useFilterStore } from "../../stores/filterState";
 
-export default function FilterModal({ open, onClose, shapes, moods, onApply }) {
+export default function FilterModal({ open, onClose, shapes, moods }) {
   const [isOpenFilterDetailModal, setIsOpenFilterDetailModal] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
-  const [selectedOption, setSelectedOption] = useState("");
+  const [selectedDetailOption, setSelectedDetailOption] = useState("");
+  const { filterOptions, setFilterOptions } = useFilterStore();
 
   useEffect(() => {
     if (open) {
@@ -28,7 +30,7 @@ export default function FilterModal({ open, onClose, shapes, moods, onApply }) {
 
   const handleSeeAll = (option) => {
     setIsOpenFilterDetailModal(true);
-    setSelectedOption(option);
+    setSelectedDetailOption(option);
   };
 
   const handleClose = () => {
@@ -36,6 +38,20 @@ export default function FilterModal({ open, onClose, shapes, moods, onApply }) {
     setTimeout(() => {
       onClose();
     }, 500);
+  };
+
+  const handleSelectFilter = (type, value) => {
+    setFilterOptions({ year: filterOptions.year, type, value });
+    onClose();
+  };
+
+  const handleSelectYear = (_, value) => {
+    if (value === "ALL") {
+      setFilterOptions({ year: "ALL", type: null, value: null });
+      onClose();
+    } else {
+      setFilterOptions({ year: value, type: null, value: null });
+    }
   };
 
   return (
@@ -54,17 +70,23 @@ export default function FilterModal({ open, onClose, shapes, moods, onApply }) {
             className={styles.closeIcon}
           />
         </button>
-        <div className={styles.listContainer}>
+        <div className={styles.item}>
           <Title
             label="Year"
             seeAll={false}
             onSeeAll={() => handleSeeAll("year")}
           />
-          <List list={YEAR_OPTIONS} onSelect={() => {}} selected={null} />
+          <div className={styles.gap}></div>
+          <List
+            list={YEAR_OPTIONS}
+            onSelect={handleSelectYear}
+            type="year"
+            selected={filterOptions.year}
+          />
         </div>
 
         <div className={styles.divider} />
-        <div className={styles.listContainer}>
+        <div className={styles.item}>
           <Title
             label="SHAPE"
             seeAll={true}
@@ -72,11 +94,12 @@ export default function FilterModal({ open, onClose, shapes, moods, onApply }) {
           />
           <List
             list={shapes}
-            onSelect={(item) => onApply("shape", item)}
+            type="shape"
+            onSelect={handleSelectFilter}
             selected={null}
           />
         </div>
-        <div className={styles.listContainer}>
+        <div className={styles.item}>
           <Title
             label="MOOD"
             seeAll={true}
@@ -84,11 +107,12 @@ export default function FilterModal({ open, onClose, shapes, moods, onApply }) {
           />
           <List
             list={moods}
-            onSelect={(item) => onApply("mood", item)}
+            type="mood"
+            onSelect={handleSelectFilter}
             selected={null}
           />
         </div>
-        <div className={styles.listContainer}>
+        <div className={styles.item}>
           <Title
             label="COLOR"
             seeAll={true}
@@ -96,12 +120,11 @@ export default function FilterModal({ open, onClose, shapes, moods, onApply }) {
           />
           <ColorList
             list={COLOR_OPTIONS}
-            onSelect={(item) => onApply("color", item)}
+            onSelect={handleSelectFilter}
             selected={null}
-            r
           />
         </div>
-        <div className={styles.listContainer}>
+        <div className={styles.item}>
           <Title
             label="FORM"
             seeAll={true}
@@ -109,12 +132,13 @@ export default function FilterModal({ open, onClose, shapes, moods, onApply }) {
           />
           <List
             list={FORM_OPTIONS}
-            onSelect={(item) => onApply("form", item)}
+            type="form"
+            onSelect={handleSelectFilter}
             selected={null}
             range={{ min: 0, max: 9 }}
           />
         </div>
-        <div className={styles.listContainer}>
+        <div className={styles.item}>
           <Title
             label="EMPHASIS"
             seeAll={true}
@@ -122,12 +146,13 @@ export default function FilterModal({ open, onClose, shapes, moods, onApply }) {
           />
           <List
             list={EMPHASIS_OPTIONS}
-            onSelect={(item) => onApply("emphasis", item)}
+            type="emphasis"
+            onSelect={handleSelectFilter}
             selected={null}
             range={{ min: 0, max: 9 }}
           />
         </div>
-        <div className={styles.listContainer}>
+        <div className={styles.item}>
           <Title
             label="BALANCE"
             seeAll={true}
@@ -135,12 +160,13 @@ export default function FilterModal({ open, onClose, shapes, moods, onApply }) {
           />
           <List
             list={BALANCE_OPTIONS}
-            onSelect={(item) => onApply("balance", item)}
+            type="balance"
+            onSelect={handleSelectFilter}
             selected={null}
             range={{ min: 0, max: 9 }}
           />
         </div>
-        <div className={styles.listContainer}>
+        <div className={styles.item}>
           <Title
             label="CONTRAST"
             seeAll={true}
@@ -148,12 +174,13 @@ export default function FilterModal({ open, onClose, shapes, moods, onApply }) {
           />
           <List
             list={CONTRAST_OPTIONS}
-            onSelect={(item) => onApply("contrast", item)}
+            type="contrast"
+            onSelect={handleSelectFilter}
             selected={null}
             range={{ min: 0, max: 9 }}
           />
         </div>
-        <div className={styles.listContainer}>
+        <div className={styles.item}>
           <Title
             label="WHITE SPACE"
             seeAll={true}
@@ -161,14 +188,15 @@ export default function FilterModal({ open, onClose, shapes, moods, onApply }) {
           />
           <List
             list={WHITE_SPACE_OPTIONS}
-            onSelect={(item) => onApply("whitespace", item)}
+            type="whitespace"
+            onSelect={handleSelectFilter}
             selected={null}
           />
         </div>
       </div>
       {isOpenFilterDetailModal && (
         <FilterDetail
-          option={selectedOption}
+          option={selectedDetailOption}
           onClose={() => setIsOpenFilterDetailModal(false)}
         />
       )}
@@ -187,26 +215,33 @@ const Title = ({ label, seeAll = true, onSeeAll }) => {
     </div>
   );
 };
-const ColorList = ({ list }) => {
+const ColorList = ({ list, onSelect }) => {
   return (
-    <ul className={styles.list}>
+    <ul className={styles.colorList}>
       {list.map((item) => (
-        <li key={item.id}>
+        <li
+          key={item.id}
+          className={clsx(styles.colorOption)}
+          onClick={() => onSelect("color", item.value)}
+        >
           <ColorCircle color={item.value} />
         </li>
       ))}
     </ul>
   );
 };
-const List = ({ list, onSelect, selected }) => {
+const List = ({ list, type, onSelect, selected }) => {
   return (
     <ul className={styles.list}>
       {list.map((item) => (
-        <li key={item.id} className={styles.option}>
-          <button
-            onClick={() => onSelect(item.value)}
-            className={selected === item.id ? styles.selected : ""}
-          >
+        <li
+          key={item.id}
+          className={clsx(
+            styles.option,
+            selected === item.value ? styles.selected : ""
+          )}
+        >
+          <button onClick={() => onSelect(type, item.value || item.name)}>
             {item.label || item.name}
           </button>
         </li>

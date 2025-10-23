@@ -1,6 +1,10 @@
 .container {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   justify-content: space-between;
+  gap: 40px;
+  margin-top: 40px;
+  padding-bottom: 20px;
 }
 .item {
   display: flex;
@@ -9,6 +13,6 @@
   gap: 10px;
 }
 .value {
-  font-size: 12px;
-  font-weight: 200;
+  font-size: 16px;
+  font-weight: 400;
 }

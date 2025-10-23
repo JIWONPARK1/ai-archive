@@ -95,10 +95,10 @@
                 "2D": 63
               },
               {
-                "photo": 18
+                "3D": 21
               },
               {
-                "3D": 21
+                "photo": 18
               }
             ],
             "emphasis": [
@@ -134,7 +134,7 @@
                 "high": 72
               },
               {
-                "mid": 20
+                "medium": 20
               },
               {
                 "low": 8
@@ -145,7 +145,7 @@
                 "high": 72
               },
               {
-                "mid": 20
+                "medium": 20
               },
               {
                 "low": 8
@@ -178,7 +178,7 @@
               "emphasis": "bottom",
               "balance": "Radial",
               "contrast": "low",
-              "whitespace": "mid",
+              "whitespace": "medium",
               "overview": "Promotional poster for the Wonhae Hwang – Solo Exhibition titled 'Hydra Square.' The exhibition ran from 2024.7.4-7.21 and explores the mixed and ambiguous senses of urban Non-Places. The artist, Wonhae Hwang, uses opposing images like the 'Hydra' and 'Square' to capture fragmented movement.",
               "colorAndComposition": "Palette: Primarily Monochrome (Black graphics and text on a White background). Contrast: Extreme High Contrast is the foundation, creating visual vibration. EMOTION: Stark, Cold, and Rigorous, emphasizing structure and intellectual difficulty. Principles: Balance is symmetrical in its centralized weight but asymmetrical in its internal detail. Alignment is intentionally broken/mixed in the central type block. Negative Space is substantial in the margins, isolating and emphasizing the dense, visual knot. Composition: Hyper-Dense Layering (Maximalist density).",
               "imagery": "Source: Type-as-Image; the visual content is constructed solely from layered, manipulated typefaces. Obvious Shapes: A dense mixture of modular pixel blocks and curvilinear script outlines forms, all tangled to create the central mass. Mood: Aggressive, Experimental, and Intellectually Complex. It evokes System Failure and Information Overload. Texture/Effects: Dominated by the Digital Decay or Glitch aesthetic. Textures include square pixelation and digital noise, giving a rough, static-like appearance."
@@ -192,7 +192,7 @@
               "form": "3D",
               "emphasis": "left",
               "balance": "Symmetrical",
-              "contrast": "mid",
+              "contrast": "medium",
               "whitespace": "low",
               "overview": "Promotional poster for the Wonhae Hwang – Solo Exhibition titled 'Hydra Square.' The exhibition ran from 2024.7.4-7.21 and explores the mixed and ambiguous senses of urban Non-Places. The artist, Wonhae Hwang, uses opposing images like the 'Hydra' and 'Square' to capture fragmented movement.",
               "colorAndComposition": "Palette: Primarily Monochrome (Black graphics and text on a White background). Contrast: Extreme High Contrast is the foundation, creating visual vibration. EMOTION: Stark, Cold, and Rigorous, emphasizing structure and intellectual difficulty. Principles: Balance is symmetrical in its centralized weight but asymmetrical in its internal detail. Alignment is intentionally broken/mixed in the central type block. Negative Space is substantial in the margins, isolating and emphasizing the dense, visual knot. Composition: Hyper-Dense Layering (Maximalist density).",
@@ -222,7 +222,7 @@
               "form": "2D",
               "emphasis": "center",
               "balance": "Symmetrical",
-              "contrast": "mid",
+              "contrast": "medium",
               "whitespace": "high",
               "overview": "Promotional poster for the Wonhae Hwang – Solo Exhibition titled 'Hydra Square.' The exhibition ran from 2024.7.4-7.21 and explores the mixed and ambiguous senses of urban Non-Places. The artist, Wonhae Hwang, uses opposing images like the 'Hydra' and 'Square' to capture fragmented movement.",
               "colorAndComposition": "Palette: Primarily Monochrome (Black graphics and text on a White background). Contrast: Extreme High Contrast is the foundation, creating visual vibration. EMOTION: Stark, Cold, and Rigorous, emphasizing structure and intellectual difficulty. Principles: Balance is symmetrical in its centralized weight but asymmetrical in its internal detail. Alignment is intentionally broken/mixed in the central type block. Negative Space is substantial in the margins, isolating and emphasizing the dense, visual knot. Composition: Hyper-Dense Layering (Maximalist density).",
@@ -238,7 +238,7 @@
               "emphasis": "center",
               "balance": "Symmetrical",
               "contrast": "low",
-              "whitespace": "mid",
+              "whitespace": "medium",
               "overview": "Promotional poster for the Wonhae Hwang – Solo Exhibition titled 'Hydra Square.' The exhibition ran from 2024.7.4-7.21 and explores the mixed and ambiguous senses of urban Non-Places. The artist, Wonhae Hwang, uses opposing images like the 'Hydra' and 'Square' to capture fragmented movement.",
               "colorAndComposition": "Palette: Primarily Monochrome (Black graphics and text on a White background). Contrast: Extreme High Contrast is the foundation, creating visual vibration. EMOTION: Stark, Cold, and Rigorous, emphasizing structure and intellectual difficulty. Principles: Balance is symmetrical in its centralized weight but asymmetrical in its internal detail. Alignment is intentionally broken/mixed in the central type block. Negative Space is substantial in the margins, isolating and emphasizing the dense, visual knot. Composition: Hyper-Dense Layering (Maximalist density).",
               "imagery": "Source: Type-as-Image; the visual content is constructed solely from layered, manipulated typefaces. Obvious Shapes: A dense mixture of modular pixel blocks and curvilinear script outlines forms, all tangled to create the central mass. Mood: Aggressive, Experimental, and Intellectually Complex. It evokes System Failure and Information Overload. Texture/Effects: Dominated by the Digital Decay or Glitch aesthetic. Textures include square pixelation and digital noise, giving a rough, static-like appearance."

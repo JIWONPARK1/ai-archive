@@ -3,6 +3,10 @@
   height: 40px;
   border-radius: 50%;
   display: inline-block;
+  &.lg {
+    width: 80px;
+    height: 80px;
+  }
   &.sm {
     width: 20px;
     height: 20px;

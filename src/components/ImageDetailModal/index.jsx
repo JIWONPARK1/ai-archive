@@ -1,5 +1,5 @@
 import clsx from "clsx";
-import ColorCircle from "../ColorCircle/ColorCircle";
+import ColorCircle from "../ColorCircle";
 import styles from "./ImageDetailModal.module.scss";
 import { useEffect, useState } from "react";
 
@@ -18,6 +18,8 @@ export default function ImageDetailModal({ image, onClose }) {
       onClose();
     }, 500);
   };
+
+  console.log(image);
   return (
     <div
       className={clsx(
@@ -39,8 +41,11 @@ export default function ImageDetailModal({ image, onClose }) {
           <ColorCircle key={color} size="sm" color={color} />
         ))}
         <Icon category="form" value={image?.form} />
-        <Icon category="emphasis" value={image?.emphasis} />
-        <Icon category="balance" value={image?.balance} />
+        <Icon
+          category="emphasis"
+          value={String(image?.emphasis).toLowerCase()}
+        />
+        <Icon category="balance" value={String(image?.balance).toLowerCase()} />
         <Icon category="contrast" value={image?.contrast} />
         <Icon category="whitespace" value={image?.whitespace} />
       </div>
@@ -58,7 +63,7 @@ export default function ImageDetailModal({ image, onClose }) {
 const Icon = ({ category, value }) => {
   return (
     <img
-      src={`/images/image_${category}_${String(value).toLowerCase()}.png`}
+      src={`/images/image_${category}_${value}.png`}
       alt={category}
       className={styles.icon}
     />

@@ -2,7 +2,7 @@ import styles from "./FilterDetail.module.scss";
 import dummy from "../../datas/dummy.json";
 import filterDummy from "../../datas/filterDummy.json";
 import { useEffect, useState } from "react";
-import ColorCircle from "../ColorCircle/ColorCircle";
+import ColorCircle from "../ColorCircle";
 import clsx from "clsx";
 import { ICONS } from "../../constants/config";
 
@@ -90,10 +90,7 @@ const TableList = ({ option, data }) => {
                   <img
                     src={ICONS[option][name]}
                     alt={name}
-                    className={clsx(
-                      styles.image,
-                      styles[String(option).toLowerCase()]
-                    )}
+                    className={styles.image}
                   />
                   <p>{name}</p>
                 </div>

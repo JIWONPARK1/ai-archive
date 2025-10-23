@@ -1,4 +1,5 @@
 export const YEAR_OPTIONS = [
+  { label: "ALL", value: "ALL" },
   { label: "2025", value: 2025 },
   { label: "2024", value: 2024 },
   { label: "2023", value: 2023 },
@@ -16,9 +17,9 @@ export const COLOR_OPTIONS = [
   { label: "Grayscales", value: "grayscales" },
 ];
 export const FORM_OPTIONS = [
-  { label: "2D", value: "2d" },
+  { label: "2D", value: "2D" },
   { label: "Photo", value: "photo" },
-  { label: "3D", value: "3d" },
+  { label: "3D", value: "3D" },
 ];
 
 export const EMPHASIS_OPTIONS = [
@@ -37,13 +38,13 @@ export const BALANCE_OPTIONS = [
 
 export const CONTRAST_OPTIONS = [
   { label: "high", value: "high" },
-  { label: "mid", value: "mid" },
+  { label: "medium", value: "medium" },
   { label: "low", value: "low" },
 ];
 
 export const WHITE_SPACE_OPTIONS = [
   { label: "high", value: "high" },
-  { label: "mid", value: "mid" },
+  { label: "medium", value: "medium" },
   { label: "low", value: "low" },
 ];
 
@@ -67,12 +68,12 @@ export const ICONS = {
   },
   contrast: {
     high: "/images/image_contrast_high.png",
-    mid: "/images/image_contrast_mid.png",
+    medium: "/images/image_contrast_medium.png",
     low: "/images/image_contrast_low.png",
   },
   whitespace: {
     high: "/images/image_whitespace_high.png",
-    mid: "/images/image_whitespace_mid.png",
+    medium: "/images/image_whitespace_medium.png",
     low: "/images/image_whitespace_low.png",
   },
 };

@@ -14,10 +14,8 @@ export default function RowItem({ category, list }) {
               alt={String(name).toLowerCase()}
               className={styles.image}
             />
-            <div className={styles.name}>
-              {name}
-              <p className={styles.value}>{value}%</p>
-            </div>
+            <p className={styles.name}>{name}</p>
+            <p className={styles.value}>{value}%</p>
           </li>
         );
       })}

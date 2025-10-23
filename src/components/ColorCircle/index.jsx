@@ -4,7 +4,12 @@ import styles from "./ColorCircle.module.scss";
 export default function ColorCircle({ color, size = "md" }) {
   return (
     <span
-      className={clsx(styles.circle, styles[color], size === "sm" && styles.sm)}
+      className={clsx(
+        styles.circle,
+        styles[color],
+        size === "sm" && styles.sm,
+        size === "lg" && styles.lg
+      )}
     ></span>
   );
 }

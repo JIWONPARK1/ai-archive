@@ -1,4 +1,4 @@
-import ColorCircle from "../../ColorCircle/ColorCircle";
+import ColorCircle from "../../ColorCircle";
 import styles from "./ColorItem.module.scss";
 
 export default function ColorItem({ list }) {
@@ -9,7 +9,7 @@ export default function ColorItem({ list }) {
         const value = Object.values(item);
         return (
           <li key={name} className={styles.item}>
-            <ColorCircle color={name} />
+            <ColorCircle size="lg" color={name} />
             <p className={styles.value}>{Math.round((value / 35) * 100)}%</p>
           </li>
         );
