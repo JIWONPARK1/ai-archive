@@ -1,19 +1,22 @@
 import clsx from "clsx";
 import styles from "./MainTab.module.scss";
+import archives from "../../datas/archives.json";
 
-export default function MainTab({ list, selected, onSelect }) {
+export default function MainTab({ selected, onSelect }) {
+  const allArchives = { all: { id: 0, name: "ALL" }, ...archives };
+
   return (
     <ul className={clsx(styles.accountList, styles.line)}>
-      {list?.map((item, index) => (
-        <li key={item.id} className={styles.accountItem}>
+      {Object.keys(allArchives).map((item) => (
+        <li key={item} className={styles.accountItem}>
           <button
             className={clsx(
               styles.accountButton,
-              selected === index && styles.selected
+              selected === item && styles.selected
             )}
-            onClick={() => onSelect(index)}
+            onClick={() => onSelect(item)}
           >
-            {item.name}
+            {allArchives[item]?.name}
           </button>
         </li>
       ))}

@@ -1,6 +1,7 @@
 import styles from "./App.module.scss";
 import MainTab from "./components/MainTab";
-import dummy from "./datas/dummy.json";
+import statistics from "./datas/statistics.json";
+import archives from "./datas/archives.json";
 import { useMemo, useState } from "react";
 import ImageList from "./components/ImageList";
 import SubTab from "./components/SubTab";
@@ -12,19 +13,28 @@ import { useFilterStore } from "./stores/filterState";
 import FilterOption from "./components/FilterOption";
 
 function App() {
-  const { archiveList, contents } = dummy;
-  const [selectedArchive, setSelectedArchive] = useState(0);
-  const [selectedContent, setSelectedContent] = useState(0);
+  const [selectedArchive, setSelectedArchive] = useState("all");
+  const [selectedShapeKeyword, setSelectedShapeKeyword] = useState(null);
+  const [selectedMoodKeyword, setSelectedMoodKeyword] = useState(null);
   const [selectedImage, setSelectedImage] = useState(null);
   const [isOpenFilterModal, setIsOpenFilterModal] = useState(false);
   const { filterOptions } = useFilterStore();
 
   const handleSelectArchive = (id) => {
     setSelectedArchive(id);
+    setSelectedShapeKeyword(null);
+    setSelectedMoodKeyword(null);
+    setSelectedImage(null);
   };
 
-  const handleSelectContent = (id) => {
-    setSelectedContent(id);
+  const handleSelectShapeKeyword = (type, id) => {
+    if (type === "shape") {
+      setSelectedShapeKeyword(id);
+      setSelectedMoodKeyword(null);
+    } else if (type === "mood") {
+      setSelectedMoodKeyword(id);
+      setSelectedShapeKeyword(null);
+    }
   };
 
   const handleSelectImage = (image) => {
@@ -32,18 +42,30 @@ function App() {
   };
 
   const imageList = useMemo(() => {
-    return contents[selectedArchive]?.datas[selectedContent]?.list;
-  }, [contents, selectedArchive, selectedContent]);
+    let list = [];
+    if (selectedArchive === "all") {
+      list = Object.values(archives).flatMap((archive) => archive.images);
+    } else {
+      list = archives[selectedArchive]?.images;
+    }
+    if (selectedShapeKeyword) {
+      list = list?.filter((image) => {
+        return image["Shape Keyword"].includes(selectedShapeKeyword);
+      });
+    }
+    if (selectedMoodKeyword) {
+      list = list?.filter((image) => {
+        return image["Mood Keyword"].includes(selectedMoodKeyword);
+      });
+    }
+    return list;
+  }, [selectedArchive, selectedMoodKeyword, selectedShapeKeyword]);
 
   return (
     <div className={styles.container}>
       <Header hasBorder />
       <div className={styles.wrapper}>
-        <MainTab
-          list={archiveList}
-          selected={selectedArchive}
-          onSelect={handleSelectArchive}
-        />
+        <MainTab selected={selectedArchive} onSelect={handleSelectArchive} />
 
         <div className={styles.contents}>
           <div className={styles.row}>
@@ -55,11 +77,14 @@ function App() {
               />
             ) : (
               <SubTab
-                selected={selectedContent}
-                list={contents[selectedArchive]?.shapes.concat(
-                  contents[selectedArchive]?.moods
-                )}
-                onSelect={handleSelectContent}
+                selected={selectedShapeKeyword || selectedMoodKeyword}
+                shapeKeywords={
+                  statistics[selectedArchive]?.top_shape_keyword || []
+                }
+                moodKeywords={
+                  statistics[selectedArchive]?.top_mood_keyword || []
+                }
+                onSelect={handleSelectShapeKeyword}
               />
             )}
             <button
@@ -74,11 +99,7 @@ function App() {
       </div>
       <div className={styles.sidebar}>
         {/* 통계 */}
-        <Statistics
-          statistics={
-            contents[selectedArchive]?.datas[selectedContent]?.statistics
-          }
-        />
+        <Statistics selectedArchive={selectedArchive} />
         {/* 이미지 상세 */}
         {selectedImage && (
           <ImageDetailModal
@@ -92,8 +113,7 @@ function App() {
       {isOpenFilterModal && (
         <FilterModal
           open={isOpenFilterModal}
-          shapes={contents[selectedArchive]?.shapes}
-          moods={contents[selectedArchive]?.moods}
+          statistics={statistics[selectedArchive]}
           onClose={() => setIsOpenFilterModal(false)}
         />
       )}

@@ -10,6 +10,7 @@
   transform: translateY(-100%);
   z-index: 9;
   padding-bottom: 40px;
+  min-height: 100%;
   &.open {
     animation: slideUp 0.5s ease-in-out forwards;
   }

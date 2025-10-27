@@ -6,7 +6,7 @@ export default function ColorCircle({ color, size = "md" }) {
     <span
       className={clsx(
         styles.circle,
-        styles[color],
+        styles[String(color)?.toLowerCase()],
         size === "sm" && styles.sm,
         size === "lg" && styles.lg
       )}

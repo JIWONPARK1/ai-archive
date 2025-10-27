@@ -3,6 +3,7 @@
   height: 40px;
   border-radius: 50%;
   display: inline-block;
+  flex-shrink: 0;
   &.lg {
     width: 80px;
     height: 80px;
@@ -30,6 +31,6 @@
 .purple {
   background: #800080;
 }
-.grayscales {
+.monochrome {
   background: linear-gradient(180deg, #ffffff 0%, #000000 100%);
 }

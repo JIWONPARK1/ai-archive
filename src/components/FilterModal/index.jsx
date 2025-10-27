@@ -14,7 +14,7 @@ import FilterDetail from "../FilterDetail";
 import clsx from "clsx";
 import { useFilterStore } from "../../stores/filterState";
 
-export default function FilterModal({ open, onClose, shapes, moods }) {
+export default function FilterModal({ open, onClose, statistics }) {
   const [isOpenFilterDetailModal, setIsOpenFilterDetailModal] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
   const [selectedDetailOption, setSelectedDetailOption] = useState("");
@@ -78,7 +78,12 @@ export default function FilterModal({ open, onClose, shapes, moods }) {
           />
           <div className={styles.gap}></div>
           <List
-            list={YEAR_OPTIONS}
+            list={
+              statistics?.year_frequency?.map((item) => ({
+                keyword: item.year,
+                value: item.year,
+              })) || []
+            }
             onSelect={handleSelectYear}
             type="year"
             selected={filterOptions.year}
@@ -93,7 +98,7 @@ export default function FilterModal({ open, onClose, shapes, moods }) {
             onSeeAll={() => handleSeeAll("shape")}
           />
           <List
-            list={shapes}
+            list={statistics?.top_shape_keyword || []}
             type="shape"
             onSelect={handleSelectFilter}
             selected={null}
@@ -106,7 +111,7 @@ export default function FilterModal({ open, onClose, shapes, moods }) {
             onSeeAll={() => handleSeeAll("mood")}
           />
           <List
-            list={moods}
+            list={statistics?.top_mood_keyword || []}
             type="mood"
             onSelect={handleSelectFilter}
             selected={null}
@@ -119,7 +124,12 @@ export default function FilterModal({ open, onClose, shapes, moods }) {
             onSeeAll={() => handleSeeAll("color")}
           />
           <ColorList
-            list={COLOR_OPTIONS}
+            list={
+              statistics?.color_frequency?.map((item) => ({
+                keyword: item.color,
+                value: item.color,
+              })) || []
+            }
             onSelect={handleSelectFilter}
             selected={null}
           />
@@ -131,7 +141,12 @@ export default function FilterModal({ open, onClose, shapes, moods }) {
             onSeeAll={() => handleSeeAll("form")}
           />
           <List
-            list={FORM_OPTIONS}
+            list={
+              statistics?.form_frequency?.map((item) => ({
+                keyword: item.form,
+                value: item.form,
+              })) || []
+            }
             type="form"
             onSelect={handleSelectFilter}
             selected={null}
@@ -145,7 +160,12 @@ export default function FilterModal({ open, onClose, shapes, moods }) {
             onSeeAll={() => handleSeeAll("emphasis")}
           />
           <List
-            list={EMPHASIS_OPTIONS}
+            list={
+              statistics?.emphasis_frequency?.map((item) => ({
+                keyword: item.emphasis,
+                value: item.emphasis,
+              })) || []
+            }
             type="emphasis"
             onSelect={handleSelectFilter}
             selected={null}
@@ -159,7 +179,12 @@ export default function FilterModal({ open, onClose, shapes, moods }) {
             onSeeAll={() => handleSeeAll("balance")}
           />
           <List
-            list={BALANCE_OPTIONS}
+            list={
+              statistics?.balance_frequency?.map((item) => ({
+                keyword: item.balance,
+                value: item.balance,
+              })) || []
+            }
             type="balance"
             onSelect={handleSelectFilter}
             selected={null}
@@ -173,7 +198,12 @@ export default function FilterModal({ open, onClose, shapes, moods }) {
             onSeeAll={() => handleSeeAll("contrast")}
           />
           <List
-            list={CONTRAST_OPTIONS}
+            list={
+              statistics?.contrast_frequency?.map((item) => ({
+                keyword: item.contrast,
+                value: item.contrast,
+              })) || []
+            }
             type="contrast"
             onSelect={handleSelectFilter}
             selected={null}
@@ -187,7 +217,12 @@ export default function FilterModal({ open, onClose, shapes, moods }) {
             onSeeAll={() => handleSeeAll("whitespace")}
           />
           <List
-            list={WHITE_SPACE_OPTIONS}
+            list={
+              statistics?.white_space_frequency?.map((item) => ({
+                keyword: item.white_space,
+                value: item.white_space,
+              })) || []
+            }
             type="whitespace"
             onSelect={handleSelectFilter}
             selected={null}
@@ -235,14 +270,14 @@ const List = ({ list, type, onSelect, selected }) => {
     <ul className={styles.list}>
       {list.map((item) => (
         <li
-          key={item.id}
+          key={item.keyword}
           className={clsx(
             styles.option,
             selected === item.value ? styles.selected : ""
           )}
         >
-          <button onClick={() => onSelect(type, item.value || item.name)}>
-            {item.label || item.name}
+          <button onClick={() => onSelect(type, item.value)}>
+            {item.keyword}
           </button>
         </li>
       ))}

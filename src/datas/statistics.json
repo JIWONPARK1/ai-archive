@@ -1,0 +1,414 @@
+{
+    "all": {
+        "top_shape_keyword": [
+            {
+                "keyword": "Typographic",
+                "frequency": 10
+            },
+            {
+                "keyword": "Geometric",
+                "frequency": 7
+            },
+            {
+                "keyword": "Organic",
+                "frequency": 6
+            }
+        ],
+        "top_mood_keyword": [
+            {
+                "keyword": "Vibrant",
+                "frequency": 5
+            },
+            {
+                "keyword": "Contemplative",
+                "frequency": 4
+            },
+            {
+                "keyword": "Ethereal",
+                "frequency": 4
+            }
+        ],
+        "year_frequency": [
+            {
+                "year": "2022",
+                "frequency": 1
+            },
+            {
+                "year": "2023",
+                "frequency": 5
+            },
+            {
+                "year": "2024",
+                "frequency": 8
+            },
+            {
+                "year": "2025",
+                "frequency": 6
+            }
+        ],
+        "color_frequency": [
+            {
+                "color": "Blue",
+                "frequency": 4
+            },
+            {
+                "color": "Green",
+                "frequency": 5
+            },
+            {
+                "color": "Monochrome",
+                "frequency": 5
+            },
+            {
+                "color": "Orange",
+                "frequency": 1
+            },
+            {
+                "color": "Purple",
+                "frequency": 1
+            },
+            {
+                "color": "Red",
+                "frequency": 4
+            }
+        ],
+        "form_frequency": [
+            {
+                "form": "2D",
+                "frequency": 13
+            },
+            {
+                "form": "3D",
+                "frequency": 6
+            },
+            {
+                "form": "Photo",
+                "frequency": 1
+            }
+        ],
+        "emphasis_frequency": [
+            {
+                "emphasis": "Center",
+                "frequency": 16
+            },
+            {
+                "emphasis": "Left",
+                "frequency": 1
+            },
+            {
+                "emphasis": "Top",
+                "frequency": 3
+            }
+        ],
+        "balance_frequency": [
+            {
+                "balance": "Asymmetric",
+                "frequency": 3
+            },
+            {
+                "balance": "High",
+                "frequency": 14
+            },
+            {
+                "balance": "Low",
+                "frequency": 1
+            },
+            {
+                "balance": "Medium",
+                "frequency": 2
+            }
+        ],
+        "contrast_frequency": [
+            {
+                "contrast": "Asymmetric",
+                "frequency": 13
+            },
+            {
+                "contrast": "High",
+                "frequency": 1
+            },
+            {
+                "contrast": "Symmetric",
+                "frequency": 6
+            }
+        ],
+        "white_space_frequency": [
+            {
+                "white_space": "High",
+                "frequency": 12
+            },
+            {
+                "white_space": "Low",
+                "frequency": 4
+            },
+            {
+                "white_space": "Medium",
+                "frequency": 4
+            }
+        ]
+    },
+    "archive1": {
+        "top_shape_keyword": [
+            {
+                "keyword": "Typographic",
+                "frequency": 5
+            },
+            {
+                "keyword": "Organic",
+                "frequency": 4
+            },
+            {
+                "keyword": "Fragmented",
+                "frequency": 3
+            }
+        ],
+        "top_mood_keyword": [
+            {
+                "keyword": "Futuristic",
+                "frequency": 3
+            },
+            {
+                "keyword": "Urgent",
+                "frequency": 2
+            },
+            {
+                "keyword": "Confrontational",
+                "frequency": 2
+            }
+        ],
+        "year_frequency": [
+            {
+                "year": "2023",
+                "frequency": 3
+            },
+            {
+                "year": "2024",
+                "frequency": 4
+            },
+            {
+                "year": "2025",
+                "frequency": 3
+            }
+        ],
+        "color_frequency": [
+            {
+                "color": "Blue",
+                "frequency": 2
+            },
+            {
+                "color": "Green",
+                "frequency": 3
+            },
+            {
+                "color": "Monochrome",
+                "frequency": 3
+            },
+            {
+                "color": "Purple",
+                "frequency": 1
+            },
+            {
+                "color": "Red",
+                "frequency": 1
+            }
+        ],
+        "form_frequency": [
+            {
+                "form": "2D",
+                "frequency": 5
+            },
+            {
+                "form": "3D",
+                "frequency": 4
+            },
+            {
+                "form": "Photo",
+                "frequency": 1
+            }
+        ],
+        "emphasis_frequency": [
+            {
+                "emphasis": "Center",
+                "frequency": 7
+            },
+            {
+                "emphasis": "Left",
+                "frequency": 1
+            },
+            {
+                "emphasis": "Top",
+                "frequency": 2
+            }
+        ],
+        "balance_frequency": [
+            {
+                "balance": "Asymmetric",
+                "frequency": 2
+            },
+            {
+                "balance": "High",
+                "frequency": 7
+            },
+            {
+                "balance": "Low",
+                "frequency": 1
+            }
+        ],
+        "contrast_frequency": [
+            {
+                "contrast": "Asymmetric",
+                "frequency": 8
+            },
+            {
+                "contrast": "High",
+                "frequency": 1
+            },
+            {
+                "contrast": "Symmetric",
+                "frequency": 1
+            }
+        ],
+        "white_space_frequency": [
+            {
+                "white_space": "High",
+                "frequency": 6
+            },
+            {
+                "white_space": "Low",
+                "frequency": 1
+            },
+            {
+                "white_space": "Medium",
+                "frequency": 3
+            }
+        ]
+    },
+    "archive2": {
+        "top_shape_keyword": [
+            {
+                "keyword": "Geometric",
+                "frequency": 6
+            },
+            {
+                "keyword": "Typographic",
+                "frequency": 5
+            },
+            {
+                "keyword": "Modular",
+                "frequency": 3
+            }
+        ],
+        "top_mood_keyword": [
+            {
+                "keyword": "Graphic",
+                "frequency": 3
+            },
+            {
+                "keyword": "Contemplative",
+                "frequency": 3
+            },
+            {
+                "keyword": "Vibrant",
+                "frequency": 3
+            }
+        ],
+        "year_frequency": [
+            {
+                "year": "2022",
+                "frequency": 1
+            },
+            {
+                "year": "2023",
+                "frequency": 2
+            },
+            {
+                "year": "2024",
+                "frequency": 4
+            },
+            {
+                "year": "2025",
+                "frequency": 3
+            }
+        ],
+        "color_frequency": [
+            {
+                "color": "Blue",
+                "frequency": 2
+            },
+            {
+                "color": "Green",
+                "frequency": 2
+            },
+            {
+                "color": "Monochrome",
+                "frequency": 2
+            },
+            {
+                "color": "Orange",
+                "frequency": 1
+            },
+            {
+                "color": "Red",
+                "frequency": 3
+            }
+        ],
+        "form_frequency": [
+            {
+                "form": "2D",
+                "frequency": 8
+            },
+            {
+                "form": "3D",
+                "frequency": 2
+            }
+        ],
+        "emphasis_frequency": [
+            {
+                "emphasis": "Center",
+                "frequency": 9
+            },
+            {
+                "emphasis": "Top",
+                "frequency": 1
+            }
+        ],
+        "balance_frequency": [
+            {
+                "balance": "Asymmetric",
+                "frequency": 1
+            },
+            {
+                "balance": "High",
+                "frequency": 7
+            },
+            {
+                "balance": "Medium",
+                "frequency": 2
+            }
+        ],
+        "contrast_frequency": [
+            {
+                "contrast": "Asymmetric",
+                "frequency": 5
+            },
+            {
+                "contrast": "Symmetric",
+                "frequency": 5
+            }
+        ],
+        "white_space_frequency": [
+            {
+                "white_space": "High",
+                "frequency": 6
+            },
+            {
+                "white_space": "Low",
+                "frequency": 3
+            },
+            {
+                "white_space": "Medium",
+                "frequency": 1
+            }
+        ]
+    }
+}

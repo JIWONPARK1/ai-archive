@@ -51,29 +51,29 @@ export const WHITE_SPACE_OPTIONS = [
 export const ICONS = {
   form: {
     "2D": "/images/image_form_2D.png",
-    photo: "/images/image_form_photo.png",
+    Photo: "/images/image_form_photo.png",
     "3D": "/images/image_form_3D.png",
   },
   emphasis: {
-    center: "/images/image_emphasis_center.png",
-    top: "/images/image_emphasis_top.png",
-    bottom: "/images/image_emphasis_bottom.png",
-    left: "/images/image_emphasis_left.png",
-    right: "/images/image_emphasis_right.png",
+    Center: "/images/image_emphasis_center.png",
+    Top: "/images/image_emphasis_top.png",
+    Bottom: "/images/image_emphasis_bottom.png",
+    Left: "/images/image_emphasis_left.png",
+    Right: "/images/image_emphasis_right.png",
   },
   balance: {
-    Symmetrical: "/images/image_balance_symmetrical.png",
-    Asymmetrical: "/images/image_balance_asymmetrical.png",
+    Symmetric: "/images/image_balance_symmetrical.png",
+    Asymmetric: "/images/image_balance_asymmetrical.png",
     Radial: "/images/image_balance_radial.png",
   },
   contrast: {
-    high: "/images/image_contrast_high.png",
-    medium: "/images/image_contrast_medium.png",
-    low: "/images/image_contrast_low.png",
+    High: "/images/image_contrast_high.png",
+    Medium: "/images/image_contrast_medium.png",
+    Low: "/images/image_contrast_low.png",
   },
   whitespace: {
-    high: "/images/image_whitespace_high.png",
-    medium: "/images/image_whitespace_medium.png",
-    low: "/images/image_whitespace_low.png",
+    High: "/images/image_whitespace_high.png",
+    Medium: "/images/image_whitespace_medium.png",
+    Low: "/images/image_whitespace_low.png",
   },
 };

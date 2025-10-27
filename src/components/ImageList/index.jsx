@@ -5,7 +5,7 @@ export default function ImageList({ list, onSelect }) {
     <div className={styles.container}>
       {list?.map((item) => (
         <div
-          key={item.id}
+          key={`${item.title}-${item.id}`}
           className={styles.item}
           onClick={() => onSelect(item)}
         >

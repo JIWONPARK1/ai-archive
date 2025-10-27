@@ -1,0 +1,59 @@
+{
+    "all": {                                // ✅ 모든 아카이브를 통합한 전체 통계
+      "top_shape_keyword": [                // 🎨 가장 많이 등장한 형태(Shape Keyword) 상위 3개
+        {"keyword": "geometric", "frequency": 12},   // keyword: 형태명, frequency: 등장 횟수
+        {"keyword": "organic", "frequency": 9},
+        {"keyword": "abstract", "frequency": 7}
+      ],
+      "top_mood_keyword": [                 // 🌈 가장 많이 등장한 분위기(Mood Keyword) 상위 3개
+        {"keyword": "dynamic", "frequency": 11},
+        {"keyword": "calm", "frequency": 8},
+        {"keyword": "tense", "frequency": 5}
+      ],
+      "year_frequency": [                   // 📅 연도별 이미지 등장 빈도
+        {"year": "2022", "frequency": 4},   // year: 연도, frequency: 해당 연도 이미지 수
+        {"year": "2023", "frequency": 6},
+        {"year": "2024", "frequency": 8}
+      ],
+      "color_frequency": [                  // 🎨 Color 필드 값의 등장 빈도
+        {"color": "warm", "frequency": 5},  // color: 색상 특성명, frequency: 등장 횟수
+        {"color": "cool", "frequency": 7}
+      ],
+      "form_frequency": [                   // 🧱 Form 필드 값의 등장 빈도
+        {"form": "3D", "frequency": 6},     // form: 형태감(입체/평면 등), frequency: 등장 횟수
+        {"form": "flat", "frequency": 3}
+      ],
+      "emphasis_frequency": [               // ⚡ Emphasis(강조점) 필드 값의 등장 빈도
+        {"emphasis": "center", "frequency": 4},  // emphasis: 시각적 강조 위치나 요소
+        {"emphasis": "top", "frequency": 2}
+      ],
+      "balance_frequency": [                // ⚖️ Balance(균형) 필드 값의 등장 빈도
+        {"balance": "symmetrical", "frequency": 6},   // balance: 대칭·비대칭 등 구성 균형 유형
+        {"balance": "asymmetrical", "frequency": 5}
+      ],
+      "contrast_frequency": [               // 🔳 Contrast(대비) 필드 값의 등장 빈도
+        {"contrast": "high", "frequency": 7},        // contrast: 명암·색상·크기 대비 수준
+        {"contrast": "low", "frequency": 4}
+      ],
+      "white_space_frequency": [            // ⚪ White space(여백) 필드 값의 등장 빈도
+        {"white_space": "ample", "frequency": 5},    // white_space: 여백의 활용 정도
+        {"white_space": "tight", "frequency": 6}
+      ]
+    },
+  
+    "archive1": {                           // 🗂️ 개별 아카이브 단위의 통계 (예: archive1)
+      "top_shape_keyword": [ ... ],         // 상위 3개 Shape Keyword
+      "top_mood_keyword": [ ... ],          // 상위 3개 Mood Keyword
+      "year_frequency": [ ... ],            // 연도별 이미지 수
+      "color_frequency": [ ... ],           // Color 빈도
+      "form_frequency": [ ... ],            // Form 빈도
+      "emphasis_frequency": [ ... ],        // Emphasis 빈도
+      "balance_frequency": [ ... ],         // Balance 빈도
+      "contrast_frequency": [ ... ],        // Contrast 빈도
+      "white_space_frequency": [ ... ]      // White space 빈도
+    },
+  
+    "archive2": { ... },                    // 다른 아카이브들도 동일한 구조 반복
+    "archive3": { ... }
+  }
+  

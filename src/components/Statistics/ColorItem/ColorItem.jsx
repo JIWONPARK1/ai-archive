@@ -2,18 +2,17 @@ import ColorCircle from "../../ColorCircle";
 import styles from "./ColorItem.module.scss";
 
 export default function ColorItem({ list }) {
+  const totalFrequency = list?.reduce((acc, item) => acc + item.frequency, 0);
   return (
     <ul className={styles.container}>
-      {list?.map((item) => {
-        const name = Object.keys(item);
-        const value = Object.values(item);
-        return (
-          <li key={name} className={styles.item}>
-            <ColorCircle size="lg" color={name} />
-            <p className={styles.value}>{Math.round((value / 35) * 100)}%</p>
-          </li>
-        );
-      })}
+      {list?.map((item) => (
+        <li key={item.color} className={styles.item}>
+          <ColorCircle size="lg" color={item.color} />
+          <p className={styles.value}>
+            {Math.round((item.frequency / totalFrequency) * 100)}%
+          </p>
+        </li>
+      ))}
     </ul>
   );
 }

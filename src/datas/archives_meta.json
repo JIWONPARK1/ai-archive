@@ -1,0 +1,44 @@
+{
+    "archive1": {                     ← 아카이브 폴더명 (예: archive1, archive2, ...)
+      "id": 1,                        ← 아카이브 id
+      "name": "hello_ep",             ← 아카이브 이름
+      "images": [                     ← 이미지별 분석 결과 리스트
+        {
+          "id": 0,                    ← 이미지 인덱스 (0부터 시작)
+          "file_name": "2023_hello_ep_1.jpg", 
+          "year": "2023",             ← 파일명 앞부분
+          "title": "hello_ep_1",      ← 파일명에서 확장자 제거 후 제목 부분
+          ...                         ← 아래는 LLM이 생성한 분석 결과(JSON)
+          "Basic Information": "...",
+          "Line": "...",
+          "Shape": "...",
+          "Form": "...",
+          "Color": "...",
+          "Value": "...",
+          "Texture": "...",
+          "Space": "..."
+        },
+        {
+          "id": 1,
+          "file_name": "2024_hello_ep_2.jpg",
+          "year": "2024",
+          "title": "hello_ep_2",
+          ... (동일 구조)
+        }
+      ]
+    },
+    "archive2": {
+      "id": 2,
+      "name": "poster_analysis",
+      "images": [
+        {
+          "id": 0,
+          "file_name": "2022_poster_sample.jpg",
+          "year": "2022",
+          "title": "poster_sample",
+          ... (LLM JSON 결과)
+        }
+      ]
+    }
+  }
+  

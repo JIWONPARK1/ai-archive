@@ -2,6 +2,7 @@ import clsx from "clsx";
 import ColorCircle from "../ColorCircle";
 import styles from "./ImageDetailModal.module.scss";
 import { useEffect, useState } from "react";
+import { ICONS } from "../../constants/config";
 
 export default function ImageDetailModal({ image, onClose }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,7 +20,6 @@ export default function ImageDetailModal({ image, onClose }) {
     }, 500);
   };
 
-  console.log(image);
   return (
     <div
       className={clsx(
@@ -37,17 +37,18 @@ export default function ImageDetailModal({ image, onClose }) {
       </button>
       <div className={styles.iconContainer}>
         <span className={styles.year}>{image?.year} </span>
-        {image?.color?.map((color) => (
-          <ColorCircle key={color} size="sm" color={color} />
+        {[image?.Color]?.map((color) => (
+          <ColorCircle
+            key={color}
+            size="sm"
+            color={String(color).toLowerCase()}
+          />
         ))}
-        <Icon category="form" value={image?.form} />
-        <Icon
-          category="emphasis"
-          value={String(image?.emphasis).toLowerCase()}
-        />
-        <Icon category="balance" value={String(image?.balance).toLowerCase()} />
-        <Icon category="contrast" value={image?.contrast} />
-        <Icon category="whitespace" value={image?.whitespace} />
+        <Icon category="form" value={image?.Form} />
+        <Icon category="emphasis" value={image?.Emphasis} />
+        <Icon category="balance" value={image?.Balance} />
+        <Icon category="contrast" value={image?.Contrast} />
+        <Icon category="whitespace" value={image?.["White space"]} />
       </div>
       <img src={image?.image} alt={image?.name} className={styles.image} />
       <span className={styles.descriptionTitle}>overview</span>
@@ -62,10 +63,6 @@ export default function ImageDetailModal({ image, onClose }) {
 
 const Icon = ({ category, value }) => {
   return (
-    <img
-      src={`/images/image_${category}_${value}.png`}
-      alt={category}
-      className={styles.icon}
-    />
+    <img src={ICONS[category][value]} alt={category} className={styles.icon} />
   );
 };

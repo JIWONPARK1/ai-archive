@@ -2,37 +2,42 @@ import styles from "./Statistics.module.scss";
 import YearItem from "./YearItem/YearItem";
 import ColorItem from "./ColorItem/ColorItem";
 import RowItem from "./RowItem/RowItem";
+import statisticsData from "../../datas/statistics.json";
 
-export default function Statistics({ statistics }) {
+export default function Statistics({ selectedArchive }) {
+  const statistics = statisticsData[selectedArchive];
   return (
     <ul className={styles.container}>
       <li className={styles.item}>
         <p className={styles.title}>YEAR</p>
-        <YearItem list={statistics?.year} />
+        <YearItem list={statistics?.year_frequency} />
       </li>
       <li className={styles.item}>
         <p className={styles.title}>COLOR</p>
-        <ColorItem list={statistics?.color} />
+        <ColorItem list={statistics?.color_frequency} />
       </li>
       <li className={styles.item}>
         <p className={styles.title}>FORM</p>
-        <RowItem category="form" list={statistics?.form} />
+        <RowItem category="form" list={statistics?.form_frequency} />
       </li>
       <li className={styles.item}>
         <p className={styles.title}>EMPHASIS</p>
-        <RowItem category="emphasis" list={statistics?.emphasis} />
+        <RowItem category="emphasis" list={statistics?.emphasis_frequency} />
       </li>
       <li className={styles.item}>
         <p className={styles.title}>BALANCE</p>
-        <RowItem category="balance" list={statistics?.balance} />
+        <RowItem category="balance" list={statistics?.balance_frequency} />
       </li>
       <li className={styles.item}>
         <p className={styles.title}>CONTRAST</p>
-        <RowItem category="contrast" list={statistics?.contrast} />
+        <RowItem category="contrast" list={statistics?.contrast_frequency} />
       </li>
       <li className={styles.item}>
         <p className={styles.title}>WHITE SPACE</p>
-        <RowItem category="whitespace" list={statistics?.whiteSpace} />
+        <RowItem
+          category="white_space"
+          list={statistics?.white_space_frequency}
+        />
       </li>
     </ul>
   );
