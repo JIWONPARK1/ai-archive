@@ -101,7 +101,7 @@ function App() {
       {isOpenFilterModal && (
         <FilterModal
           open={isOpenFilterModal}
-          statistics={statisticsData[selectedArchive]}
+          statistics={statistics}
           onClose={() => setIsOpenFilterModal(false)}
         />
       )}
