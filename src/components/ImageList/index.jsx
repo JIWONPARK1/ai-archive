@@ -8,15 +8,13 @@ export default function ImageList({ list, onSelect }) {
           <p>목록이 없습니다.</p>
         </div>
       ) : (
-        list?.map((item) => (
-          <div
-            key={`${item.title}-${item.id}`}
-            className={styles.item}
-            onClick={() => onSelect(item)}
-          >
-            <img src={item.image} alt={item.name} className={styles.image} />
-          </div>
-        ))
+        <ul className={styles.list}>
+          {list?.map((item) => (
+            <li key={`${item.title}-${item.id}`} className={styles.item}>
+              <img src={item.image} alt={item.name} className={styles.image} />
+            </li>
+          ))}
+        </ul>
       )}
     </div>
   );
