@@ -1,15 +1,6 @@
 import styles from "./FilterModal.module.scss";
-import {
-  YEAR_OPTIONS,
-  COLOR_OPTIONS,
-  FORM_OPTIONS,
-  EMPHASIS_OPTIONS,
-  BALANCE_OPTIONS,
-  CONTRAST_OPTIONS,
-  WHITE_SPACE_OPTIONS,
-} from "../../constants/config";
 import ColorCircle from "../ColorCircle";
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import FilterDetail from "../FilterDetail";
 import clsx from "clsx";
 import { useFilterStore } from "../../stores/filterState";
@@ -19,6 +10,20 @@ export default function FilterModal({ open, onClose, statistics }) {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedDetailOption, setSelectedDetailOption] = useState("");
   const { filterOptions, setFilterOptions } = useFilterStore();
+
+  const yearList = useMemo(() => {
+    if (!statistics) return [];
+    return [
+      {
+        keyword: "ALL",
+        value: "ALL",
+      },
+      ...(statistics.year_frequency?.map((item) => ({
+        keyword: item.year,
+        value: item.year,
+      })) || []),
+    ];
+  }, [statistics]);
 
   useEffect(() => {
     if (open) {
@@ -78,12 +83,7 @@ export default function FilterModal({ open, onClose, statistics }) {
           />
           <div className={styles.gap}></div>
           <List
-            list={
-              statistics?.year_frequency?.map((item) => ({
-                keyword: item.year,
-                value: item.year,
-              })) || []
-            }
+            list={yearList}
             onSelect={handleSelectYear}
             type="year"
             selected={filterOptions.year}
@@ -270,13 +270,13 @@ const List = ({ list, type, onSelect, selected }) => {
     <ul className={styles.list}>
       {list.map((item) => (
         <li
-          key={item.keyword}
+          key={item.value || item.keyword}
           className={clsx(
             styles.option,
-            selected === item.value ? styles.selected : ""
+            selected === (item.value || item.keyword) ? styles.selected : ""
           )}
         >
-          <button onClick={() => onSelect(type, item.value)}>
+          <button onClick={() => onSelect(type, item.value || item.keyword)}>
             {item.keyword}
           </button>
         </li>

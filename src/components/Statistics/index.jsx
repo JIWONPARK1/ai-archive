@@ -2,10 +2,8 @@ import styles from "./Statistics.module.scss";
 import YearItem from "./YearItem/YearItem";
 import ColorItem from "./ColorItem/ColorItem";
 import RowItem from "./RowItem/RowItem";
-import statisticsData from "../../datas/statistics.json";
 
-export default function Statistics({ selectedArchive }) {
-  const statistics = statisticsData[selectedArchive];
+export default function Statistics({ statistics }) {
   return (
     <ul className={styles.container}>
       <li className={styles.item}>

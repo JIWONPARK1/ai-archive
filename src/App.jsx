@@ -1,16 +1,17 @@
 import styles from "./App.module.scss";
 import MainTab from "./components/MainTab";
-import statistics from "./datas/statistics.json";
-import archives from "./datas/archives.json";
-import { useMemo, useState } from "react";
+import { useState } from "react";
 import ImageList from "./components/ImageList";
 import SubTab from "./components/SubTab";
 import Statistics from "./components/Statistics";
 import ImageDetailModal from "./components/ImageDetailModal";
+import statisticsData from "./datas/statistics.json";
 import FilterModal from "./components/FilterModal";
 import Header from "./components/Header";
 import { useFilterStore } from "./stores/filterState";
 import FilterOption from "./components/FilterOption";
+import useStatistics from "./hooks/useStatistics";
+import useImageList from "./hooks/useImageList";
 
 function App() {
   const [selectedArchive, setSelectedArchive] = useState("all");
@@ -41,26 +42,13 @@ function App() {
     setSelectedImage(image);
   };
 
-  const imageList = useMemo(() => {
-    let list = [];
-    if (selectedArchive === "all") {
-      list = Object.values(archives).flatMap((archive) => archive.images);
-    } else {
-      list = archives[selectedArchive]?.images;
-    }
-    if (selectedShapeKeyword) {
-      list = list?.filter((image) => {
-        return image["Shape Keyword"].includes(selectedShapeKeyword);
-      });
-    }
-    if (selectedMoodKeyword) {
-      list = list?.filter((image) => {
-        return image["Mood Keyword"].includes(selectedMoodKeyword);
-      });
-    }
-    return list;
-  }, [selectedArchive, selectedMoodKeyword, selectedShapeKeyword]);
+  const { imageList } = useImageList(
+    selectedArchive,
+    selectedShapeKeyword,
+    selectedMoodKeyword
+  );
 
+  const { statistics } = useStatistics(imageList);
   return (
     <div className={styles.container}>
       <Header hasBorder />
@@ -79,10 +67,10 @@ function App() {
               <SubTab
                 selected={selectedShapeKeyword || selectedMoodKeyword}
                 shapeKeywords={
-                  statistics[selectedArchive]?.top_shape_keyword || []
+                  statisticsData[selectedArchive]?.top_shape_keyword || []
                 }
                 moodKeywords={
-                  statistics[selectedArchive]?.top_mood_keyword || []
+                  statisticsData[selectedArchive]?.top_mood_keyword || []
                 }
                 onSelect={handleSelectShapeKeyword}
               />
@@ -99,7 +87,7 @@ function App() {
       </div>
       <div className={styles.sidebar}>
         {/* 통계 */}
-        <Statistics selectedArchive={selectedArchive} />
+        <Statistics statistics={statistics} />
         {/* 이미지 상세 */}
         {selectedImage && (
           <ImageDetailModal
@@ -113,7 +101,7 @@ function App() {
       {isOpenFilterModal && (
         <FilterModal
           open={isOpenFilterModal}
-          statistics={statistics[selectedArchive]}
+          statistics={statisticsData[selectedArchive]}
           onClose={() => setIsOpenFilterModal(false)}
         />
       )}
