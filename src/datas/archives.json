@@ -1,596 +1,510 @@
 {
-    "archive1": {
+  "archive1": {
+    "id": 1,
+    "name": "hello_ep",
+    "images": [
+      {
+        "id": 0,
+        "file_name": "2023_hello_ep_1.jpg",
+        "year": "2023",
+        "title": "hello_ep_1",
+        "Basic Information": "This poster is a political and social campaign piece designed to communicate a sense of national crisis. It features text in Korean, English, and French, explicitly stating 'The constitutional democracy that Republic of Koreans have been proud of is in danger as a lamp in front of the wind.' Additional vertical Korean text on the right identifies it as a 'Declaration of the People's Movement for the Defense of the Constitution demanding the impeachment and resignation of the Yoon Seok-yeol administration' dated '2024. 12. 7.' The conceptual direction is to visually represent the fragility and vulnerability of constitutional democracy when faced with external pressures, using a powerful visual metaphor and direct political address. The semiotic goal is to mobilize public sentiment, instigate awareness, and generate a sense of urgency regarding the perceived threat to national values and governance.",
+        "Color Scheme": "The dominant color scheme is a high-contrast binary of vivid, saturated red against an achromatic and near-achromatic palette of stark white, deep black, and subtle, desaturated brown tones. The expansive red background establishes an immediate, intense palette temperature, evoking alarm and passion. Within the figure, white highlights provide luminous contrast against the dark, textured areas, creating a dramatic light/dark balance. Chromatic contrast is exceptionally high between the primary red field and the desaturated figure, ensuring the visual impact of both elements. This combination of intense red with severe achromatic contrasts creates an emotional effect of urgency, danger, and severity, while also conveying a sense of struggle. The dominant red immediately captures attention, while the high-contrast figure, rendered in black and white, draws the eye into its fragmented form, structuring a perception of immediate crisis.",
+        "Composition": "The composition is dynamically asymmetric, with the primary visual weight and action concentrated on the left and central-left by the large, expressive figure. The figure is positioned along a strong diagonal axis, creating a sense of forward momentum or struggle rather than static equilibrium. There is no discernible grid structure governing the figure's placement, contributing to its raw, uncontained energy, though the text blocks adhere to clear top and right margin alignments. The primary focal point is the fragmented human figure, particularly its distressed head and upper torso, due to its high contrast and central placement. The large expanse of red functions as an active negative space, pressing against and defining the boundaries of the figure. The eye is initially drawn to the figure's head, then follows the diagonal trajectory of its body, sweeping across the gestural white marks, before moving to the informational text blocks. This dynamic, off-balance compositional arrangement, with its implied movement and tension, powerfully reinforces the poster's message of a society in flux and under duress.",
+        "Shape": "The major forms consist primarily of a heavily processed, abstracted human figure, rendered with stark, graphic outlines and fragmented internal elements. This central motif is visually sourced from what appears to be a photographic image subjected to extreme digital posterization and thresholding, resulting in a high-contrast, almost woodcut-like aesthetic. Complementing the figure are bold, gestural brushstrokes of white, which emerge from and interact with the figure's form, suggesting energetic movement or even explosive disintegration. The typography, consisting of clear, sans-serif letterforms for the main text, stands in sharp contrast to the expressive, distorted quality of the figure, providing a legible counterpoint to the visual chaos. The fragmented body parts of the figure, defined by sharp black and white areas, engage in rhythmic interactions with the surrounding red field and the dynamic white strokes, creating a visual narrative of struggle and disruption.",
+        "Shape Keyword": ["Fragmented", "Dynamic", "Graphic", "Typographic"],
+        "Mood & Texture": "The overall mood conveyed is one of intense urgency, confrontational alarm, and profound distress, reflecting a state of political or social crisis. The tactile impression generated is rough and gritty, reminiscent of distressed print textures, such as coarse newsprint or heavily textured paint. Digital effects such as extreme posterization, dithering, and sharp, jagged edges create a simulated photo grain and print noise, contributing to a raw, unrefined aesthetic. The white elements possess a painterly, almost impasto-like quality, despite their digital execution, adding to the visceral impact. These rough, unpolished textures reinforce the emotional and conceptual tone of instability, breakdown, and an unvarnished struggle, aligning the visual experience with the severity of the political message.",
+        "Mood Keyword": [
+          "Urgent",
+          "Confrontational",
+          "Distressed",
+          "Gritty",
+          "Visceral"
+        ],
+        "Color": ["Red", "Black", "White"],
+        "Form": "Photo",
+        "Emphasis": "Center",
+        "Balance": "Asymmetric",
+        "Contrast": "High",
+        "White space": "Medium"
+      },
+      {
         "id": 1,
-        "name": "hello_ep",
-        "images": [
-            {
-                "id": 0,
-                "file_name": "2023_hello_ep_1.jpg",
-                "year": "2023",
-                "title": "hello_ep_1",
-                "Basic Information": "This image functions as a political campaign or social awareness poster, designed to communicate an urgent message of crisis. The visible textual information includes Korean, English, and French declarations at the top, specifically stating: 'The constitutional democracy that Republic of Koreans have been proud of is in danger as a lamp in front of the wind.' A date, '2024.12.7,' and additional Korean text are vertically aligned on the right margin, likely providing further context or attribution. The poster's intended message is a stark warning about the precarious state of constitutional democracy, aiming to evoke a sense of vulnerability and impending threat, thereby galvanizing public concern or action.",
-                "Color Scheme": "The predominant color palette consists of a vibrant, saturated red background, contrasted sharply with black, white, and a desaturated, earthy brown/beige in the central figure. The dominant hue, red, immediately conveys urgency, alarm, and a sense of danger or passion, establishing an emotionally charged atmosphere. The stark black and white elements of the figure provide extreme luminance contrast, emphasizing its form and distress, while the subtle brown introduces a gritty, organic undertone. This high-contrast chromatic structure establishes a clear figure-ground relationship and directs the viewer's immediate attention to the central dramatic representation.",
-                "Composition": "The composition employs an asymmetrical balance, with a significant visual weight concentrated on the left and lower-central portions of the frame, where the dynamic figure is positioned. A strong diagonal axis is established by the figure's posture and implied motion, guiding the viewer's eye from the upper-left towards the lower-right. The expansive red field on the right functions as substantial negative space, providing counter-balance to the density of the figure and amplifying its isolation and dramatic impact. This arrangement creates a palpable sense of tension and movement, preventing a static reading and reinforcing the poster's urgent narrative.",
-                "Shape": "The primary form is a highly stylized and abstracted human figure, which appears to be in a state of dynamic motion or struggle. This figure, likely derived from a photographic source, has been heavily processed to create stark, graphic outlines and simplified tonal areas of black, white, and brown. Aggressive, calligraphic brushstroke-like shapes, rendered in white and black, emanate from and around the figure, particularly in its lower half, suggesting velocity, impact, or a breaking apart. These organic, distressed shapes are juxtaposed with the crisp, geometric forms of the multilingual text blocks, creating a visual tension between raw expression and clear communication.",
-                "Shape Keyword": [
-                    "Figurative",
-                    "Distorted",
-                    "Brushstroke",
-                    "Dynamic"
-                ],
-                "Mood & Texture": "The atmospheric tone of the poster is intensely urgent, confrontational, and distressed, conveying a profound sense of crisis and struggle. The figure exhibits a highly fragmented and granular texture, reminiscent of a degraded halftone print or a heavily processed digital image with posterization effects. Prominent, energetic brushstroke textures, particularly visible in the white and black streaks, reinforce a raw, almost violent aesthetic, suggesting rapid movement or forceful impact. These textural qualities collectively amplify the conceptual message of vulnerability and danger, imbuing the visual narrative with a visceral, unsettling quality that aligns with the theme of a democracy 'in danger as a lamp in front of the wind.'",
-                "Mood Keyword": [
-                    "Urgent",
-                    "Distressed",
-                    "Confrontational",
-                    "Raw",
-                    "Dynamic"
-                ],
-                "Color": "Red",
-                "Form": "Photo",
-                "Emphasis": "Left",
-                "Balance": "Asymmetric",
-                "Contrast": "Asymmetric",
-                "White space": "Medium"
-            },
-            {
-                "id": 1,
-                "file_name": "2023_hello_ep_2.jpg",
-                "year": "2023",
-                "title": "hello_ep_2",
-                "Basic Information": "This image functions as a promotional poster, likely for an exhibition, cultural event, or conceptual project, given its abstract and symbolic visual language. The Korean text at the bottom provides contextual information, possibly detailing an event name, date, or a philosophical statement. The poster's central conceptual direction explores the intricate intersection and layering of forms, suggesting a synthesis of diverse elements or perspectives. It communicates a sense of structured complexity, inviting viewers to decipher its symbolic iconography and geometric relationships. The overall message appears to be one of interconnectedness and dynamic equilibrium within a defined visual system.",
-                "Color Scheme": "The dominant palette consists of highly saturated, almost fluorescent hues: electric blue, vibrant lime green, and intense magenta-pink, set against a stark white background. This triadic-like scheme creates an optically vibrant and high-energy contrast, particularly between the chromatic elements and the achromatic ground. The emotional tone conveyed is one of digital dynamism, artificiality, and a playful yet rigorous exploration of color interaction. Chromatic variation establishes a clear hierarchy, with the large, intensely colored central forms drawing immediate attention, while smaller purple and darker blue accents serve as peripheral embellishments.",
-                "Composition": "The composition employs a strong centralized layout, anchoring the primary visual mass within the poster's vertical axis. Balance is achieved through a deliberate vertical symmetry, with elements mirrored across the central line, establishing a sense of stability and formal order. Negative space is generously utilized, particularly in the broad white margins, which isolates and enhances the visual impact of the dense central graphic. The viewer's eye is initially drawn to the large, overlapping ovoid forms at the center, then guided outwards by the radiating lines and subsequently around the perimeter by the rhythmic sequence of smaller, iconic shapes.",
-                "Shape": "The main forms are predominantly vector-based, characterized by precise geometric and curvilinear contours. The central motif comprises multiple overlapping ovoid shapes, spheres, and segmental arcs, creating a complex, almost diagrammatic structure with subtle internal grid lines and radiating spokes. The visual source is entirely digital, resulting in clean edges and flat color fields. These central shapes interact by creating areas of perceived transparency and depth through their overlaps, while the smaller, repetitive iconic shapes\u2014such as flames, stars, and stylized hats\u2014form a decorative and symbolic border, generating a rhythmic pattern that frames the central complexity.",
-                "Shape Keyword": [
-                    "Geometric",
-                    "Overlapping",
-                    "Iconic"
-                ],
-                "Mood & Texture": "The atmospheric tone is one of synthetic vibrancy and enigmatic symbolism, evoking a contemporary, almost futuristic aesthetic. Surface treatment includes a fine, uniform stippled or noise texture applied within the flat colored areas, which is a digital effect rather than a physical grain. This subtle texture prevents the large color blocks from appearing overly sterile and introduces a tactile, yet still artificial, quality to the otherwise precise vector graphics. The textures reinforce a mood that is both meticulously constructed and subtly organic, suggesting a digital representation of natural or systemic processes, aligning with the poster's intriguing and contemplative nature.",
-                "Mood Keyword": [
-                    "Vibrant",
-                    "Synthetic",
-                    "Enigmatic",
-                    "Structured"
-                ],
-                "Color": "Blue",
-                "Form": "2D",
-                "Emphasis": "Center",
-                "Balance": "High",
-                "Contrast": "Symmetric",
-                "White space": "High"
-            },
-            {
-                "id": 2,
-                "file_name": "2023_hello_ep_3.jpg",
-                "year": "2023",
-                "title": "hello_ep_3",
-                "Basic Information": "This image functions as a promotional poster, likely for an event, concert, or an artistic project that engages with themes of identity and collective experience. It prominently features two distinct light sticks, objects commonly associated with fan culture, thereby suggesting a connection to fandom or community. The visible Korean text, '\uc6b0\ub9ac\ub4e4\uc740 \ubb34\uc5c7\uc778\uac00' (What are we?) and '\ub098\ub294 \ub098\ub97c \uc0ac\ub791\ud574' (I love myself), establishes a conceptual dialogue between collective questioning and individual affirmation. The poster's design effectively communicates a nuanced exploration of selfhood within a broader social context.",
-                "Color Scheme": "The palette is primarily composed of a deep, desaturated black for the background, providing a dramatic contrast for the luminous elements. Dominant hues include brilliant white and a distinct pale, ethereal green, which serve as the primary light sources. This high-contrast structure enhances the glowing effect of the objects, drawing immediate attention to their illuminated forms. The chromatic choices evoke a contemporary, almost futuristic emotional tone, with the green offering a subtle sense of otherworldliness or digital luminescence.",
-                "Composition": "The composition employs a dynamic, asymmetrical layout, with the two light sticks arranged diagonally across the frame, creating a strong visual vector from the upper-left to the lower-right. Visual balance is achieved through the interplay of the two distinct luminous masses, which, despite their differing sizes and colors, distribute weight effectively. Significant dark negative space surrounds the central elements, isolating them and intensifying their glowing presence. This arrangement guides the viewer's eye through a rhythmic descent, emphasizing the interaction between the two focal points.",
-                "Shape": "The main forms are sculptural representations of light sticks, rendered with a high degree of three-dimensionality. The upper light stick culminates in an organic, cloud-like or volumetric bubble shape, while the lower one features a transparent, rounded, almost crystalline head. Both feature robust cylindrical handles. These shapes are evidently derived from advanced 3D rendering techniques, showcasing realistic material properties and light interaction. The interaction between the fluid, irregular contour of the upper glow and the more contained, yet still organic, form of the lower glow creates a visual narrative of contrasting yet connected entities.",
-                "Shape Keyword": [
-                    "3D Rendered",
-                    "Organic",
-                    "Cylindrical",
-                    "Typographic"
-                ],
-                "Mood & Texture": "The atmospheric tone is strikingly contemporary, leaning towards a futuristic and contemplative aesthetic, amplified by the dramatic interplay of light and shadow. Surface treatments reveal smooth, highly reflective plastic or polished materials on the light sticks, contributing to a sense of precision and artificiality. The volumetric glow emanating from both objects produces a soft, diffused light quality, while the background exhibits a subtle, almost imperceptible photographic grain, adding a layer of subtle realism. These textures collectively reinforce a mood of introspective spectacle, suggesting a curated experience within a technologically advanced setting.",
-                "Mood Keyword": [
-                    "Luminous",
-                    "Futuristic",
-                    "Contemplative",
-                    "Dramatic",
-                    "Ethereal"
-                ],
-                "Color": "Monochrome",
-                "Form": "3D",
-                "Emphasis": "Top",
-                "Balance": "Asymmetric",
-                "Contrast": "High",
-                "White space": "Medium"
-            },
-            {
-                "id": 3,
-                "file_name": "2024_hello_ep_1.jpg",
-                "year": "2024",
-                "title": "hello_ep_1",
-                "Basic Information": "This poster functions as a powerful declaration or social awareness campaign, likely associated with an arts organization's stance on political or societal issues. Visible textual information includes the central English phrase 'A't Does Not Succumb to the Dictatorial Oppression' and its Korean equivalent '\uc608\uc220\uc740 \uad8c\ub825 \uc5b5\uc555\uc5d0 \uad74\ud558\uc9c0 \uc54a\ub294\ub2e4' (Art does not succumb to the oppression of power). Supplementary vertical text on the right identifies '\ud55c\uad6d\ubbfc\uc871\uc608\uc220\uc778\ucd1d\uc5f0\ud569\ud68c' (Korean Federation of National Arts and Culture Organizations) and the date '2014. 12. 7'. The poster's intended message is to assert the resilience and autonomy of artistic expression against authoritarian power or any form of dictatorial oppression, positioning art as an unyielding force of resistance.",
-                "Color Scheme": "The dominant color scheme is characterized by a stark, high-contrast palette, primarily featuring a deep black background and a pale, desaturated yellow/cream for the main text. This strong achromatic contrast immediately establishes a serious and impactful tone, enhancing legibility and visual drama. Accentuating this are the ribbons, which introduce a limited, somewhat muted chromatic range including shades of pink, red, beige, and a deep blue. These accent colors, while present, do not detract from the overall high-contrast, value-driven hierarchy, which prioritizes the textual message and the sculptural solidity of the central object.",
-                "Composition": "The composition is anchored by a large, centrally placed, three-dimensional rock form, creating a strong focal point with significant visual weight. Large-scale typography in both Korean and English frames this central object, aligning vertically on the left and right margins, but with some words curving dynamically around the rock's contours. This arrangement creates an overall medium-high balance, with a deliberate asymmetry in the typographic layout around the central mass. The expansive black background functions as substantial negative space, isolating the primary elements and guiding the viewer's eye to the interwoven relationship between the text and the sculptural form, establishing a rhythmic visual flow.",
-                "Shape": "The primary shapes within the poster consist of the large, irregular, and organic form of the central rock, which dominates the visual field. Interacting with this are the fluid, curvilinear forms of the ribbons, appearing to bind or wrap around the rock. The typography contributes significant geometric and organic shapes, featuring bold, block-like Korean characters alongside more ornate, calligraphic English script. The rock and ribbons are rendered with high fidelity, suggesting photographic or advanced 3D digital modeling as their visual source, while the typography is digitally manipulated. These diverse shapes interact to create depth and tension, with the rigidity of the rock contrasted by the dynamic flow of the ribbons and the expressive contours of the text that partially overlays and recedes behind the central mass.",
-                "Shape Keyword": [
-                    "Organic",
-                    "Typographic",
-                    "Curvilinear",
-                    "Monumental"
-                ],
-                "Mood & Texture": "The poster emanates a mood of profound gravitas, solemn defiance, and enduring resilience, underscored by its tactile and material qualities. The central rock exhibits a highly detailed, rough, and craggy texture, indicative of natural stone, which conveys a sense of unyielding strength and permanence. In contrast, the ribbons possess a smooth, almost satiny finish, with visible folds and creases that suggest a textile material, creating a nuanced textural interplay. This juxtaposition of rough, immutable stone with pliable, yet binding, fabric reinforces the conceptual tension between an inherent, unyielding force and external attempts at constraint. The overall textural treatment imbues the poster with a sense of tangible weight and an enduring, defiant spirit.",
-                "Mood Keyword": [
-                    "Defiant",
-                    "Resilient",
-                    "Somber",
-                    "Tactile",
-                    "Robust"
-                ],
-                "Color": "Monochrome",
-                "Form": "3D",
-                "Emphasis": "Center",
-                "Balance": "High",
-                "Contrast": "Asymmetric",
-                "White space": "High"
-            },
-            {
-                "id": 4,
-                "file_name": "2024_hello_ep_2.jpg",
-                "year": "2024",
-                "title": "hello_ep_2",
-                "Basic Information": "This image functions as a promotional poster for 'MODE BANGKOK 2024,' an event scheduled for October 11, 2024, at Siam Paragon, 19h, within the SCBX NEXT TECH 4th initiative. It highlights a collaboration with 'THE BOYZ NEW' and features the theme of 'Metaverse, Outstanding Designers Experience with Fashion.' The poster communicates event logistics while simultaneously framing the conceptual intersection of digital innovation and contemporary fashion design. It explicitly references 'KOCCA' and 'ZEPETO,' suggesting institutional support and a metaverse platform integration.",
-                "Color Scheme": "The palette is characterized by a high-contrast interaction between a neutral white background and a vibrant, almost neon, lime green. Dominant hues include this intense green, black for primary text, and a wide spectrum of multi-colored pixels that constitute the figures. This chromatic diversity within the pixelation introduces secondary blues, yellows, reds, and purples, creating a granular visual texture. The high contrast structure creates immediate visual impact and conveys a modern, digitally-infused aesthetic. The vibrant green evokes a sense of freshness and technological advancement, while the pixelated figures suggest digital immersion and virtual identities.",
-                "Composition": "The composition is vertically oriented, featuring two central, digitally rendered figures as the primary visual anchors. While the figures are centrally positioned, the surrounding textual elements and graphic shapes are distributed asymmetrically, creating a dynamic equilibrium rather than strict bilateral symmetry. Significant negative space, primarily the white background, frames the central figures and prominent green typography, allowing them to command attention. The viewer's eye is initially drawn to the figures, then guided by the large green 'MODE' typography, before exploring the informational text blocks positioned along the left and right margins. This arrangement creates a visual flow that balances central focus with peripheral detail.",
-                "Shape": "The primary shapes include two stylized human figures, rendered as digital avatars, which are heavily fragmented by a pixelation effect. These figures are juxtaposed with bold, rounded, sans-serif letterforms that spell 'MODE,' acting as prominent graphic shapes in vibrant green. The figures' organic contours are digitally deconstructed, creating a mosaic-like pattern of distinct, small squares. The interaction between the smooth, geometric curves of the 'MODE' typography and the digitally fractured, pseudo-organic forms of the avatars generates a tension between solid graphic design and ephemeral digital representation. This interplay creates depth through implied layering and visual rhythm through the repetition of pixel units.",
-                "Shape Keyword": [
-                    "Digital Avatars",
-                    "Geometric Typography",
-                    "Pixelated"
-                ],
-                "Mood & Texture": "The poster conveys a mood that is distinctly futuristic, experimental, and technologically advanced, resonating with themes of digital fashion and virtual reality. The most salient textural element is the pervasive pixelation applied to the human figures, which simulates digital breakdown or data rendering. This effect creates a granular, almost shimmering surface that suggests a virtual, rather than physical, presence. This digital texture reinforces the conceptual direction of the 'Metaverse' and the integration of digital experiences into fashion, contributing to an overall impression of innovation and cutting-edge design. The clean white background provides a stark, minimalist counterpoint, preventing the digital noise from becoming overwhelming and maintaining a sophisticated, contemporary tone.",
-                "Mood Keyword": [
-                    "Digital",
-                    "Futuristic",
-                    "Experimental",
-                    "Tech-infused"
-                ],
-                "Color": "Green",
-                "Form": "3D",
-                "Emphasis": "Center",
-                "Balance": "High",
-                "Contrast": "Asymmetric",
-                "White space": "High"
-            },
-            {
-                "id": 5,
-                "file_name": "2024_hello_ep_3.jpg",
-                "year": "2024",
-                "title": "hello_ep_3",
-                "Basic Information": "This poster serves as a visual statement or commemorative piece, featuring prominent Korean typography integrated into an abstract, luminous graphic. While specific event details are minimal and located in small print at the bottom left, the primary textual content suggests a significant message or quotation. The design's overarching conceptual direction appears to be one of interconnectedness and vibrant collective experience, conveyed through the organic clustering of colorful, translucent forms. The poster effectively marries legible communication with a strong, evocative visual aesthetic, inviting contemplation of its central message.",
-                "Color Scheme": "The dominant color scheme is a high-chroma, multi-spectral palette set against an absolute black background, creating an intense visual vibrance. Hues span the entire visible spectrum, from warm reds and oranges to cool blues and purples, creating a dynamic and continuously shifting color field. This high-contrast structure enhances the luminosity of the translucent circular forms, making them appear to glow against the dark void. The emotional tone conveyed is one of optimism, energy, and perhaps a dreamlike or ethereal quality, emphasizing fluidity and interconnectedness through chromatic blending.",
-                "Composition": "The poster's composition is characterized by a centrally-weighted, organically asymmetrical arrangement of its primary visual elements. A dense cluster of overlapping, translucent circular shapes, each containing a segment of text, forms the main focal point, commanding the viewer's immediate attention. This central mass occupies a significant portion of the vertical axis, creating a strong visual anchor. The surrounding black negative space is substantial, providing a clear boundary that allows the vibrant core to 'breathe' and enhances its perceived luminosity. The placement of the circular forms guides the eye in a fluid, non-linear path across the textual content, establishing a gentle, undulating rhythm of perception.",
-                "Shape": "The primary shapes are numerous overlapping circular and oval forms, which serve as luminous containers for the embedded Korean characters. These circular shapes are digitally rendered with soft, diffused edges and varying opacities, contributing to their ethereal and fluid appearance. The Korean characters themselves are rendered in a bold, geometric, sans-serif typeface, providing a structured counterpoint to the organic nature of their colorful envelopes. These geometric letterforms, when viewed in conjunction with the soft-edged circles, create a compelling interplay between rigid typographic structure and amorphous, liquid-like visual masses, generating depth and a pulsating rhythm.",
-                "Shape Keyword": [
-                    "Organic",
-                    "Circular",
-                    "Typographic",
-                    "Layered"
-                ],
-                "Mood & Texture": "The poster evokes a mood that is simultaneously vibrant, ethereal, and subtly contemplative. The prevailing texture is one of digital luminosity and soft translucency, achieved through the overlapping, semi-transparent colored circles. There is an absence of harsh lines or tactile roughness; instead, the surfaces appear smooth, almost liquid or gaseous, suggesting a gentle, flowing quality. This treatment reinforces a sense of wonder and fluidity, aligning with a conceptual direction that might explore ephemeral moments or the interconnectedness of collective experiences. The glowing, gradient-filled forms contribute significantly to a dreamlike and inviting atmospheric tone.",
-                "Mood Keyword": [
-                    "Luminous",
-                    "Ethereal",
-                    "Vibrant",
-                    "Fluid",
-                    "Optimistic"
-                ],
-                "Color": "Blue",
-                "Form": "2D",
-                "Emphasis": "Center",
-                "Balance": "High",
-                "Contrast": "Asymmetric",
-                "White space": "High"
-            },
-            {
-                "id": 6,
-                "file_name": "2024_hello_ep_4.jpg",
-                "year": "2024",
-                "title": "hello_ep_4",
-                "Basic Information": "This image functions as a promotional or artistic commentary poster, centering around the prominent title 'AUSCHWITZ.' Visible textual elements include the aforementioned title, various Korean characters, a date '2009. 6. 9.', and a numerical identifier '188.' The visual discourse, characterized by extreme typographic distortion and a jarring color palette, suggests a critical re-examination or artistic interpretation of historical trauma. The poster communicates a message of disruption, memory fragmentation, and possibly a contemporary, challenging perspective on the overwhelming nature of its subject matter.",
-                "Color Scheme": "The dominant color scheme is characterized by an intensely saturated, almost fluorescent lime green, which serves as the primary background hue. This is dramatically contrasted with solid black for the majority of the typographic and linear elements, creating an aggressive push-pull dynamic. Secondary accents of a vibrant magenta or purple are strategically placed to highlight specific textual fragments and linear interventions. This high-chroma, high-contrast palette evokes a sense of urgency, digital artificiality, and unease, intentionally avoiding traditional solemnity to provoke a contemporary psychological response. The chromatic hierarchy establishes the green as the expansive field, black as the primary informational and structural layer, and purple as a disruptive, attention-grabbing accent.",
-                "Composition": "The composition is framed by a rectangular field of vibrant lime green, positioned against a darker, textured periphery. The initial visual anchor is the large, relatively legible 'AUSCHWITZ' at the top, which then progressively deconstructs downwards into a complex array of fragmented and distorted typographic forms. While the top half maintains a semblance of horizontal alignment, the lower two-thirds exhibit pronounced asymmetry and dynamic imbalance, generating significant visual tension and kinetic energy. Negative space, primarily the plain green areas, is strategically interspersed to allow the dense black forms to breathe, yet the overall impression within the green panel is one of high information density. The viewer's gaze is initially drawn to the title, then guided downwards and diagonally through the intricate network of lines and shapes, creating a perceptual rhythm of descent and unraveling.",
-                "Shape": "The primary shapes are typographic, derived from the Latin alphabet 'AUSCHWITZ' and various Korean characters, which undergo extensive digital manipulation. These forms transition from robust, legible serif letterforms at the apex to highly abstracted, angular, and linear fragments in the lower sections. The visual source is predominantly vector-based typography, subjected to digital effects such as stretching, shearing, and pseudo-pixelation, creating a sense of digital degradation. These shapes interact through complex layering, extreme distortion, and intersection, where solid black letterforms dissolve into thinner lines and sharp geometric blocks. The interspersed purple linear elements and small, mask-like motifs further punctuate the composition, creating additional visual tension and implying depth through their interaction with the black forms.",
-                "Shape Keyword": [
-                    "Typographic",
-                    "Distorted",
-                    "Fragmented",
-                    "Linear"
-                ],
-                "Mood & Texture": "The poster emanates an atmospheric tone of urgency, intellectual confrontation, and digital disruption. The sensory impression is one of raw, almost abrasive communication, designed to challenge rather than soothe. While the lime green background appears visually flat from a distance, closer inspection reveals subtle noise or a fine halftone texture, particularly where it borders the black elements. The black typographic forms exhibit a duality: crisp, clean edges where legible, juxtaposed with jagged, pixelated, and stretched distortions that convey a sense of digital breakdown and degradation. The rough, granular texture of the dark outer border provides a tactile contrast to the slick, neon interior. These textures collectively reinforce a conceptual narrative of systems under strain, information overload, and a critical engagement with a difficult, perhaps traumatic, subject.",
-                "Mood Keyword": [
-                    "Urgent",
-                    "Disruptive",
-                    "Confrontational",
-                    "Digital Decay",
-                    "Abrasive"
-                ],
-                "Color": "Green",
-                "Form": "2D",
-                "Emphasis": "Top",
-                "Balance": "Low",
-                "Contrast": "Asymmetric",
-                "White space": "Low"
-            },
-            {
-                "id": 7,
-                "file_name": "2025_hello_ep_1.jpg",
-                "year": "2025",
-                "title": "hello_ep_1",
-                "Basic Information": "This image functions as a promotional poster for the '2024 Gyeonggi Ceramics Biennale,' specifically for an exhibition titled 'TOGETHER Montaigne's Cat.' Key textual information includes the main title in English and Korean, the event name and year, specific locations (Icheon, Yeoju, Gwangju, Gyeonggi-do), and the 'GCB 2024' branding. The poster's intended message is to convey a contemporary, perhaps whimsical, and intellectually stimulating approach to ceramics, inviting viewers to explore new dimensions of the medium. It suggests a collaborative spirit and a philosophical inquiry, as hinted by the reference to Montaigne.",
-                "Color Scheme": "The palette is characterized by a vibrant and saturated array of hues, including deep purples, vivid teals, bright oranges, and soft yellows, set against a stark white background. This high chromatic contrast between the central graphic elements and the achromatic background generates immediate visual impact and energy. The emotional tone is predominantly playful, modern, and optimistic, evoking a sense of wonder and accessibility. Chromatic variation establishes a clear hierarchy, with the brightly colored central assemblage serving as the primary visual magnet, while black typography provides grounding and legibility.",
-                "Composition": "The composition is vertically oriented with a strong central emphasis on a complex, dynamic assemblage of forms contained within an implied circular boundary. Despite the central mass, the overall balance is asymmetrically distributed, with supporting text blocks positioned at the top, bottom, and right to create a visual counterweight. Ample white negative space surrounds the primary visual information, allowing the vibrant colors and intricate forms to be perceived without clutter and contributing to a clean, contemporary aesthetic. The viewer's eye is guided from the bold title downwards to the detailed central image, which encourages exploration of its internal elements before moving to peripheral informational text.",
-                "Shape": "The poster incorporates a diverse repertoire of shapes, including bold, pixelated block typography for 'TOGETHER' and a more delicate, dotted outline script for 'Montaigne's Cat.' The central visual element comprises a complex 3D render featuring a variety of abstract forms: translucent, fluid organic shapes, solid geometric blocks, ribbed spherical elements, and elongated curvilinear structures. These shapes appear to be digitally generated, exhibiting smooth surfaces and precise contours. They interact within an implied transparent container, creating a dynamic interplay of containment and dispersal, with organic fluidity contrasting against more rigid geometric volumes, generating depth and a sense of playful disarray.",
-                "Shape Keyword": [
-                    "Organic-Geometric Hybrid",
-                    "Type-as-Image",
-                    "Abstract",
-                    "Synthetic"
-                ],
-                "Mood & Texture": "The atmospheric tone is distinctly whimsical, contemporary, and intellectually curious, projecting a playful yet sophisticated sensibility. Textural qualities are predominantly smooth, glossy, and translucent, characteristic of high-fidelity digital rendering. Elements such as the purple liquid exhibit a soft, almost ethereal quality, while the teal object possesses a glass-like transparency, enhancing depth and light play. Subtle fine granular textures appear on some surfaces, along with small white speckles that resemble glitter or stardust, adding a fantastical, dreamlike dimension. These pristine, digitally rendered textures reinforce a forward-thinking and innovative approach to the subject matter, aligning with a modern artistic discourse.",
-                "Mood Keyword": [
-                    "Whimsical",
-                    "Contemporary",
-                    "Futuristic",
-                    "Playful",
-                    "Glossy"
-                ],
-                "Color": "Purple",
-                "Form": "3D",
-                "Emphasis": "Center",
-                "Balance": "High",
-                "Contrast": "Asymmetric",
-                "White space": "High"
-            },
-            {
-                "id": 8,
-                "file_name": "2025_hello_ep_2.jpg",
-                "year": "2025",
-                "title": "hello_ep_2",
-                "Basic Information": "This poster functions as a promotional or informational piece for an event or project titled 'manifesto.ing' and 'REALATION SPACE,' with a Korean word '\uc815\uc2e0' (Jeongsin, meaning spirit or mind) also prominently featured. The core visual content consists of numerous text snippets presented within distinct, colorful blocks. The poster's purpose is to communicate a collection of ideas or statements, potentially manifestos, within a conceptually structured yet visually fragmented framework. It aims to evoke an intellectual engagement with diverse perspectives or a deconstructed narrative related to social or philosophical discourse.",
-                "Color Scheme": "The palette is characterized by a high-contrast interplay between a dark, textured background and a central constellation of white text on vividly saturated, diverse color blocks. Dominant hues for the blocks include magenta, cyan, various greens, oranges, and purples, all set against a grayscale, almost black, background. This combination generates a dynamic and visually stimulating contrast structure. The emotional tone is one of vibrant intellectualism and controlled complexity, where the diverse colors suggest a multiplicity of voices or ideas, while the stark background provides a serious, formal foundation. Chromatic variation creates a non-hierarchical emphasis among the individual text snippets, suggesting each holds equal importance.",
-                "Composition": "The primary layout logic centers on a large, rectangular cluster of irregularly shaped text blocks, positioned centrally within the poster's frame. While the overall mass is centrally balanced along the vertical axis, the internal arrangement of the individual colored blocks introduces an organic asymmetry, preventing rigid uniformity. Significant negative space, created by the dark, textured periphery, frames and isolates this dense central information block, guiding the viewer's eye towards the core content. The visual rhythm is generated by the irregular edges and varied colors of the blocks, encouraging a scanning motion across the dense field of information, with the bottom textual elements serving as a clear anchor.",
-                "Shape": "The main forms are numerous rectilinear blocks, each containing white text, which are deliberately rendered with irregular, almost torn or digitally fragmented edges. These shapes are vector-based or digitally generated, contributing to a contemporary, processed aesthetic. The background features large, amorphous, blob-like forms in varying shades of gray, creating a stark contrast to the structured, albeit distorted, foreground elements. These text blocks are densely packed, creating a mosaic-like pattern that generates a visual rhythm through their varied colors and subtle distortions. The interaction between the defined, fragmented rectangles and the fluid, undefined background shapes creates a sense of layered depth and conceptual tension.",
-                "Shape Keyword": [
-                    "Distorted Rectilinear",
-                    "Amorphous",
-                    "Text-as-Image",
-                    "Fragmented"
-                ],
-                "Mood & Texture": "The poster conveys an atmospheric tone of intellectual intensity, digital fragmentation, and curated chaos. The surface treatment of the background exhibits a coarse, granular, or pixelated texture, reminiscent of digital noise or heavily processed, distressed imagery. Subtle irregularities are also present in the edges of the colored text blocks, reinforcing this digitally imperfect aesthetic. These textures conceptually reinforce a feeling of information overload, data processing, or a contemporary digital environment where ideas are presented in a raw, perhaps unstable, yet meticulously arranged form. The overall mood is serious and thought-provoking, underscored by a sense of underlying disruption.",
-                "Mood Keyword": [
-                    "Digital",
-                    "Fragmented",
-                    "Intellectual",
-                    "Complex",
-                    "Distorted"
-                ],
-                "Color": "Green",
-                "Form": "2D",
-                "Emphasis": "Center",
-                "Balance": "High",
-                "Contrast": "Asymmetric",
-                "White space": "High"
-            },
-            {
-                "id": 9,
-                "file_name": "2025_hello_ep_3.jpg",
-                "year": "2025",
-                "title": "hello_ep_3",
-                "Basic Information": "This image functions as a promotional poster, likely for an art exhibition, cultural event, or a conceptual design project. The prominent Korean typography serves as the central visual and informational anchor. Surrounding and underlying textual elements, visible as layered documents, imply a detailed context or narrative. The overall design communicates a complex, perhaps critical, message through its visual density and layered ambiguity, suggesting themes of information, identity, or societal structures.",
-                "Color Scheme": "The poster employs a strictly monochromatic color scheme, primarily utilizing stark black and various shades of white and gray. This limited palette creates an extremely high contrast, particularly between the dominant black typography and the lighter, textured background, which ensures immediate visual impact and legibility of the main elements. The monochromatic choice imparts a severe, intellectual, and somewhat austere emotional tone, directing the viewer's focus towards form, texture, and conceptual depth rather than chromatic expression. The deep black of the central text establishes a clear chromatic hierarchy, forcing it into the foreground, while the lighter grays recede, forming a complex textural backdrop.",
-                "Composition": "The compositional logic is anchored by a strong central axis, around which the primary typographic element is positioned, creating a sense of immediate visual weight and focal emphasis. While the overall placement is centrally balanced, the internal fragmentation and organic lines introduce significant visual asymmetry and dynamic tension within this structure. A substantial amount of negative space frames the central, dense visual mass, allowing it to command attention and preventing the composition from feeling overcrowded. The complex interplay of bold typography and radiating lines guides the viewer's eye from the central message outwards into the intricate background details, establishing a rhythm of initial impact followed by detailed exploration.",
-                "Shape": "The primary shapes are the large, bold Korean characters, which exhibit a blocky, impactful presence, reminiscent of heavy ink or brush strokes. These typographic forms are dynamically interwoven with a multitude of thin, curvilinear, and organic lines that branch out and entangle, resembling neural networks, fibrous structures, or tangled wires. The background layers consist of faint, rectangular blocks of smaller text, suggesting document pages or archived information. The main typography appears to be digitally manipulated from a robust sans-serif or brush-script font, while the intricate lines are likely digitally rendered vectors or procedural textures, and the background text elements are photographic or scanned reproductions, creating a hybrid visual source. The interaction between the static, heavy typographic shapes and the fluid, chaotic lines generates a powerful dynamic, where structure appears to be both emerging from and dissolving into an intricate organic network, creating a strong sense of depth and layered complexity.",
-                "Shape Keyword": [
-                    "Typographic",
-                    "Organic",
-                    "Fragmented",
-                    "Intertwined"
-                ],
-                "Mood & Texture": "The poster projects an atmospheric tone of intense complexity, digital decay, and a controlled, yet palpable, chaos. It evokes a cerebral and somewhat disquieting sensory impression, suggesting a subject matter that is both intricate and potentially overwhelming. The black typography exhibits a rough, distressed texture, akin to heavy ink bleed or a digital brush with intentional artifacts, reinforcing a sense of raw expression. The background layers feature discernible paper creases, folds, and subtle halftone dot patterns, creating a tactile, aged, and archival quality. Additionally, the fine, radiating lines possess a crystalline or fibrous texture, appearing almost like delicate, yet pervasive, digital filaments or light trails. These textures collectively reinforce a conceptual narrative of information processing, deconstruction, and reassembly, where clarity is juxtaposed with obfuscation, aligning with themes of modern data overload or the fragility of established systems.",
-                "Mood Keyword": [
-                    "Distorted",
-                    "Complex",
-                    "Layered",
-                    "Experimental",
-                    "Chaotic"
-                ],
-                "Color": "Monochrome",
-                "Form": "2D",
-                "Emphasis": "Center",
-                "Balance": "High",
-                "Contrast": "Asymmetric",
-                "White space": "Medium"
-            }
-        ]
-    },
-    "archive2": {
+        "file_name": "2023_hello_ep_2.jpg",
+        "year": "2023",
+        "title": "hello_ep_2",
+        "Basic Information": "This poster functions as an institutional or conceptual communication, likely related to an event or publication from Sogang University on June 7, 2009. The primary communicative intent is to convey a profound message of human resilience and the enduring power of voice and hope against suppression, as explicitly stated in the Korean text. The design employs a complex visual metaphor to represent these abstract concepts, aiming to provoke introspection and emphasize the intrinsic human spirit that transcends external constraints. The semiotic goal is to visually articulate the philosophical statement provided, translating abstract ideas into a compelling, symbolic graphic language.",
+        "Color Scheme": "The dominant color scheme is characterized by a high-chroma triad of electric blue, vibrant lime green, and intense magenta, set against a pristine white background. This palette generates an exceptionally high chromatic contrast, creating a sense of visual dynamism and synthetic energy. The overall temperature of the palette is cool, yet the high saturation imbues it with an almost neon luminescence that prevents it from feeling subdued. Color plays a critical role in structuring perception, with the distinct hues delineating overlapping forms and guiding the eye through the central composition, while the white negative space enhances the vibrancy of the primary colors.",
+        "Composition": "The composition is rigorously symmetric along its vertical axis, establishing a formal and balanced framework that anchors the complex internal forms. A strong central focal hierarchy is achieved through the large, interlocking ovoid shapes that dominate the mid-ground, drawing immediate attention to their intricate intersections. The spatial rhythm is both expansive in the central motif and repetitive in the framing elements, where smaller, iconographic shapes create a continuous, decorative border. Significant negative space, particularly the expansive white background, allows the vibrant colored elements to breathe and accentuates their visual impact. This structured yet dynamic composition reinforces the poster's underlying tension between order and the irrepressible, energetic force of the central message.",
+        "Shape": "The poster is constructed from a variety of vector-based geometric and symbolic forms. The central motif comprises large, intersecting, elongated ellipses or ovoids, which are overlaid to create a sense of transparent depth and structured complexity. These primary forms are further articulated by a precise internal grid of white lines and a central white circle, suggesting a core or nexus. Surrounding this central structure is a meticulously arranged border of smaller, distinct pictograms, including stylized flames, stars, tents, and abstract organic shapes, all rendered with crisp, hard edges characteristic of vector graphics. The rhythmic repetition and symmetrical placement of these peripheral forms create a cohesive visual language that frames and supports the dominant central iconography.",
+        "Shape Keyword": ["Geometric", "Symbolic", "Vector", "Overlapping"],
+        "Mood & Texture": "The overall mood conveyed is one of enigmatic energy and contemplative intensity, amplified by the poster's synthetic aesthetic. A distinct granular or stippled texture is digitally applied to the solid color fills, preventing them from appearing perfectly flat and introducing a subtle visual noise. This effect, which could simulate print half-toning or a retro-digital dithering, adds a layer of tactile complexity to the otherwise smooth vector forms. This deliberate imperfection contrasts with the precise geometry, lending an intriguing tension that reinforces the conceptual depth of the message, hinting at an underlying human or organic element within a highly structured, almost clinical presentation.",
+        "Mood Keyword": [
+          "Vibrant",
+          "Cryptic",
+          "Digital",
+          "Synthetic",
+          "Contemplative"
+        ],
+        "Color": ["Red", "Blue", "Green"],
+        "Form": "2D",
+        "Emphasis": "Center",
+        "Balance": "High",
+        "Contrast": "Symmetric",
+        "White space": "High"
+      },
+      {
         "id": 2,
-        "name": "thegraphicaddict",
-        "images": [
-            {
-                "id": 0,
-                "file_name": "2022_thegraphicaddict_1.jpg",
-                "year": "2022",
-                "title": "thegraphicaddict_1",
-                "Basic Information": "This image presents an abstract, decorative composition structured as a regular grid, functioning as a visual pattern or motif. Lacking explicit textual information, its specific purpose\u2014whether promotional, artistic, or as a design asset\u2014remains open to interpretation. The poster communicates a concept of modularity and systematic variation through its repetitive yet diverse elements. It suggests a playful exploration of form and color within a highly organized framework, inviting visual contemplation of its intricate details.",
-                "Color Scheme": "The palette is characterized by a diverse, yet harmoniously balanced, array of muted earth tones and pastel hues, including olive green, light blue, coral, beige, and lavender. Within each module, high contrast is achieved through the stark application of solid black or white shapes against the colored backgrounds. This chromatic strategy creates a vibrant visual texture without overwhelming saturation, contributing to a mood that is both sophisticated and approachable. The distribution of distinct background colors across the grid prevents any single hue from dominating, establishing a democratic visual hierarchy.",
-                "Composition": "The compositional logic is rigorously defined by a precise grid structure, organizing the entire visual field into uniformly sized square modules. This rigid framework establishes a sense of order and repetition, guiding the viewer's eye horizontally and vertically across the surface. The overall balance is high, as visual weight and chromatic density are evenly distributed across the canvas, preventing any single area from becoming a dominant focal point. Rather than a singular focus, the composition encourages a scanning gaze, allowing for the discovery of variations within the repeating structure.",
-                "Shape": "The image is primarily composed of a rich lexicon of abstract vector shapes, encompassing both geometric and organic forms. Main motifs include circles, ellipses, rectangles, and triangles, often appearing in fragmented or combined arrangements. Additionally, curvilinear elements reminiscent of musical notes, stylized foliage, or abstract calligraphic strokes introduce a dynamic organic counterpoint to the geometric precision. These shapes, rendered with crisp, clean edges, interact through juxtaposition and implied layering within each module, generating a complex visual rhythm and a shallow sense of depth.",
-                "Shape Keyword": [
-                    "Abstract",
-                    "Geometric",
-                    "Organic",
-                    "Modular"
-                ],
-                "Mood & Texture": "The poster conveys a mood that is distinctly modern, graphic, and playfully ordered, characterized by a clean and crisp aesthetic. The absence of traditional textural elements like print grain or photographic noise reinforces a sense of digital precision and flatness. This smooth, uniform surface quality, typical of vector-based graphics, contributes to an atmosphere of clarity and controlled design. The overall sensory impression is one of intellectual engagement and visual delight, reinforcing a conceptual direction centered on systematic design and abstract form.",
-                "Mood Keyword": [
-                    "Playful",
-                    "Orderly",
-                    "Modern",
-                    "Graphic"
-                ],
-                "Color": "Green",
-                "Form": "2D",
-                "Emphasis": "Center",
-                "Balance": "High",
-                "Contrast": "Symmetric",
-                "White space": "Low"
-            },
-            {
-                "id": 1,
-                "file_name": "2023_thegraphicaddict_1.jpg",
-                "year": "2023",
-                "title": "thegraphicaddict_1",
-                "Basic Information": "This image functions as a conceptual poster or an artistic statement, likely part of a series or campaign exploring philosophical themes. Its primary purpose is to provoke contemplation on the nature of reality versus simulation and the role of sensory experience. The visible text, 'scene 02: pot,' introduces a detailed paragraph that contrasts the tangible ritual of a real kettle with the simulated experience of a virtual one. The poster's intended message critiques the inherent limitations of digital representation in fully conveying genuine sensory and emotional experiences. It visually and textually argues that virtual simulations, no matter how precise, cannot replicate the warmth and authentic ritual of reality, serving as a metaphor for intangible qualities lost in digital translation.",
-                "Color Scheme": "The palette is characterized by a muted, desaturated blue for the central kettle image, complemented by various shades of white and light gray for the background and the ephemeral steam. The blue, while being the primary chromatic element, is significantly softened by a pervasive blur effect, contributing to an overall gentle visual impact. The contrast structure is notably low, defined by soft, gradual transitions between the luminous white background, the diffused blue form, and the subtle gray of the steam. This restrained and cool palette evokes a sense of calm, introspection, and a subtle melancholic contemplation, aligning with the philosophical depth of the accompanying text. Chromatic hierarchy is minimal; the soft blue of the kettle provides a gentle focal point against the neutral backdrop, establishing visual precedence without creating high-impact tension.",
-                "Composition": "The compositional logic centers on a dual-element arrangement, with the stylized kettle and its emanating steam positioned prominently in the upper-middle sector of a rounded rectangular frame. Beneath this ethereal visual motif, a block of meticulously justified text is horizontally centered, establishing a clear vertical hierarchy within the frame. Visual balance is achieved through the central placement of both graphic and textual elements, with the substantial text block anchoring the lower portion and providing a counterweight to the lighter, more ephemeral image above. Ample negative space surrounds both the image and the text, providing significant visual breathing room and emphasizing the isolated, contemplative nature of the content. The visual movement is predominantly static and invites introspection, guiding the viewer's eye first to the soft image, then allowing it to descend to the textual explanation, fostering a linear and reflective reading path.",
-                "Shape": "The main forms presented are the highly stylized silhouette of a kettle, distinguished by its gracefully rounded body, slender spout, and arcing handle, alongside amorphous, organically shaped cloud formations representing steam. These forms are derived from vector-based or digitally rendered graphics, subsequently treated with a significant Gaussian blur or analogous soft-focus effect, rather than being photographic representations. The interaction between these shapes is one of contrast: the solid, iconic silhouette of the kettle provides a stable, recognizable anchor, while the ephemeral, undulating shapes of the steam introduce a dynamic, transient counterpoint, suggesting movement and intangible qualities that starkly contrast with the kettle's defined form.",
-                "Shape Keyword": [
-                    "Silhouette",
-                    "Organic",
-                    "Iconic"
-                ],
-                "Mood & Texture": "The poster cultivates a serene, ethereal, and deeply contemplative atmospheric tone, characterized by an overarching sense of quiet introspection and visual ambiguity. A pervasive soft-focus or frosted glass effect, digitally applied, defines the surface treatment across the entire image, particularly evident on the kettle and steam elements. This deliberate blurring eliminates sharp edges and precise details, rendering the forms as evocative suggestions rather than definitive objects, contributing to a hazy and diffused texture. This gentle, blurred texture powerfully reinforces the conceptual tension between tangible reality and elusive simulation, imbuing the visual narrative with a dreamlike quality that directly mirrors the accompanying text's exploration of sensory absence in virtual experiences.",
-                "Mood Keyword": [
-                    "Ethereal",
-                    "Soft Focus",
-                    "Contemplative",
-                    "Ambiguous"
-                ],
-                "Color": "Blue",
-                "Form": "2D",
-                "Emphasis": "Center",
-                "Balance": "Medium",
-                "Contrast": "Symmetric",
-                "White space": "High"
-            },
-            {
-                "id": 2,
-                "file_name": "2023_thegraphicaddict_2.jpg",
-                "year": "2023",
-                "title": "thegraphicaddict_2",
-                "Basic Information": "This image functions as a promotional poster for ARCHIVO, a concept store or initiative focused on archival clothing. The main textual elements include the prominent title 'PRESERVED FOR THE RHYTHM' and the brand name 'ARCHIVO' with its global locations: 'NEW YORK BERLIN SANTIAGO.' Several descriptive paragraphs detail the philosophy behind ARCHIVO, emphasizing the preservation, recontextualization, and cultural significance of vintage and archival garments. The poster communicates a brand identity rooted in historical appreciation, meticulous curation, and a global presence within the fashion archive domain.",
-                "Color Scheme": "The palette is predominantly monochrome, characterized by a creamy off-white background, stark black typography, and a grayscale photographic element. This limited chromatic range establishes a sophisticated and intellectual tone, prioritizing clarity and formal structure over expressive coloration. High contrast is achieved between the black text and the light background, ensuring legibility and creating a strong visual hierarchy for key information. The subtle, lighter gray used for the large background letterforms introduces a secondary, more subdued chromatic layer, preventing the composition from feeling entirely flat.",
-                "Composition": "The layout employs a structured, grid-based system, yet it achieves an asymmetrical balance through the strategic placement of elements. The central, dominant title 'PRESERVED FOR THE RHYTHM' acts as a primary anchor, while the informational text blocks are aligned to the top-left, guiding the viewer's initial reading path. A significant photographic element is positioned in the lower-left quadrant, creating a counterweight to the expansive negative space in the bottom-right. The overall composition directs the eye from the dense textual information at the top, through the impactful central title, down to the visual narrative of the photograph, concluding with the brand's identifier at the very bottom.",
-                "Shape": "The main forms are predominantly typographic and geometric, with a singular figurative element. Bold, sans-serif typography constitutes the core visual language, notably in the large, semi-transparent letterforms 'A,' 'R,' 'C,' 'H,' 'I,' 'V,' 'O' that subtly underlie the entire composition. These are complemented by smaller, highly legible typefaces for the body text and navigational markers. The photographic element, depicting a person carrying a branded tote bag, introduces an organic, human form within the otherwise structured geometric framework. Small vector-based graphics such as globes and stars add minor decorative and symbolic accents, contributing to the overall visual rhythm.",
-                "Shape Keyword": [
-                    "Typographic",
-                    "Geometric",
-                    "Figurative"
-                ],
-                "Mood & Texture": "The atmospheric tone is one of contemporary sophistication, intellectual rigor, and understated elegance. A subtle, almost imperceptible grain or noise effect is present across the creamy background and within the lighter gray typographic elements, suggesting a tactile quality reminiscent of fine paper or a softly aged surface. This textural nuance prevents the design from appearing overly sterile and reinforces the concept of 'preservation' by hinting at historical depth and material authenticity. The grayscale photograph further contributes to this muted, curated aesthetic, emphasizing the timeless nature of the garments and the brand's discerning approach to fashion.",
-                "Mood Keyword": [
-                    "Sophisticated",
-                    "Curated",
-                    "Subtle",
-                    "Refined"
-                ],
-                "Color": "Monochrome",
-                "Form": "2D",
-                "Emphasis": "Center",
-                "Balance": "Asymmetric",
-                "Contrast": "Asymmetric",
-                "White space": "High"
-            },
-            {
-                "id": 3,
-                "file_name": "2024_thegraphicaddict_1.jpg",
-                "year": "2024",
-                "title": "thegraphicaddict_1",
-                "Basic Information": "This image functions as a conceptual art piece or a design study, rather than a direct promotional poster. It features a central calligraphic character '\u6c38' (y\u01d2ng), meaning 'eternal,' enclosed within a vibrant red square, surrounded by four empty square outlines interconnected by thin lines and small black markers. The absence of explicit textual information suggests an exploration of fundamental design principles and cultural symbolism. The intended message seems to be a meditation on the interplay between timeless tradition (calligraphy) and structured modernity (geometric grid), suggesting a balance between dynamism and containment.",
-                "Color Scheme": "The palette is characterized by a high-contrast, limited selection of red, black, and an off-white or light gray. The intense vermilion red of the central square immediately draws the eye, providing a focal point of high chromatic intensity against the stark black calligraphy. The surrounding muted gray acts as a neutral ground, allowing the central element to resonate without distraction. This chromatic hierarchy emphasizes the symbolic weight of the central 'eternal' character, conveying a sense of profound clarity and focused energy.",
-                "Composition": "The composition is rigorously centralized and highly symmetrical, built around a cruciform axis. The central red square anchors the entire visual field, acting as the primary focal element. Four peripheral empty squares are positioned equidistantly, precisely aligned with the central square's corners and connected by subtle lines, creating a balanced and expansive grid. This meticulous arrangement guides the viewer's eye from the vibrant center outwards to the contemplative void of the surrounding squares, establishing a rhythm of both containment and potential expansion.",
-                "Shape": "The primary shapes within the composition are the organic, fluid strokes of the calligraphic character '\u6c38' and the precise, geometric squares and lines. The character, rendered in black ink, exhibits the dynamic, expressive qualities of traditional brushwork. These organic forms are meticulously contained within the rigid, rectilinear boundary of the central red square. The interaction between the free-flowing calligraphy and the strict geometry of the squares and connecting lines generates a compelling visual tension, highlighting the juxtaposition of natural expression with analytical structure.",
-                "Shape Keyword": [
-                    "Calligraphic",
-                    "Geometric",
-                    "Contained",
-                    "Juxtaposed"
-                ],
-                "Mood & Texture": "The atmospheric tone of the poster is one of contemplative reverence and structured precision. The background displays a subtle, uniform paper-like texture, imparting a tactile quality and a sense of authenticity to the digital rendering. The black calligraphy exhibits nuanced ink variations and brushstroke imperfections, suggesting a hand-rendered origin and reinforcing a connection to traditional artistry. This combination of organic texture and crisp geometric forms reinforces a mood that is both historically grounded and intellectually analytical.",
-                "Mood Keyword": [
-                    "Contemplative",
-                    "Precise",
-                    "Traditional",
-                    "Structured"
-                ],
-                "Color": "Red",
-                "Form": "2D",
-                "Emphasis": "Center",
-                "Balance": "High",
-                "Contrast": "Symmetric",
-                "White space": "High"
-            },
-            {
-                "id": 4,
-                "file_name": "2024_thegraphicaddict_2.jpg",
-                "year": "2024",
-                "title": "thegraphicaddict_2",
-                "Basic Information": "This image functions as a conceptual or decorative piece, presenting a structured arrangement of vibrant, digitally rendered forms. It lacks explicit textual information such as event names, dates, or institutional affiliations, precluding a definitive classification as a traditional promotional or exhibition poster. The visible textual elements are limited to single numerals (5, 3, 7, 2) embedded within each spherical motif. The intended message appears to explore themes of digital aesthetics, numerical systems, and the interplay between vibrant color and volumetric form. The piece invites contemplation on order, individuality within a system, and the synthetic beauty of computer-generated imagery.",
-                "Color Scheme": "The palette is characterized by a dominant, highly saturated red background that provides an intense chromatic field. The four main spherical elements feature complex, iridescent gradients, transitioning smoothly through a broad spectrum including orange, pink, magenta, purple, blue, teal, and yellow-green hues. This creates a high degree of internal chromatic variation within each sphere and a strong, high-contrast relationship with the uniform red background. The smaller circles containing the numbers introduce distinct, solid accent colors: dark pink for '5', dark green for '3', light pink for '7', and medium blue for '2'. The overall emotional tone is one of intense vibrancy and artificiality, evoking a stimulating and almost overwhelming sensory experience through its bold color choices and synthetic luminescence. The chromatic hierarchy is established by the unifying red background, which pushes the multi-hued spheres forward, while the small, solid-colored number circles act as micro-focal points against the gradients.",
-                "Composition": "The composition is structured around a precise 2x2 grid, centrally positioned within the frame, which imparts a strong sense of order and stability. This symmetrical arrangement of four equally sized and spaced spheres creates a high degree of visual balance, both horizontally and vertically. The expansive red background functions as significant negative space, effectively isolating and emphasizing the four main elements without introducing visual clutter. There is no overt linear movement flow; instead, the viewer's eye is invited to scan the grid systematically or to shift focus between the distinct, highly saturated spherical forms. The focal structure is decentralized, with each sphere operating as an individual point of interest within the overarching, organized framework.",
-                "Shape": "The primary forms consist of four large circles, expertly rendered with gradients and highlights to simulate three-dimensional spheres, creating an illusion of volume and depth. Each sphere contains a smaller, perfectly circular, flat element that serves as a base for a single numeral. The numerals themselves (5, 3, 7, 2) are presented in a clean, sans-serif typeface, functioning as minimalist typographic shapes. These shapes are primarily derived from digital rendering techniques for the spheres and vector graphics for the flat circles and numerals. The interaction between the volumetric spheres and the flat background generates a compelling sense of depth, while the consistent circular motif, repeated at different scales, establishes a clear visual rhythm and pattern across the entire composition. This interplay between 3D and 2D elements within the same visual field enhances the graphic complexity.",
-                "Shape Keyword": [
-                    "Spherical",
-                    "Geometric",
-                    "Volumetric",
-                    "Typographic"
-                ],
-                "Mood & Texture": "The atmospheric tone is distinctly synthetic, vibrant, and imbued with a sense of hyper-reality, suggesting a digitally pristine and controlled environment. The surfaces of the spheres are characterized by smooth, seamless digital gradients and simulated specular highlights, which collectively produce a polished, glossy effect that evokes a highly reflective and almost plastic texture. There is a complete absence of organic textures, print grain, or photographic noise, reinforcing the image's computer-generated origin and its immaculate quality. This immaculate, almost sterile texture conceptually reinforces a feeling of manufactured perfection and technological sophistication, aligning with themes of data visualization, virtual aesthetics, or a playful engagement with a simulated reality. The overall impression is one of sleek, modern artificiality.",
-                "Mood Keyword": [
-                    "Vibrant",
-                    "Synthetic",
-                    "Glossy",
-                    "Hyper-real",
-                    "Playful"
-                ],
-                "Color": "Red",
-                "Form": "3D",
-                "Emphasis": "Center",
-                "Balance": "High",
-                "Contrast": "Asymmetric",
-                "White space": "High"
-            },
-            {
-                "id": 5,
-                "file_name": "2024_thegraphicaddict_3.jpg",
-                "year": "2024",
-                "title": "thegraphicaddict_3",
-                "Basic Information": "This image functions as an experimental design study or a conceptual poster, likely for an exhibition or a design workshop focusing on typographic exploration. It features various manipulated letterforms and abstract symbols, accompanied by recurring labels such as 'MOON BEATS', 'MOTION TEST', '[X]', and 'AO'25'. The piece systematically investigates the plasticity and expressive potential of typography, moving beyond conventional legibility to treat text as a dynamic visual medium. Its core message revolves around the deformation, rhythm, and structural qualities inherent in typographic design. The repeated annotations suggest a methodical process of testing and documentation within a design context.",
-                "Color Scheme": "The palette is strictly monochrome, utilizing only black shapes against a stark white background. This binary chromatic structure generates an extreme level of contrast, ensuring maximum visual impact and legibility for the graphic elements while eliminating any chromatic distraction. The absence of color imbues the composition with a severe, analytical, and graphic emotional tone, directing the viewer's attention exclusively to form, texture, and spatial relationships. Chromatic hierarchy is entirely absent, with visual weight and emphasis derived solely from variations in shape size, density, and placement.",
-                "Composition": "The layout employs a decentralized yet structured logic, distributing various typographic experiments across the canvas, suggesting a grid despite its intentional deviations. Balance is achieved through an asymmetrical distribution of visual weight, where larger forms in the upper-left and lower-right quadrants are offset by smaller annotations and negative space. Alignment is mixed; while some textual labels adhere to a horizontal baseline, the primary graphic elements are positioned with deliberate offsets, disrupting strict linear order and fostering a more dynamic visual rhythm. Negative space is abundant, particularly around each experimental element, isolating them and accentuating their individual formal properties. The composition guides the viewer's eye through a non-linear, exploratory path, inviting detailed examination of each distinct typographic study rather than a singular, dominant focal point.",
-                "Shape": "The primary forms are heavily manipulated typographic characters, specifically 'Moon Beats', 'V:', and '(01)', alongside a stylized anthropomorphic asterisk and a simple curved line. These shapes are visually sourced from traditional letterforms but have been extensively transformed, appearing organic and fluid, possibly through digital vector distortion or analog printing effects. The larger 'Moon Beats' forms exhibit internal connections and undulating outlines, suggesting a viscous, interconnected quality, almost like a single biomorphic entity. These distorted typographic elements interact with the implied grid of the composition, creating tension between the fluidity of the shapes and the underlying organizational structure, while the smaller, more abstract elements provide counterpoints of geometric simplicity or symbolic representation.",
-                "Shape Keyword": [
-                    "Organic Typography",
-                    "Distorted",
-                    "Abstracted Forms"
-                ],
-                "Mood & Texture": "The poster emanates an experimental, raw, and archival atmospheric tone, reminiscent of a technical study or a print proof. The visual surface is characterized by a grainy, slightly imperfect texture, strongly suggesting an analog print process such as photocopying or risograph, rather than pristine digital rendering. The edges of the black forms are not razor-sharp but exhibit subtle pixelation or ink bleed, which enhances this tactile, process-oriented quality. These textural imperfections reinforce a feeling of authenticity, iteration, and a hands-on approach to design, contributing to an overall mood that is both intellectually rigorous and visually unpolished.",
-                "Mood Keyword": [
-                    "Experimental",
-                    "Analog",
-                    "Gritty",
-                    "Documentary"
-                ],
-                "Color": "Monochrome",
-                "Form": "2D",
-                "Emphasis": "Center",
-                "Balance": "Medium",
-                "Contrast": "Asymmetric",
-                "White space": "High"
-            },
-            {
-                "id": 6,
-                "file_name": "2024_thegraphicaddict_4.jpg",
-                "year": "2024",
-                "title": "thegraphicaddict_4",
-                "Basic Information": "This image presents a conceptual design, likely a promotional poster or publication cover, within a larger digital portfolio or presentation context. The central element is titled 'Kin & Code' and explores themes of 'FAMILY, COMMUNITY & CONNECTION' alongside sub-topics such as 'REIMAGINING CARE SYSTEMS' and 'DIGITAL RITUALS & RELATIONSHIPS.' The underlying text, '3D PATTERN VARIATIONS' and 'Square, Style Two,' indicates that this visual is an example of a specific design exploration. The overall purpose is to articulate a complex interplay between human social structures and digital frameworks, framed as a design study.",
-                "Color Scheme": "The primary color palette is composed of a warm, muted yellowish-orange accent against a dominant field of neutral greys. The central poster features a light, off-white background, providing a luminous canvas for the accent color, which functions to draw immediate chromatic attention. This moderate contrast within the main element is amplified by the high contrast provided by the dark charcoal grey background of the overall composition, which serves to frame and elevate the central piece. The selective use of this warm hue against a largely achromatic setting evokes a sense of human warmth or organic presence within a structured, perhaps digital, environment.",
-                "Composition": "The composition employs a layered, quasi-3D arrangement, positioning the primary 'Kin & Code' poster centrally and slightly forward, flanked by partially obscured, related elements. This creates a perception of depth and suggests a series or progression of design iterations, guiding the viewer's eye to the most prominent information. The central poster maintains a balanced internal structure with left-aligned typography, yet the overall presentation of multiple angled cards introduces an element of dynamic asymmetry. Expansive dark negative space surrounds the layered posters, effectively isolating and emphasizing their content while contributing to a sophisticated and intentional visual rhythm.",
-                "Shape": "The visual content is a synthesis of distinct shape categories: precise typography, rigorous geometric forms, and an abstract, organic-geometric pattern. The main title utilizes a classic serif typeface, while supporting text employs a clean sans-serif, providing legibility and a modern contrast. The central yellowish-orange motif is a digitally generated pattern, appearing as an aggregation of pixel-like or dot-matrix elements that form an undulating, almost fluid vertical structure. These dynamic, digitally sourced shapes interact with the rigid, rounded rectangular container of the poster, establishing a tension between organic flow and structured containment, further anchored by a small, pixelated square icon at the bottom right.",
-                "Shape Keyword": [
-                    "Organic-Geometric",
-                    "Typographic",
-                    "Pixelated",
-                    "Layered"
-                ],
-                "Mood & Texture": "The atmospheric tone is one of thoughtful inquiry and contemporary digital exploration, characterized by a refined blend of the analytical and the humanistic. The dominant yellowish-orange pattern exhibits a unique texture, appearing as a soft, diffused aggregation of small, discrete units, reminiscent of a pointillist or digital data visualization. This texture, while clearly digitally rendered, avoids harshness, instead conveying a subtle, almost ethereal quality. This 'soft tech' texture reinforces a conceptual direction that bridges the precision of digital systems with the nuanced, evolving nature of human connection and community.",
-                "Mood Keyword": [
-                    "Contemplative",
-                    "Digital-Organic",
-                    "Ethereal",
-                    "Structured"
-                ],
-                "Color": "Orange",
-                "Form": "3D",
-                "Emphasis": "Center",
-                "Balance": "High",
-                "Contrast": "Asymmetric",
-                "White space": "High"
-            },
-            {
-                "id": 7,
-                "file_name": "2025_thegraphicaddict_1.jpg",
-                "year": "2025",
-                "title": "thegraphicaddict_1",
-                "Basic Information": "This image functions as a graphic exploration of the 'USB' acronym, likely referencing universal connectivity and data transfer. Through a modular and repetitive design, it suggests the ubiquitous nature of digital interfaces and the inherent structure within technological systems. The design's vibrant palette and overlapping forms hint at the dynamic and layered aspects of digital interaction, possibly serving as a conceptual poster or branding element for a tech-related entity.",
-                "Color Scheme": "A high-saturation, multi-chromatic palette dominates, featuring distinct blocks of yellow, blue, green, and orange, each paired with contrasting letterforms in hues such as dark maroon, bright pink, and deep green. The scheme exhibits strong chromatic contrast between the background rectangles and the overlaying 'USB' text, ensuring high legibility and visual impact. This vibrant and diverse color scheme evokes a contemporary and energetic sensibility, aligning with themes of technological innovation and digital dynamism.",
-                "Composition": "The composition employs a highly structured, vertical modularity, presenting four distinct yet visually unified blocks stacked precisely atop one another. The overall balance is perfectly symmetrical along the vertical axis, with each 'USB' motif centered within its respective rounded rectangular field. This strong vertical repetition establishes a clear downward visual flow, leading the viewer's gaze from one colored block to the next.",
-                "Shape": "The primary forms consist of bold, sans-serif capital letterforms spelling 'USB,' which are centrally positioned within distinct rounded rectangular containers. Subtly integrated beneath these letters is a transparent 'X' shape, which acts as an underlying structural motif. The 'USB' letterforms overlap the transparent 'X' shape and the solid background rectangles, creating areas of optical transparency and color blending that generate a sense of depth and visual interplay.",
-                "Shape Keyword": [
-                    "Geometric",
-                    "Typographic",
-                    "Modular"
-                ],
-                "Mood & Texture": "The overall atmospheric tone is characterized by a clean, modern, and highly graphic sensibility, emphasizing clarity and digital precision. The poster exhibits a smooth, un-textured surface quality, devoid of any visible print grain, photographic noise, or analog imperfections. This absence of physical texture reinforces a sense of technological sophistication and contemporary design, suggesting efficiency and an interface-driven experience.",
-                "Mood Keyword": [
-                    "Vibrant",
-                    "Modern",
-                    "Graphic",
-                    "Clean"
-                ],
-                "Color": "Blue",
-                "Form": "2D",
-                "Emphasis": "Center",
-                "Balance": "High",
-                "Contrast": "Symmetric",
-                "White space": "Low"
-            },
-            {
-                "id": 8,
-                "file_name": "2025_thegraphicaddict_2.jpg",
-                "year": "2025",
-                "title": "thegraphicaddict_2",
-                "Basic Information": "This image functions as a promotional poster or a product display for 'Sundra Hill' all-natural deodorants. It presents a systematic overview of the brand's product line, featuring various scent profiles such as 'Electric Garden,' 'Still Waters,' and 'Depth of the Sun,' each associated with distinct color branding. The primary purpose is to showcase the diversity and aesthetic appeal of the product range, emphasizing the brand's commitment to natural ingredients and a cohesive visual identity. The grid arrangement effectively communicates the breadth of available choices within a unified framework.",
-                "Color Scheme": "The palette is characterized by a wide array of saturated, mid-tone to bright hues, encompassing vibrant greens, blues, oranges, and reds, with occasional muted tones like light grey and peach. High chromatic contrast exists between the distinct colors of adjacent product blocks, creating visual separation and dynamism across the grid. The consistent black typography for the brand name and product details provides strong legibility against these varied backgrounds, establishing a clear hierarchy. This diverse and energetic color scheme evokes a sense of freshness, natural vitality, and a broad spectrum of sensory experiences, aligning with the 'all-natural' product claim.",
-                "Composition": "The composition is governed by a rigorous modular grid, which organizes the individual product blocks into a tessellated pattern. This structured layout ensures a high degree of visual balance, achieved through the symmetrical arrangement and repetition of rectangular forms, even as individual color choices introduce dynamic variation. The precise vertical and horizontal alignment of all elements within this grid reinforces a sense of order and meticulous design. While there is no singular focal point, the entire grid functions as a cohesive visual field, inviting the viewer's eye to systematically scan and compare the different product offerings, thereby establishing a rhythmic perceptual flow.",
-                "Shape": "The dominant shapes within the composition are the rectilinear forms of the individual product packages, which are arranged to create an overarching rectangular grid. These primary forms are visually sourced from either direct product photography or highly precise digital rendering, presenting the packaging with clean edges and uniform surfaces. Within these larger rectangles, various typographic shapes, including the 'SUNDRA HILL' brand name and detailed product information, serve as secondary motifs. The interaction of these precisely abutted rectangular shapes generates a strong sense of modularity and systematic organization, while the typographic elements introduce specific informational nodes within each colored field.",
-                "Shape Keyword": [
-                    "Rectangular",
-                    "Modular",
-                    "Typographic"
-                ],
-                "Mood & Texture": "The atmospheric tone conveyed by the poster is one of contemporary freshness, meticulous organization, and vibrant naturalism. The sensory impression is predominantly smooth and uniform, suggesting high-quality, unblemished product surfaces, likely achieved through controlled digital rendering or pristine product photography. There is an absence of discernible print grain, photo grain, or overt digital effects, which contributes to a clean, almost pristine aesthetic. This lack of textural noise reinforces a feeling of purity, clarity, and sophisticated simplicity, aligning conceptually with the 'all-natural' branding and emphasizing direct product presentation.",
-                "Mood Keyword": [
-                    "Clean",
-                    "Vibrant",
-                    "Organized",
-                    "Fresh"
-                ],
-                "Color": "Green",
-                "Form": "2D",
-                "Emphasis": "Top",
-                "Balance": "High",
-                "Contrast": "Symmetric",
-                "White space": "Low"
-            },
-            {
-                "id": 9,
-                "file_name": "2025_thegraphicaddict_3.jpg",
-                "year": "2025",
-                "title": "thegraphicaddict_3",
-                "Basic Information": "This image functions as a promotional poster for the 'VALIE EXPORT: EMBODIED' exhibition and performance program, presented by the MAK Center for Art and Architecture, Los Angeles. Key textual information includes the event title, dates 'FEB 28 - APR 7, 2024', venue 'AT THE SCHINDLER HOUSE', and the institution's full name and address. The poster's conceptual direction aims to communicate the exhibition's avant-garde nature through a bold, experimental typographic treatment and a stark visual aesthetic. It simultaneously serves as an institutional branding piece, reinforcing the MAK Center's identity as a hub for contemporary art and architecture. The overall message emphasizes a rigorous, deconstructive approach to artistic presentation.",
-                "Color Scheme": "The poster employs a dichromatic color scheme across its two panels, featuring black and off-white on the left, and deep red and black on the right. This palette generates an exceptionally high level of contrast, which is crucial for the legibility and visual impact of the large-scale typography. The choice of red introduces a potent emotional tone, suggesting urgency, intensity, and perhaps a historical reference to constructivist or modernist aesthetics. While the black and off-white panel provides a stark, almost institutional clarity, the red panel injects a distinct vibrancy and intellectual gravitas into the overall composition, differentiating the exhibition context from the institutional identity.",
-                "Composition": "The poster is structured as a vertical diptych, presenting two distinct but visually complementary panels that operate on a strong internal vertical axis. Each panel exhibits a centralized visual hierarchy, primarily dictated by the monumental typographic elements and the central photographic image on the left. The overall balance is asymmetrically distributed between the two halves, with the left panel's dynamic curves and central image contrasting with the right panel's more fragmented, yet equally monumental, typographic mass. Negative space is strategically employed, particularly around the dominant letterforms, allowing them to assert their sculptural presence and guiding the viewer's eye through a sequence of bold visual statements.",
-                "Shape": "The dominant shapes within the poster are robust, geometric sans-serif letterforms, which are extensively manipulated to function as primary visual motifs. These include the solid, blocky characters of 'VALIE EXPORT' and the dates, contrasted with the more fluid, curving, and fragmented letterforms forming 'MAK CENTER FOR ARCHITECTURE AND ART LOS ANGELES'. The central photographic element on the left panel, featuring a figure within a rounded rectangular frame, provides a distinct figurative shape, rendered in a halftone texture. The interaction of these shapes generates a dynamic rhythm through their varying scales, orientations, and the deliberate tension between rigid geometry and organic curves, creating a sense of visual depth and movement.",
-                "Shape Keyword": [
-                    "Type-as-Image",
-                    "Geometric",
-                    "Curvilinear",
-                    "Fragmented"
-                ],
-                "Mood & Texture": "The poster exudes an austere, experimental, and intellectually rigorous atmospheric tone, characteristic of contemporary art discourse. The visual texture is primarily defined by the crisp edges of the vector typography, which creates a clean, graphic impression. This is subtly contrasted by the halftone texture of the central photographic image, which introduces a grainy, almost archival quality that hints at historical context or analogue media. The overall surface treatment reinforces a mood of grounded authenticity and a deliberate rejection of overly polished digital aesthetics, aligning with the avant-garde nature of the exhibition and the institution.",
-                "Mood Keyword": [
-                    "Austere",
-                    "Experimental",
-                    "Industrial",
-                    "Graphic"
-                ],
-                "Color": "Red",
-                "Form": "2D",
-                "Emphasis": "Center",
-                "Balance": "High",
-                "Contrast": "Asymmetric",
-                "White space": "Medium"
-            }
-        ]
-    }
+        "file_name": "2023_hello_ep_3.jpg",
+        "year": "2023",
+        "title": "hello_ep_3",
+        "Basic Information": "This poster functions as a promotional piece for an event or cultural phenomenon, utilizing iconic imagery associated with contemporary fan culture. The visible Korean text on the upper lightstick translates to 'What are we?', while the lower one displays 'December 28, 2018, Friday, 7 PM', indicating a specific temporal context. The conceptual direction centers on exploring collective identity or purpose within a defined event, employing the symbolic power of a K-pop lightstick to evoke a sense of shared experience and anticipation. The luminous elements elevate these objects, transforming them into focal points for a reflective query about community and timing.",
+        "Color Scheme": "The dominant color scheme is characterized by a stark achromatic contrast between deep black and luminous white, accented by a subtle, desaturated lime green glow. The palette maintains a cool temperature, primarily due to the expansive black background and the ethereal green luminescence, which together create a sophisticated and somewhat mysterious atmosphere. Tonal hierarchy is established by the intense brightness of the illuminated text and lightstick heads, drawing immediate visual attention against the vast, dark void. The light/dark balance is extreme, with concentrated areas of radiant light punctuating an overwhelmingly dark canvas, generating a sense of drama and focus. Chromatic contrast is minimal, as the primary visual impact stems from luminance variations rather than distinct hue interactions, with the faint green serving as a spectral highlight. This combination evokes a modern, anticipatory emotional effect, where glowing elements suggest excitement or a pivotal moment.",
+        "Composition": "The composition is distinctly asymmetric, built upon a strong diagonal axis formed by the two overlapping lightsticks, which introduces a dynamic tension across the frame. There is no discernible rigid grid; instead, spatial rhythm is generated through the deliberate angular placement of the objects, guiding the viewer's eye in an upward-right trajectory. The primary focal hierarchy is established by the upper lightstick's clearly rendered and intensely glowing Korean text, which commands immediate attention, followed by the similarly luminous but distorted date on the lower lightstick. Extensive deep black negative space surrounds the central objects, serving to isolate and amplify their glowing presence within the frame, enhancing their iconic status. The visual path is guided from the prominent textual query at the top, along the diagonal forms of the lightsticks, to the specific temporal information below. This dynamic, off-center arrangement effectively reinforces the promotional message by conveying energy and a sense of unfolding action, while the isolated objects elevate their symbolic significance in a theatrical manner.",
+        "Shape": "The primary forms consist of two distinct, elongated cylindrical objects, rendered with volumetric depth, clearly identifiable as stylized K-pop lightsticks. The upper lightstick features an illuminated head with an irregular, cloud-like contour encasing elegantly calligraphic Korean script, while the lower lightstick presents a spherical, transparent head containing blocky, digitally distorted alphanumeric characters. These forms are unequivocally derived from sophisticated 3D rendering techniques, evidenced by their precise lighting, material reflections, and simulated internal luminescence. Spatially, the lightsticks are arranged in a diagonal overlap, creating a sense of depth and implying a dynamic interaction between their respective textual messages. The irregular glowing outlines of the text forms within the lightstick heads introduce a secondary rhythmic element, echoing the organic contours and providing visual counterpoint to the rigid cylindrical bodies.",
+        "Shape Keyword": [
+          "3D Rendered",
+          "Typographic",
+          "Organic",
+          "Cylindrical"
+        ],
+        "Mood & Texture": "The overall mood conveyed is one of contemporary digital aestheticism, imbued with an ethereal quality and a palpable sense of anticipation. Tactile impressions suggest highly polished, smooth, and reflective surfaces, characteristic of modern plastics or metals, contrasted with the soft, diffuse glow emanating from the internal light sources. A subtle, fine digital noise or grain is discernible across the deep black background, adding a layer of sophisticated grit to the otherwise pristine 3D render, preventing it from appearing overly sterile. The volumetric glow effects around the illuminated elements are meticulously rendered, simulating a realistic light diffusion rather than a flat photographic effect. This combination of sleek, almost clinical surfaces and vibrant digital luminescence reinforces a futuristic and emotionally charged conceptual tone, hinting at the collective energy and ephemeral magic of a shared event.",
+        "Mood Keyword": ["Ethereal", "Futuristic", "Sleek", "Vibrant"],
+        "Color": ["Black", "White", "Green"],
+        "Form": "3D",
+        "Emphasis": "Top",
+        "Balance": "Medium",
+        "Contrast": "Asymmetric",
+        "White space": "High"
+      },
+      {
+        "id": 3,
+        "file_name": "2024_hello_ep_1.jpg",
+        "year": "2024",
+        "title": "hello_ep_1",
+        "Basic Information": "This poster functions as a social campaign piece with institutional backing, directly addressing a political or societal issue. The central textual elements include the English statement 'A't Does Not Succumb to the Dictatorial Oppression,' with 'Art' stylized as 'A't' and 'Oppression' fragmented, alongside the Korean equivalent '\uc608\uc220\uc740 \uad8c\ub825 \uc5b5\uc555\uc5d0 \uad74\ud558\uc9c0 \uc54a\ub294\ub2e4' (Art does not succumb to power oppression). Further contextual information identifies it as a 'Declaration of Current Affairs' by the 'Korean Federation of National Arts Organizations' dated '2014. 12. 7.' The conceptual direction asserts the inherent resilience and autonomy of artistic expression against authoritarian pressures, employing a robust visual metaphor to embody this defiance. Its semiotic goal is to articulate a powerful statement of artistic freedom, aiming to mobilize support and underscore the unyielding nature of art in the face of political constraint.",
+        "Color Scheme": "The dominant color scheme is characterized by a deep, absorbing black background that provides maximal contrast to the luminous, desaturated yellow-cream used for the primary typographic elements. Accenting this high-contrast core are ribbons rendered in muted crimson, beige, and a deep, desaturated blue, strategically interwoven around the central object. This limited palette establishes a clear tonal hierarchy where the bright text immediately captures attention against the expansive dark field. The overall temperature leans cool due to the black and blue, yet the warm yellow text and crimson ribbon introduce vital points of chromatic interest. The extreme light-dark balance enhances legibility and imbues the composition with a profound sense of gravity, while the subtle chromatic interplay of the ribbons adds visual depth without compromising the message's directness.",
+        "Composition": "The composition is vertically oriented, anchored by a substantial, irregularly shaped object positioned centrally, which serves as the primary visual focus. Typographic elements are arranged asymmetrically around this core, with large-scale Korean characters dominating the left side and fragmented English phrases alongside smaller Korean text on the right, creating a dynamic yet balanced visual tension. Expansive black negative space strategically surrounds the central elements, effectively isolating them and amplifying their perceived weight and symbolic significance. The visual path of the eye is guided from the prominent Korean text on the upper left, across the central object, and then down through the English text and following the curvilinear ribbons, establishing a clear and deliberate reading sequence. This interplay of central mass and surrounding text reinforces the message by making the 'art' (the object) feel both contained and indomitable.",
+        "Shape": "The most prominent form is an organic, irregularly contoured mass resembling a large, textured boulder, rendered with volumetric depth and a rough surface quality. Multiple curvilinear ribbon-like elements, exhibiting folds and varying widths, are dynamically wrapped around this central, static form. Typographic shapes include bold, calligraphic Korean Hangul characters on the left, which present a robust, almost sculptural presence, alongside stylized serif and flowing script forms for the English text, all of which interact spatially with the central object. These elements predominantly appear as high-fidelity photographic or 3D rendered forms for the rock and ribbons, contrasted with digitally crafted typography. The static, weighty presence of the central rock is rhythmically counterpointed by the fluid, dynamic lines of the ribbons, creating a visual narrative of steadfastness against an attempt at constraint.",
+        "Shape Keyword": [
+          "Organic",
+          "Sculptural",
+          "Curvilinear",
+          "Typographic"
+        ],
+        "Mood & Texture": "The poster conveys a pervasive mood of resolute defiance and profound solemnity, significantly amplified by its distinct tactile impressions. The central rock-like object is depicted with an intensely granular, rough texture, which powerfully communicates an impression of unyielding material strength and ancient, enduring resilience. In stark contrast, the ribbons exhibit a smooth, almost silken quality, evidenced by their subtle sheen and delicate undulations, creating a compelling juxtaposition of hard and soft, immutable and pliable. These textural differences are meticulously achieved through advanced digital rendering, simulating realistic material properties and nuanced lighting effects. This interplay of textures effectively reinforces the conceptual tone, symbolizing the inherent, unbreakable spirit of art (the rock) enduring and resisting external pressures or constraints (the ribbons), thereby profoundly deepening the poster's message of steadfastness.",
+        "Mood Keyword": [
+          "Defiant",
+          "Resilient",
+          "Textured",
+          "Somber",
+          "Contemplative"
+        ],
+        "Color": ["Yellow", "Red", "Blue"],
+        "Form": "Photo",
+        "Emphasis": "Center",
+        "Balance": "Medium",
+        "Contrast": "Asymmetric",
+        "White space": "High"
+      },
+      {
+        "id": 4,
+        "file_name": "2024_hello_ep_2.jpg",
+        "year": "2024",
+        "title": "hello_ep_2",
+        "Basic Information": "This poster serves as a promotional announcement for 'MODE BANGKOK 2024', an event focused on the intersection of fashion and digital innovation. Key textual elements include the event title 'MODE BANGKOK 2024', a thematic descriptor '(Metaverse) Outstanding Designers Experience with Fashion', and event logistics such as 'Floor at Siam Paragon 11 October 2024 19h SCBX NEXT TECH 4th'. The poster also credits 'THE BOYZ NEW', 'KOCCA', 'ZEPETO', 'MINISTRY OF CULTURE, SPORTS AND TOURISM', and lists several designer names, indicating a collaborative and curated exhibition. The conceptual direction aims to convey a cutting-edge exploration of fashion within virtual realms, utilizing a visually striking digital aesthetic to attract an audience interested in contemporary design and technology. Its semiotic goal is to signify modernity, innovation, and a dynamic fusion of physical and digital identities within the fashion industry.",
+        "Color Scheme": "The dominant color scheme is characterized by a high-chroma lime green, which serves as a vibrant background element and frames the central figures. This cool, energetic hue is juxtaposed with a diverse array of pixelated colors across the figures, including prominent blues, yellows, reds, and purples, creating a highly chromatic and dynamic palette. The tonal hierarchy emphasizes the bright green and the dark black typography, providing strong contrast against the white background. The light-dark balance is assertive, with luminous background elements and intensely saturated pixel fields, contributing to an overall effect of digital luminosity. Chromatic contrast is exceptionally high due to the multitude of small, disparate color blocks forming the figures, directing perceptual attention across their forms before settling on the larger textual elements.",
+        "Composition": "The composition employs an asymmetric balance, with two central figures slightly shifted to the right, countered by a strong vertical text block on the left edge. The layout does not strictly adhere to a rigid grid but rather uses implied vertical axes established by the figures and the peripheral text, creating a dynamic visual tension. The primary focal hierarchy is established by the large, bold 'MODE' text and the pixelated figures, drawing the eye immediately to the center-right. A spatial rhythm is generated by the alternating density of the pixelated figures against the cleaner white and green background, guiding the viewer's gaze through the central image area. Negative space is utilized effectively around the figures and text blocks, allowing key information to stand out. This dynamic, yet carefully weighted, composition reinforces the event's forward-thinking message by visually communicating a sense of movement and contemporary disruption.",
+        "Shape": "The primary shapes dominating the poster are two anthropomorphic figures, rendered with a distinct pixelated and fragmented visual language, resembling digital avatars. These figures are composed of numerous small, uniform square and rectangular blocks, dissolving their contours into a mosaic. Complementing these are large, rounded, sans-serif letterforms spelling 'MODE' in a vibrant lime green, partially overlapping the figures to create depth. Smaller, clean sans-serif typography is used for event details and designer names, providing clear informational structure. The figures appear to be derived from 3D renders or digital models, subsequently processed with a pixelation filter to achieve their distinct aesthetic. Their spatial relationship is one of close proximity and interaction, with the pixelation effect creating a rhythmic interplay of color and form, while the large 'MODE' text acts as a foundational, yet integrated, typographic element.",
+        "Shape Keyword": ["Pixelated", "Typographic", "Avatar", "Geometric"],
+        "Mood & Texture": "The overall mood conveyed is one of digital futurism and vibrant innovation, strongly influenced by the poster's visual texture. The tactile impression is primarily one of digital granularity and fragmentation, achieved through the extensive pixelation effect applied to the central figures. This effect simulates a low-resolution digital image or a mosaic, creating a 'glitch' aesthetic that is both visually engaging and conceptually rich. While there isn't traditional photographic grain, the pixelation functions as a digital texture, imparting a sense of constructed reality. The smooth, clean surfaces of the white background and the large green text provide a stark contrast to the textured figures. This interplay of smooth and fragmented surfaces reinforces an emotional and conceptual tone that is avant-garde, technologically driven, and reflective of a metaverse-inspired aesthetic, inviting viewers into a world where digital and physical realities merge.",
+        "Mood Keyword": [
+          "Digital",
+          "Energetic",
+          "Modern",
+          "Fragmented",
+          "Futuristic"
+        ],
+        "Color": ["Green", "Blue", "Yellow"],
+        "Form": "3D",
+        "Emphasis": "Center",
+        "Balance": "Medium",
+        "Contrast": "Asymmetric",
+        "White space": "Medium"
+      },
+      {
+        "id": 5,
+        "file_name": "2024_hello_ep_3.jpg",
+        "year": "2024",
+        "title": "hello_ep_3",
+        "Basic Information": "This poster functions as an institutional or conceptual communication, presenting a declarative statement in Korean. The primary textual element reads: '\uc6b0\ub9ac\ub294 \uc774 \uc21c\uac04\uc744 \ubaa9\uaca9\ud588\uace0, \uadf8 \uc790\ub9ac\uc5d0\uc11c \ud568\uaed8 \ud574\uc654\uc73c\uba70, \uc55e\uc73c\ub85c\ub3c4 \ud769\uc5b4\uc9c0\uc9c0 \uc54a\uc744 \uac83\uc774\ub2e4.' (We witnessed this moment, we were together in that place, and we will not be scattered in the future.) A smaller block of text at the bottom provides additional contextual details, likely crediting or dating the piece. The conceptual direction emphasizes collective memory, enduring unity, and resilience, semiotically conveyed through the interconnectedness of individual elements forming a larger, vibrant whole.",
+        "Color Scheme": "The dominant color scheme is a vibrant, full-spectrum chromatic palette, primarily featuring cool hues such as cyan, blue, and green, interspersed with warm accents of yellow, orange, and red. This diverse palette generates a high chromatic contrast against the stark, achromatic black background, establishing a clear visual hierarchy. The luminous, saturated colors within the translucent circular forms create a shimmering, effervescent quality, guiding the viewer's eye through the textual content with an energetic and dynamic flow.",
+        "Composition": "The composition exhibits an organic, asymmetric balance, with the primary textual content arranged in a central, vertically oriented mass. There is no discernible rigid grid; instead, the layout is governed by the fluid clustering and overlapping of circular forms, creating an undulating spatial rhythm. Abundant negative space, provided by the deep black background, frames the colorful central element, enhancing its prominence and visual impact. This organic arrangement reinforces the message of collective unity and interconnectedness, where individual components contribute to a cohesive yet dynamic whole.",
+        "Shape": "The primary forms consist of numerous translucent, overlapping circular shapes that serve as backgrounds for the individual characters of the Korean script. These circles appear to be digitally rendered vector graphics, utilizing transparency and blending modes to create secondary color interactions and a sense of depth. The Korean characters themselves are rendered in a clean, blocky sans-serif typeface, maintaining legibility amidst the vibrant, amorphous backdrop. The spatial relationships among these forms create an overall cloud-like or amoeboid mass, where the individual characters are embedded within the iridescent, coalescing circles, generating a fluid and rhythmic interaction.",
+        "Shape Keyword": ["Organic", "Typographic", "Layered"],
+        "Mood & Texture": "The poster evokes a luminous and ethereal mood, characterized by a distinct absence of traditional tactile texture, replaced by a visual simulation of glowing translucency. The digital effects of soft gradients, blending modes, and optical overlays within the circular forms contribute to a smooth, almost liquid or gaseous surface impression. This shimmering, vibrant quality reinforces a conceptual tone of vitality, fluidity, and interconnected presence, suggesting a collective experience that is both dynamic and enduring. The overall impression is one of modern digital artistry, emphasizing light and color as primary expressive elements.",
+        "Mood Keyword": ["Luminous", "Ethereal", "Vibrant", "Fluid"],
+        "Color": ["Blue", "Green", "Orange"],
+        "Form": "2D",
+        "Emphasis": "Center",
+        "Balance": "Medium",
+        "Contrast": "Asymmetric",
+        "White space": "High"
+      },
+      {
+        "id": 6,
+        "file_name": "2024_hello_ep_4.jpg",
+        "year": "2024",
+        "title": "hello_ep_4",
+        "Basic Information": "This poster functions as a conceptual art piece or a commemorative design, utilizing a highly deconstructed aesthetic to convey a profound message. The primary textual elements visible are 'AUSCHWITZ' at the top, 'NO U' below it, and a date '2009. 6. 9.' along with various Korean characters. The semiotic goal is to visually articulate the overwhelming and fragmented nature of historical trauma, particularly in relation to the Holocaust, by disrupting conventional legibility and composition. It aims to provoke a visceral reaction and encourage deep reflection on memory, human rights, and the enduring impact of such events.",
+        "Color Scheme": "The dominant color scheme is characterized by a high-chroma, almost fluorescent lime green as the background, stark black for primary textual elements, and saturated magenta/purple accents. This palette creates an extremely high-contrast, cool yet aggressively vibrant temperature that is inherently unsettling. The intense chromatic contrast between the luminous green and the absolute black typography creates a jarring visual tension, designed to prevent passive viewing and demand immediate attention. The magenta elements serve as disruptive visual cues, further fragmenting the visual field and guiding attention through the chaotic composition.",
+        "Composition": "The composition, while appearing chaotic, is structured around a strong vertical axis, with the prominent 'AUSCHWITZ' anchoring the upper portion. The layout intentionally deconstructs traditional grid systems, employing a dynamic tension between implied order and explicit fragmentation. The visual path of the eye is drawn from the large title downwards through a cascade of distorted text and abstract shapes, creating a sense of descending disintegration. The heavy, textured black border on the left side introduces significant asymmetry and a palpable sense of oppressive weight, reinforcing the poster's somber and unsettling message.",
+        "Shape": "The primary forms are highly manipulated serif and sans-serif typographic elements, which are subjected to severe digital distortion, stretching, and fragmentation, appearing to glitch and break apart. Interspersed among the text are sharp, linear geometric forms, including thin magenta vertical lines and fragmented black rectangular blocks that slice through the composition. A stylized, mask-like face motif, rendered in solid magenta, is discernible in the lower-left quadrant, adding a symbolic, human-like presence. These forms are predominantly vector-based, digitally rendered, and layered to create depth and visual turbulence.",
+        "Shape Keyword": [
+          "Typographic Distortion",
+          "Geometric Fragmentation",
+          "Vectorial",
+          "Symbolic"
+        ],
+        "Mood & Texture": "The overall mood is one of intense unease, digital decay, and raw, aggressive disruption, driven by the juxtaposition of vibrant colors and fragmented forms. The poster exhibits a range of digital effects, including pixelation, 'glitch' artifacts, and a high-contrast, almost screen-printed flatness in the main green and black areas. The black border on the left side features a highly tactile, granular texture resembling corroded concrete or rough, organic matter, introducing a material simulation that grounds the digital aesthetic in a visceral reality. These textures and surface effects collectively reinforce a conceptual tone of historical rupture, the fragility of memory, and the pervasive sense of disruption associated with the subject matter.",
+        "Mood Keyword": [
+          "Disturbing",
+          "Fragmented",
+          "Aggressive",
+          "Digital",
+          "Raw"
+        ],
+        "Color": ["Green", "Purple"],
+        "Form": "2D",
+        "Emphasis": "Top",
+        "Balance": "Low",
+        "Contrast": "Asymmetric",
+        "White space": "Low"
+      },
+      {
+        "id": 7,
+        "file_name": "2025_hello_ep_1.jpg",
+        "year": "2025",
+        "title": "hello_ep_1",
+        "Basic Information": "This poster serves as a promotional announcement for the '2024 Gyeonggi Ceramics Biennale', indicating its institutional and cultural intent. Key textual elements include the main title 'TOGETHER Montaigne's Cat' in both English and Korean, and logistical details such as the event name 'Gyeonggi Ceramics Biennale 2024' and multiple exhibition locations across Gyeonggi-do. The conceptual direction aims to fuse philosophical inquiry (Montaigne's thought experiment) with the tangible world of ceramics, suggesting an exploration of material, perception, and collective experience. Semiotically, the design endeavors to position the biennale as a contemporary, intellectually stimulating, and visually engaging event that transcends traditional boundaries of ceramic art, inviting a playful yet profound engagement with its theme.",
+        "Color Scheme": "The dominant color scheme features a vibrant, high-saturation palette, primarily composed of deep purples, electric blues, and warm oranges, complemented by softer yellows, pinks, and teal accents. This chromatic array against a stark white background establishes a high tonal contrast and energetic temperature, with cool hues providing depth and warm hues creating focal points. The light/dark balance is predominantly light, with the luminous white space amplifying the chromatic intensity and clarity of the central objects. This dynamic color interaction guides the viewer's perception, drawing attention immediately to the central cluster of objects and evoking a mood of creativity and modern vitality.",
+        "Composition": "The composition is centrally weighted, with a prominent transparent spherical container anchoring the mid-ground, creating a strong vertical axis. While the overall layout is balanced, the arrangement of elements within the sphere introduces a controlled asymmetry, preventing static equilibrium and fostering visual interest. The visual path of the eye is initially drawn to the bold 'TOGETHER' title at the top, then descends to the intricate central cluster of forms, before moving to the detailed informational text along the right margin and bottom. Extensive white negative space frames the central imagery and typographic elements, enhancing their prominence and contributing to a sense of clarity and modern aesthetic. This organized yet dynamic composition reinforces the 'TOGETHER' theme by visually representing diverse elements coexisting within a cohesive, defined space, subtly suggesting innovation within traditional ceramic practices.",
+        "Shape": "The poster primarily features a diverse collection of abstract and organic forms, appearing as highly detailed 3D renders, alongside distinct typographic shapes. Within the central sphere, various objects exhibit spherical, conical, cylindrical, and undulating geometries, some displaying ridged or textured surfaces reminiscent of crafted ceramics. The large 'TOGETHER' text is rendered in a bold, blocky sans-serif, while 'Montaigne's Cat' is composed of individual dots, creating a pixelated, ethereal quality. These 3D-rendered forms, including the stacked conical elements at the bottom, exhibit realistic volumetric presence and material simulations, suggesting a blend of digital artistry and sculptural inspiration. Their seemingly random yet balanced arrangement within the container creates a sense of buoyant interaction and dynamic spatial rhythm, contrasted by the structural stability of the main title.",
+        "Shape Keyword": [
+          "Abstract-Organic",
+          "3D-Rendered",
+          "Typographic-as-Image",
+          "Clustered"
+        ],
+        "Mood & Texture": "The overall mood conveyed is one of contemporary playfulness and intellectual curiosity, imbued with an optimistic and innovative spirit. The tactile impression generated by the rendered objects is highly diverse, ranging from the smooth translucency of glass-like elements to the porous, matte finish of ceramic-mimicking forms, and the crisp, pleated texture of paper or fabric. Advanced digital rendering techniques are evident in the simulated material properties, including subtle subsurface scattering and realistic reflections within the transparent sphere. The dotted typography for 'Montaigne's Cat' and scattered small dots across the composition introduce a subtle digital texture, while the diffuse lighting enhances the volumetric quality of the 3D forms. This sophisticated blend of simulated textures and pristine execution reinforces a sense of modern craftsmanship and artistic exploration, suggesting the biennale embraces both traditional materials and cutting-edge digital aesthetics.",
+        "Mood Keyword": [
+          "Playful",
+          "Contemporary",
+          "Curious",
+          "Vibrant",
+          "Surreal"
+        ],
+        "Color": ["Blue", "Orange", "Purple"],
+        "Form": "3D",
+        "Emphasis": "Center",
+        "Balance": "Medium",
+        "Contrast": "Asymmetric",
+        "White space": "High"
+      },
+      {
+        "id": 8,
+        "file_name": "2025_hello_ep_2.jpg",
+        "year": "2025",
+        "title": "hello_ep_2",
+        "Basic Information": "This poster functions as a conceptual artwork or an institutional communication, likely promoting an event or a philosophical initiative related to collective discourse. Visible textual elements include 'MANIFESTO.ING', 'REALATION SPACE', and '\uc815\uc2e0' (spirit/mind), alongside a comprehensive list of names or entities at the bottom, suggesting collaboration or authorship. The conceptual direction involves presenting a fragmented yet cohesive collection of individual or group statements, visually articulating a 'manifesto' through a mosaic of textual blocks. This semiotic goal aims to represent the multiplicity of voices within a unified 'relation space,' inviting viewers to engage with a complex tapestry of ideas.",
+        "Color Scheme": "The dominant color scheme utilizes a diverse array of saturated, mid-tone hues for the text blocks, including various blues, greens, purples, oranges, and pinks, set against a stark monochromatic black background with irregular grey patterns. This creates a high-chromatic contrast, with the vibrant foreground elements intensely popping against the deep, dark field. The light/dark balance is heavily biased towards darkness, establishing a dramatic and somewhat somber undertone, while the bright text block colors inject an element of dynamic energy. This chromatic strategy effectively structures attention flow, causing the eye to jump between the distinct color fields, each serving as a visual anchor in a non-linear reading experience.",
+        "Composition": "The composition exhibits an overall asymmetrical balance, with a dense, clustered arrangement of rectangular text blocks forming a central, somewhat irregular mass. There is no overt orthogonal grid, but the blocks are aligned with a subtle implicit verticality and horizontality, generating a loose modularity. The focal hierarchy is distributed across the numerous distinctively colored text units, preventing a singular point of entry and encouraging an exploratory, holistic engagement with the content. The spatial rhythm is characterized by variation in block size and placement, contributing to a dynamic visual flow across the canvas, while the expansive black negative space provides visual relief around the concentrated textual information. This fragmented composition effectively reinforces the conceptual message of diverse, individual statements converging into a complex, collective 'manifesto' or 'relation space,' reflecting the tension inherent in multiplicity.",
+        "Shape": "The major forms within the composition are numerous rectangular and square text blocks, each containing Korean typography, presented as clean, vector-based geometric shapes with sharp edges. These geometric forms contrast sharply with the background's irregular, organic, blob-like shapes rendered in shades of grey, which appear to be digitally generated or abstract pixel patterns. Spatially, the crisp geometric text blocks are superimposed over and interact with the softer, more ambiguous background forms, asserting their two-dimensional presence with clarity. The rhythmic interaction is established through the repetition of similar rectangular units, varied in color and slight dimension, creating a staccato visual pulse across the composition.",
+        "Shape Keyword": ["Geometric", "Typographic", "Fragmented", "Modular"],
+        "Mood & Texture": "The overall mood conveyed is intellectual and contemplative, yet also possesses a sense of disorienting complexity due to the visual density and fragmented presentation of information. The tactile impression is predominantly smooth and digital, characteristic of vector graphics and screen-based rendering, which provides a crisp surface for the foreground text. The background, however, introduces a subtle digital texture through its irregular grey shapes, which appear to be generated with a pixelation or noise effect, creating a coarser, almost distressed visual quality beneath the pristine text blocks. This juxtaposition of smooth precision and underlying digital grit reinforces a conceptual tension between clear individual statements and the potentially chaotic or systemically noisy digital or social environment they inhabit.",
+        "Mood Keyword": [
+          "Intellectual",
+          "Fragmented",
+          "Digital",
+          "Complex",
+          "Urgent"
+        ],
+        "Color": ["Blue", "Green", "Purple"],
+        "Form": "2D",
+        "Emphasis": "Center",
+        "Balance": "Medium",
+        "Contrast": "Asymmetric",
+        "White space": "High"
+      },
+      {
+        "id": 9,
+        "file_name": "2025_hello_ep_3.jpg",
+        "year": "2025",
+        "title": "hello_ep_3",
+        "Basic Information": "This poster functions as a conceptual artwork or a promotional piece for a cultural event, utilizing typographic experimentation as its primary visual language. The central elements consist of large, vertically stacked Korean characters, which appear to be the main title or thematic statement, overlaid onto a background of dense, small-format text columns. No conventional event details such as artist, location, or date are explicitly discernible in a readable format, suggesting an emphasis on visual and emotional impact over direct informational transfer. The semiotic goal is to explore the tension between legibility and abstraction, using visual distortion and layering to evoke themes of information density, digital fragmentation, or the complex interplay of human systems and technological interfaces.",
+        "Color Scheme": "The poster employs a strictly achromatic color scheme, consisting of black, white, and a spectrum of grays, establishing a cool and stark palette temperature. The tonal hierarchy is sharply defined by the intense black of the primary Korean typography, which serves as the dominant visual anchor against the lighter, textured background. The light/dark balance is characterized by high contrast, with the saturated black forms juxtaposed against varying shades of light gray and white in the underlying textual layers and paper textures. This monochromatic approach generates an emotional effect that is direct, intense, and intellectually stimulating, emphasizing form and texture over chromatic variation. Color primarily structures perception by immediately drawing attention to the high-contrast black characters, then guiding the eye to explore the nuanced tonal variations within the layered background, creating a dynamic visual path.",
+        "Composition": "The composition is dominated by a strong vertical axis, with the large Korean characters centrally stacked, establishing a clear focal hierarchy in the middle of the frame. While a rigid grid is not explicitly applied to the main typographic elements, the background features subtly discernible columnar structures of smaller text, hinting at an underlying organizational principle that is then disrupted. Spatial rhythm is characterized by a central density, where the primary forms are tightly packed, surrounded by comparatively less active negative space at the periphery. The visual path of the eye is initially drawn to the bold, central typography, then naturally extends outward to investigate the intricate network of lines and textured layers that surround and interpenetrate the main characters. This centralized, layered composition reinforces the message of intense focus and complexity, as the visual information is concentrated and intertwined, demanding close inspection.",
+        "Shape": "The major forms are the expressive, bold Korean characters, which exhibit qualities of calligraphic brushwork combined with digital manipulation, suggesting a 'type-as-image' motif. These typographic forms are intricately interwoven with and overlaid by a multitude of thin, curvilinear lines and fragmented planar shapes, reminiscent of anatomical structures, neural networks, or digital wireframes. The background is composed of numerous rectangular blocks of fine print, appearing as scanned or photocopied documents, contributing a subtle grid-like structure. The Korean characters, likely digitally rendered, are given a textured, almost distressed appearance, while the fine lines appear to be generated through 3D rendering or complex vector drawing. These lines create a dynamic spatial relationship, appearing to bind, dissect, and extend from the planar character forms, generating a rhythmic interaction that is both organic and technically precise, contrasting with the underlying static textual blocks.",
+        "Shape Keyword": ["Typographic", "Organic", "Layered", "Fragmented"],
+        "Mood & Texture": "The overall mood is one of intense intellectual engagement and disquietude, generated by the intricate layering and visual distortion. The tactile impression is multifaceted, suggesting the rough surface of crumpled paper, the crispness of printed text, and the slick, almost crystalline quality of digitally rendered wires or fibers. Digital effects are extensively utilized, evident in the glitch-like pixelation and distortion applied to the typography, the simulated transparency and reflective qualities of the interwoven lines, and the subtle photo grain or halftone patterns within the background text blocks. These textural qualities reinforce a conceptual tone of information overload and digital entropy, where data is simultaneously structured and deconstructed. The raw, unfiltered aesthetic conveys a sense of urgency and analytical depth, inviting viewers to decipher meaning amidst visual complexity.",
+        "Mood Keyword": [
+          "Intense",
+          "Complex",
+          "Disquieting",
+          "Cerebral",
+          "Digital"
+        ],
+        "Color": ["Monochrome"],
+        "Form": "2D",
+        "Emphasis": "Center",
+        "Balance": "Medium",
+        "Contrast": "Asymmetric",
+        "White space": "Low"
+      }
+    ]
+  },
+  "archive2": {
+    "id": 2,
+    "name": "thegraphicaddict",
+    "images": [
+      {
+        "id": 0,
+        "file_name": "2022_thegraphicaddict_1.jpg",
+        "year": "2022",
+        "title": "thegraphicaddict_1",
+        "Basic Information": "This image functions as a conceptual artwork or decorative pattern, characterized by its abstract and modular composition. It lacks explicit textual elements such as titles, event names, or dates, suggesting its primary intent is aesthetic rather than promotional. The conceptual direction involves presenting a series of abstract, stylized forms, many of which strongly evoke musical notations or instruments, within a rigid grid structure. Its semiotic goal is to explore the interplay between order and abstraction, creating a visual rhythm that suggests auditory experiences through metaphorical graphic elements and inviting a contemplative engagement with its structured dynamism.",
+        "Color Scheme": "The poster employs a diverse color scheme featuring a mix of muted pastels and deeper, earthy tones, including light pink, soft blue, sage green, olive green, deep teal, light peach, mustard yellow, beige, and brown, alongside solid black and white. The palette exhibits a balanced temperature, leaning slightly warm due to the prevalence of yellows, peaches, and browns, yet tempered by cooler blues and greens. Tonal hierarchy is established by the high contrast between the varied background colors and the stark black and white foreground shapes, which consistently maintain strong visual separation. This chromatic diversity prevents monotony across the grid, guiding the eye in an exploratory manner, while the consistent high contrast of the foreground elements ensures each module receives similar visual weight, fostering an even distribution of attention.",
+        "Composition": "The composition is rigorously structured by a precise modular grid, appearing to be a 6x6 arrangement, which imbues the artwork with a strong sense of order and repetition. This grid creates a decentralized balance, as each individual square cell functions as a self-contained compositional unit, contributing to the overall equilibrium without a single dominant focal point. Instead, the visual path of the eye is non-linear and exploratory, encouraged to scan across rows and columns by the variations in shapes and background colors within each module, establishing a predictable spatial rhythm. This interplay between the strict order of the grid and the diverse, abstract content within each cell reinforces a conceptual tension, possibly referencing the structured improvisation inherent in music or the modularity of design principles.",
+        "Shape": "The primary forms within the poster are abstract and predominantly curvilinear, frequently resembling stylized musical notations such as quavers, crotchets, and semibreves, or abstract interpretations of musical instruments. These forms are rendered as solid black or white shapes, with some instances of clean white outlines. The visual source of these elements is clearly vector-based, characterized by their crisp, clean lines and flat, ungraduated fills, indicating digital creation without any photographic or three-dimensional rendering. Within each cell, these forms interact dynamically with the cell's boundaries and with each other, creating implied movement or compositional balance, while the repetition and variation of similar motifs across the entire grid establish a pervasive visual rhythm.",
+        "Shape Keyword": ["Modular", "Abstract", "Curvilinear", "Symbolic"],
+        "Mood & Texture": "The overall mood conveyed by the poster is one of playful sophistication, imbued with a subtle retro or mid-century modern aesthetic. The tactile impression generated by the clean, flat shapes and solid color blocks is smooth and untextured, akin to a digitally rendered surface or a pristine graphic print. There are no discernible digital effects simulating photo grain, print noise, or material textures; the aesthetic is entirely clean and vector-based, emphasizing graphic clarity and flatness. This deliberate absence of texture reinforces a sense of precision and a refined, almost clinical aesthetic, which paradoxically enhances the whimsical and abstract nature of the forms, allowing the viewer to focus solely on the interplay of shape, color, and composition.",
+        "Mood Keyword": ["Playful", "Graphic", "Retro", "Clean"],
+        "Color": ["Green", "Blue", "Orange"],
+        "Form": "2D",
+        "Emphasis": "Center",
+        "Balance": "High",
+        "Contrast": "Symmetric",
+        "White space": "Low"
+      },
+      {
+        "id": 1,
+        "file_name": "2023_thegraphicaddict_1.jpg",
+        "year": "2023",
+        "title": "thegraphicaddict_1",
+        "Basic Information": "This image presents a conceptual poster, likely part of an artistic series, focusing on a philosophical contemplation rather than direct promotion. It features the title 'scene 02 : pot' and an accompanying paragraph that delves into the nature of ritual, warmth, and the distinction between genuine experience and digital simulation. The core semiotic goal is to provoke introspection on authenticity in a technologically mediated world, utilizing the simple, domestic object of a kettle as a metaphor for tangible, meaningful presence.",
+        "Color Scheme": "The dominant hues are a desaturated, cool blue for the central kettle and a range of diffused off-whites and light grays for the background and steam. The palette maintains a predominantly cool temperature, contributing to an overall serene and contemplative mood. Tonal hierarchy is established by the moderate contrast between the muted blue object and its lighter surroundings, creating a gentle visual anchor without sharp demarcations. The light-dark balance is high-key, with ample luminosity across the canvas, and chromatic contrast is deliberately low, resulting in a tranquil and slightly ethereal emotional effect. This subtle chromatic range guides the viewer's perception softly, allowing the eye to linger rather than being abruptly directed, fostering a meditative engagement with the composition.",
+        "Composition": "The composition is vertically oriented, exhibiting a balanced yet dynamic arrangement with the primary visual element, a blurred kettle, occupying the upper-middle section of the canvas. An implied grid structure can be observed, with the kettle centered horizontally and the textual information anchored in the lower-left quadrant, creating a subtle counterpoint. The generous use of diffused negative space around the central object establishes a calm spatial rhythm, allowing the elements to breathe and preventing visual clutter. The visual path naturally progresses from the soft focal point of the kettle, down to the scene identifier, and then across the horizontally aligned block of explanatory text, inviting a deliberate reading. This arrangement reinforces the poster's message of quiet contemplation by providing ample visual space for reflection, while the slight asymmetry introduced by the text prevents the composition from becoming overly static.",
+        "Shape": "The major form presented is a stylized, curvilinear silhouette of a gooseneck kettle, rendered with significant diffusion, accompanied by organic, cloud-like shapes representing steam emanating from its spout. A distinct, sharp, inverted triangular form serves as the kettle's lid knob, providing a solitary geometric counterpoint. These forms appear to be derived from vector graphics or simplified 3D renders, subsequently processed with a heavy Gaussian blur filter. The rounded body and elongated spout of the kettle establish a fluid, gentle spatial relationship, with the organic steam shapes rising rhythmically and extending the implied upward motion, creating a sense of quiet movement within the diffused visual field.",
+        "Shape Keyword": ["Curvilinear", "Silhouetted", "Organic"],
+        "Mood & Texture": "The overall mood conveyed is one of profound tranquility, introspection, and a subtle melancholic wistfulness, evoking a sense of quietude and profound thought. The prevailing tactile impression is one of extreme softness and diffusion, akin to viewing an object through heavily frosted glass or a digital lens with maximum blur. This pervasive texture is generated through a pronounced digital Gaussian blur effect, which softens all edges, obscures fine details, and creates an ethereal, dreamlike quality across the entire image. This deliberate absence of sharp focus and tangible detail powerfully reinforces the conceptual tone of simulation and the intangible nature of virtual representations, deepening the poster's contemplative message about the contrast between real, tactile experience and its digital 'image'.",
+        "Mood Keyword": ["Tranquil", "Ethereal", "Contemplative", "Soft"],
+        "Color": ["Blue", "Monochrome"],
+        "Form": "2D",
+        "Emphasis": "Center",
+        "Balance": "Medium",
+        "Contrast": "Asymmetric",
+        "White space": "High"
+      },
+      {
+        "id": 2,
+        "file_name": "2023_thegraphicaddict_2.jpg",
+        "year": "2023",
+        "title": "thegraphicaddict_2",
+        "Basic Information": "This poster functions as an institutional and promotional communication for ARCHIVO, likely a cultural archive or retail concept focusing on archival fashion. It presents a comprehensive overview of ARCHIVO's mission, philosophy, and offerings through structured textual content and visual elements. The visible textual elements include the prominent title 'PRESERVED FOR THE RHYTHM', the organization's name 'ARCHIVO' with locations 'NEW YORK BERLIN SANTIAGO', and multiple descriptive paragraphs detailing archival clothing, ARCHIVO's inspiration, and a related 'DRUGSTORE'. The conceptual direction aims to establish ARCHIVO as a discerning authority in cultural preservation, blending academic rigor with contemporary aesthetic sensibility. Its semiotic goal is to convey a sense of curated value, historical reverence, and intellectual engagement, positioning the brand as a significant entity within the fashion and design discourse.",
+        "Color Scheme": "The dominant hues comprise an off-white or cream background, deep black for primary textual elements, and various shades of medium to dark gray for secondary text, large background letterforms, and the photographic image's tonal range. The palette maintains a largely neutral and cool temperature, contributing to a sophisticated and somewhat austere aesthetic. A clear tonal hierarchy is established by the stark contrast of black text against the light background, ensuring legibility and primary attention flow. The lighter gray elements recede, offering subtle layering and structural depth without competing with the primary information. This achromatic scheme fosters a sense of timelessness, intellectual gravitas, and minimalist clarity, guiding perception through a controlled and refined visual experience.",
+        "Composition": "The composition employs an asymmetric balance, with a concentration of textual and photographic elements on the left and upper sections, counterbalanced by expansive negative space predominantly in the lower right quadrant. A discernible modular grid underpins the layout, organizing text blocks, numbered sections, and the photographic frame, which imparts a sense of order and analytical precision. The primary focal point is the bold, stacked 'PRESERVED FOR THE RHYTHM' text, followed by the monochromatic photograph of the figure, establishing a clear visual hierarchy. Spatial rhythm is generated by the alternation of dense information and open areas, complemented by the subtle, rhythmic presence of large, semi-transparent background letterforms. The extensive use of negative space enhances the poster's refined aesthetic and reinforces the concept of curated presentation, allowing elements to breathe and emphasizing thoughtful arrangement.",
+        "Shape": "The poster predominantly features strong geometric forms derived from sans-serif typography, presented both as legible text and as large, abstract background letters. These typographic forms are vector-based, contributing to crisp, clean lines. The composition also incorporates small vector icons, such as stylized world maps and stars. A central monochromatic photographic image introduces a human figure, adding an organic yet stylized form. These diverse forms engage in complex spatial relationships: the large, low-contrast letterforms are layered behind and around primary content, creating depth and subtle visual tension. The rectangular photographic frame anchors the lower-left area, contrasting its contained form with the expansive white space. The rhythmic interaction of these forms, from the static grid of text to the dynamic posture of the figure, contributes to a multi-layered visual narrative.",
+        "Shape Keyword": [
+          "Typographic",
+          "Geometric",
+          "Layered",
+          "Photographic"
+        ],
+        "Mood & Texture": "The overall mood conveyed is one of intellectual sophistication, archival reverence, and contemporary restraint, evoking an atmosphere of thoughtful curation and understated elegance. The tactile impression generated is predominantly smooth and refined, characteristic of high-quality digital print or screen-based media. A subtle grain or noise effect is visible within the monochromatic photograph and possibly across the background, imparting a slight analog or vintage quality without sacrificing modern clarity. Digital effects are evident in the semi-transparent, layered background typography, which creates a sense of spatial depth and visual complexity. These textural and lighting choices collectively reinforce a conceptual tone of authenticity and enduring value, suggesting a careful balance between historical preservation and modern aesthetic sensibilities.",
+        "Mood Keyword": [
+          "Archival",
+          "Refined",
+          "Intellectual",
+          "Modern",
+          "Structured"
+        ],
+        "Color": ["Monochrome"],
+        "Form": "Photo",
+        "Emphasis": "Center",
+        "Balance": "Asymmetric",
+        "Contrast": "High",
+        "White space": "High"
+      },
+      {
+        "id": 3,
+        "file_name": "2024_thegraphicaddict_1.jpg",
+        "year": "2024",
+        "title": "thegraphicaddict_1",
+        "Basic Information": "This image functions as a conceptual art piece or a design study, exploring the interplay between traditional calligraphic forms and modern grid systems. It does not explicitly promote an event or institution, but rather serves as a visual commentary on design methodology. The primary visual element is the Chinese character '\u6c38' (y\u01d2ng), meaning 'forever' or 'eternal,' presented within a structured, analytical framework. The semiotic goal is to articulate the tension and eventual harmony that arises from integrating an expressive, ancient visual language with the precise, systematic structures of contemporary design principles, potentially commenting on cultural preservation in a digital age.",
+        "Color Scheme": "The dominant hues consist of a highly saturated, warm orange-red, a deep achromatic black, and a cool, desaturated off-white or light grey background. The orange-red square exhibits the highest chromatic intensity, immediately establishing itself as the primary visual anchor and focal point. This creates a stark light-dark balance and high chromatic contrast between the central vibrant element and the expansive, muted background, drawing attention inwards. The palette's emotional effect is a blend of energetic significance from the red, authoritative depth from the black, and analytical neutrality from the grey, guiding the viewer's perception directly to the core calligraphic form.",
+        "Composition": "The composition is rigorously centralized, with the main visual unit\u2014the orange-red square containing the calligraphic character\u2014positioned precisely at the geometric center of the canvas. This arrangement establishes a clear focal hierarchy, ensuring immediate attention is directed to the core subject. The visible, thin-lined grid and symmetrically placed peripheral squares create a measured spatial rhythm, reinforcing an underlying modular structure while defining the vast negative space. This precise compositional framework underscores the message of order and systematic analysis, providing a stable foundation for the expressive calligraphic element and highlighting the dialogue between structure and organic form.",
+        "Shape": "The primary shapes include an organic, fluid calligraphic character, a distinct geometric rectangle, and a series of precise, thin-lined geometric squares and lines. The calligraphic character '\u6c38' is rendered with varying stroke widths and dynamic curves, characteristic of traditional ink brushwork, suggesting human gesture. The vibrant orange-red rectangle serves as a solid, flat background for the character, a stark geometric container. The surrounding grid elements, comprising four empty squares and connecting lines, are crisp, vector-based forms that define a larger, implied mathematical structure, contrasting with the organic nature of the central character.",
+        "Shape Keyword": [
+          "Calligraphic",
+          "Geometric",
+          "Modular",
+          "Type-as-Image"
+        ],
+        "Mood & Texture": "The overall mood conveyed is one of contemplative precision combined with a subtle, controlled energy. The tactile impression is layered, suggesting both digital clarity and analog materiality. The background exhibits a fine, uniform digital noise or simulated paper grain, providing a subtle texture that grounds the digital composition in a tactile reality. The central orange-red field is smooth and digitally rendered, while the black calligraphic strokes possess a nuanced simulation of ink on absorbent paper, showing variations in opacity, dry brush effects, and feathered edges. These textural contrasts reinforce a conceptual tone that bridges ancient artistic tradition with contemporary digital aesthetics, fostering an emotional resonance that respects heritage within a modern framework.",
+        "Mood Keyword": [
+          "Contemplative",
+          "Precise",
+          "Traditional-Modern",
+          "Structured",
+          "Energetic"
+        ],
+        "Color": ["Red", "Monochrome"],
+        "Form": "2D",
+        "Emphasis": "Center",
+        "Balance": "High",
+        "Contrast": "Symmetric",
+        "White space": "High"
+      },
+      {
+        "id": 4,
+        "file_name": "2024_thegraphicaddict_2.jpg",
+        "year": "2024",
+        "title": "thegraphicaddict_2",
+        "Basic Information": "This image functions as a conceptual artwork or a pure visual graphic, designed to explore the interplay of digital rendering, color gradients, and geometric forms. The visible textual elements are the sans-serif numerals '5', '3', '7', and '2', each centrally positioned within a distinct spherical form. The conceptual direction centers on an investigation into digital materiality and optical phenomena, employing saturated hues and simulated volumetric effects to create an immersive visual experience. Its semiotic goal appears to be an aesthetic exploration rather than conveying a direct narrative or promotional message, potentially hinting at a system or classification through the numerical labels.",
+        "Color Scheme": "The dominant color scheme is characterized by a highly saturated, uniform red background that provides intense chromatic contrast to the foreground elements. The four spheres display complex, iridescent gradients that transition dynamically from warm hues such as orange and magenta through cooler tones including violet, blue, and cyan, culminating in hints of lime green at their perceived base. This palette exhibits a high degree of chromatic vibrancy and a challenging temperature interplay between the warm background and the cool-to-warm gradients. The overall tonal hierarchy emphasizes luminosity within the spheres, which are rendered with simulated highlights and volumetric depth against the flat, high-key red plane, structuring attention through their internal spectral shifts and boundary against the background.",
+        "Composition": "The composition is structured around a precise 2x2 grid, presenting four identical spherical forms in a highly balanced and symmetrical arrangement. This rectilinear organization establishes a static spatial rhythm, where the repetition of form and uniform spacing creates a sense of order and visual stability. The expansive, unmodulated red background functions as a significant negative space, meticulously framing and isolating the chromatic spheres. The visual path of the eye is encouraged to traverse the grid, perceiving each sphere with equal emphasis rather than being directed to a singular focal point, thus distributing visual weight evenly across the canvas. This rigid compositional framework, juxtaposed with the fluid, gradient-filled spheres, reinforces a tension between structured design and organic visual effects.",
+        "Shape": "The primary forms consist of four perfectly rendered spheres, which dominate the visual field and are presented in a uniform size and equidistant arrangement. Nested within each larger sphere is a smaller, flat circular form containing a single, bold sans-serif numeral ('5', '3', '7', '2'), creating an additional layer of geometric precision. These spherical entities are clearly derived from 3D digital rendering, evidenced by their smooth surface transitions, simulated specular highlights, and the volumetric quality of their internal gradients. The consistent repetition and precise placement of these geometric and typographic forms establish a strong rhythmic interaction, creating a harmonious yet visually impactful matrix.",
+        "Shape Keyword": ["Spherical", "Geometric", "Gradient-filled"],
+        "Mood & Texture": "The overall mood conveyed is one of synthetic vibrancy and futuristic aesthetic, characterized by an almost playful yet enigmatic quality due to the abstract nature of the imagery. The tactile impression evoked is exceptionally smooth, glossy, and highly polished, suggesting a surface akin to iridescent glass or perfectly molded plastic. There is a palpable absence of organic texture, photo grain, or print noise, reinforcing the digitally pristine and hyper-real quality of the artwork. This absence of tactile imperfection, combined with the luminous surface effects and seamless color transitions, reinforces a conceptual tone of sleek modernity and digital perfection, contributing to a sense of controlled, artificial wonder.",
+        "Mood Keyword": ["Synthetic", "Vibrant", "Glossy"],
+        "Color": ["Red", "Blue", "Orange"],
+        "Form": "3D",
+        "Emphasis": "Center",
+        "Balance": "High",
+        "Contrast": "Symmetric",
+        "White space": "Medium"
+      },
+      {
+        "id": 5,
+        "file_name": "2024_thegraphicaddict_3.jpg",
+        "year": "2024",
+        "title": "thegraphicaddict_3",
+        "Basic Information": "This poster functions as a conceptual design study, likely exploring typographic deformation and visual semiotics rather than direct promotion. It features the primary textual elements 'Moon Beats', along with annotations such as 'MOTION TEST', '[X]', 'A0'25', a distinct 'V:', and '(01)'. The conceptual direction involves a systematic deconstruction and reinterpretation of familiar letterforms, transforming them into organic, fluid entities. Its semiotic goal is to challenge conventional legibility and aesthetic norms, proposing a visual language that balances recognition with radical formal alteration, effectively turning typography into abstract illustrative elements within a structured experimental framework.",
+        "Color Scheme": "The dominant color scheme is strictly achromatic, consisting solely of black and dark grey forms against a stark white background, creating a cool and detached palette. The tonal hierarchy is absolute, with maximum contrast established between the highly saturated dark elements and the luminous expanse of white negative space. This binary chromatic relationship eliminates any emotional or narrative influence from color, directing the viewer's perception exclusively to the intricate details of shape, form, and implied texture. The absence of hue ensures that attention is focused on the structural and conceptual aspects of the typographic experimentation.",
+        "Composition": "The composition is characterized by a decentralized, almost modular arrangement of distinct graphic units within a vast, open white field, suggesting an analytical grid despite its apparent irregularity. Focal hierarchy is distributed, with the large 'Moon Beats' logotypes initially drawing attention in the upper left, while the smaller, more abstract elements below and to the right demand individual scrutiny. The spatial rhythm is punctuated by significant negative space, creating pauses that isolate each visual component and allow for independent assessment. This fragmented yet organized composition reinforces the poster's message as an exploratory series of visual 'tests', highlighting individual experiments within a broader conceptual framework of typographic research.",
+        "Shape": "The major forms and motifs include highly stylized, organic letterforms for 'Moon Beats', characterized by undulating baselines and internal voids that suggest a molten or fluid state. Other significant shapes are the distinct, geometrically simplified 'V:' character, a large parenthetical '(01)' numeral with a classicist serif structure, a small, blob-like anthropomorphic figure, and a subtle, thin curved line. These forms appear to be digitally rendered vectors, possibly simulating a distressed print aesthetic, given their crisp edges combined with subtle irregularities. Spatially, these shapes exist in a deliberate, non-hierarchical arrangement, each occupying its own quadrant, fostering a rhythmic interaction of visual weights and densities across the expansive white ground.",
+        "Shape Keyword": [
+          "Organic Typographic",
+          "Fluid",
+          "Experimental Letterforms"
+        ],
+        "Mood & Texture": "The overall mood conveyed is one of analytical experimentation, infused with a slightly retro-futuristic sensibility. The tactile impression is a paradoxical blend of crisp digital precision and simulated analogue grit, primarily due to the visible digital grain or print noise across the entire image. This texture is evident both in the white background and within the solid black areas of the forms, subtly softening their sharp contours. These textural elements reinforce a conceptual tone of raw, unpolished research and development, suggesting an artifactual quality that evokes early digital printing or photocopied documents. This imbues the design with an anti-slick, authentic character, emphasizing the process and exploration inherent in the visual 'tests'.",
+        "Mood Keyword": [
+          "Experimental",
+          "Deconstructive",
+          "Analog-Simulated",
+          "Clinical"
+        ],
+        "Color": ["Monochrome"],
+        "Form": "2D",
+        "Emphasis": "Left",
+        "Balance": "Low",
+        "Contrast": "Asymmetric",
+        "White space": "High"
+      },
+      {
+        "id": 6,
+        "file_name": "2024_thegraphicaddict_4.jpg",
+        "year": "2024",
+        "title": "thegraphicaddict_4",
+        "Basic Information": "This poster image serves as a promotional and informational piece for a conceptual discussion or event titled 'Kin & Code'. It identifies the core themes as 'FAMILY, COMMUNITY & CONNECTION', along with specific discussion points such as 'REIMAGINING CARE SYSTEMS' and 'DIGITAL RITUALS & RELATIONSHIPS'. The conceptual direction aims to explore the intricate interplay between human relationships and technological systems in a contemporary context. The semiotic goal is to visually articulate the fusion of organic human connection ('Kin') with the structured, often abstract, nature of digital presence ('Code'), fostering a thoughtful engagement with their evolving dynamic.",
+        "Color Scheme": "The dominant chromatic hue is a warm, desaturated yellow-orange, which forms the primary abstract graphic element. This vibrant color contrasts sharply with the achromatic background, a very light, neutral grey, and the dark, almost black typography. The palette temperature is predominantly warm due to the central graphic, creating a focal point that emanates a subtle energy against the cool neutrality of the surrounding space. This high chromatic and tonal contrast ensures the graphic and text possess clear visual hierarchy, guiding the viewer's attention from the luminous graphic to the anchored textual information.",
+        "Composition": "The composition of the central poster is distinctly asymmetric, with the primary graphic mass originating from the bottom-center and expanding upwards and outwards, while the main title and supporting text are aligned to the upper-right quadrant. An implied vertical axis supports the textual elements, creating a structured counterpoint to the organic diffusion of the graphic. The focal hierarchy is shared between the prominent 'Kin & Code' title and the large, visually active orange-yellow pattern. Ample negative space, particularly in the upper-left and right, provides visual breathing room, enhancing the clarity and modern aesthetic. This compositional arrangement effectively reinforces the message by juxtaposing the fluid, data-like graphic with the precise, informational typography, symbolizing the integration of human and digital realms.",
+        "Shape": "The most prominent shape is an abstract, organic form composed of numerous small, subtly distorted circular or square elements, creating a pixelated or halftone-like pattern in yellow-orange. This graphic appears to be a digitally generated pattern, possibly simulating a 3D point cloud or a data visualization. Typographic forms include a classic serif typeface for the main title 'Kin & Code' and a clean sans-serif for the subtitle and discussion topics. A small, geometrically structured, pixelated logo resembling a QR code is situated in the bottom right corner. The spatial relationship between the fluid, dissipating graphic and the rigid, linear text blocks establishes a dynamic tension, visually representing the interaction between abstract digital systems and concrete human communication.",
+        "Shape Keyword": ["Abstract", "Digital", "Organic", "Typographic"],
+        "Mood & Texture": "The overall mood conveyed is one of modern intellectualism and thoughtful exploration, tinged with a subtly enigmatic quality. The primary graphic's pixelated or halftone texture creates a digital, almost ephemeral tactile impression, suggesting data, light, or a diffused presence rather than a solid material. This texture is achieved through digital effects, implying a granular, non-tactile surface that lacks traditional depth but possesses a luminous quality. The graphic appears softly lit from within, contributing to an ethereal glow that contrasts with the sharp, clean edges of the typography. This digital-organic textural interplay reinforces the conceptual tone of integrating human 'Kin' with technological 'Code', creating a contemporary aesthetic that feels both analytical and approachable.",
+        "Mood Keyword": ["Contemporary", "Digital", "Intellectual", "Abstract"],
+        "Color": ["Orange", "Monochrome"],
+        "Form": "2D",
+        "Emphasis": "Top",
+        "Balance": "Asymmetric",
+        "Contrast": "Asymmetric",
+        "White space": "Medium"
+      },
+      {
+        "id": 7,
+        "file_name": "2025_thegraphicaddict_1.jpg",
+        "year": "2025",
+        "title": "thegraphicaddict_1",
+        "Basic Information": "This image presents a conceptual artwork or a design study focused on visual branding, specifically exploring variations of the acronym 'USB'. Its communicative intent is primarily artistic or experimental, rather than direct promotion of a product or event. The central textual element 'USB' is repeated four times, serving as the core motif without additional descriptive text. The conceptual direction delves into the semiotics of modularity, connectivity, and digital interface through typographic deconstruction and color theory. It aims to evoke a sense of structured playfulness and the inherent variability within standardized systems.",
+        "Color Scheme": "The color scheme employs a high-chroma, multi-segment palette, featuring distinct background hues of yellow, blue, green, and orange, paired with contrasting typographic colors such as dark green, burgundy, and pink. The palette temperature varies across segments, shifting between warm (yellow, orange) and cool (blue, green) primaries, creating a dynamic visual rhythm. Light and dark balance is achieved through the use of mid-tone backgrounds supporting both darker and lighter foreground letterforms, while chromatic contrast is elevated by the bold saturation and complementary or analogous pairings. This vibrant interplay of colors effectively structures the viewer's perception, guiding attention sequentially through each iteration of the 'USB' motif and highlighting the transparent overlaps.",
+        "Composition": "The composition is rigorously structured, utilizing a clear vertical grid that divides the poster into four equally sized horizontal modules. This modular repetition establishes a strong sense of visual balance and order throughout the design. Within each module, the 'USB' letterforms are centrally aligned, creating a consistent focal hierarchy that draws the eye to the typographic elements. A pronounced spatial rhythm is generated by the uniform spacing and sizing of these modules, while ample white negative space frames each segment, providing visual clarity and separation. This systematic composition reinforces the conceptual message of standardization and interconnectedness inherent in the 'USB' acronym.",
+        "Shape": "The primary forms consist of bold, sans-serif typographic characters 'U', 'S', and 'B', rendered as solid, two-dimensional shapes. Each set of letters is contained within a rectangular module featuring subtly rounded corners. A significant motif is the central 'S' character, which is depicted with a simulated transparency effect, allowing the background color to show through and interact with underlying geometric forms. These forms are exclusively vector-based graphics, characterized by precise, clean edges and uniform color fills, indicating a digital origin. The 'U' and 'B' characters symmetrically flank the transparent 'S', establishing a rhythmic interaction where the overlap creates ephemeral, secondary shapes and composite colors, enhancing the visual depth of the flat forms.",
+        "Shape Keyword": ["Typographic", "Geometric", "Layered", "Modular"],
+        "Mood & Texture": "The overall mood conveyed by the poster is one of contemporary vibrancy and systematic precision, tinged with a playful experimentalism. The tactile impression is entirely smooth and untextured, characteristic of pure vector graphics or high-quality digital prints with flat color fields. There is an absence of photo grain, print noise, or material simulations; the aesthetic is purely digital. The primary digital effect is the simulated transparency of the central 'S', which creates a clean, layered look rather than a textural one. This effect reinforces a conceptual tone of clarity, efficiency, and modern design, suggesting a sophisticated yet accessible interface or artistic exploration.",
+        "Mood Keyword": ["Vibrant", "Systematic", "Modern", "Clean", "Playful"],
+        "Color": ["Blue", "Green", "Yellow"],
+        "Form": "2D",
+        "Emphasis": "Center",
+        "Balance": "High",
+        "Contrast": "Symmetric",
+        "White space": "Medium"
+      },
+      {
+        "id": 8,
+        "file_name": "2025_thegraphicaddict_2.jpg",
+        "year": "2025",
+        "title": "thegraphicaddict_2",
+        "Basic Information": "This poster functions as a promotional display for a product line, specifically showcasing a range of 'Sundra Hill' all-natural deodorants. The communicative intent is to highlight the diversity of product variants through a systematic visual organization and distinct color coding, reinforcing brand identity. The conceptual direction centers on presenting a natural and sophisticated product range through minimalist design, where individual scent profiles are semiotically linked to specific color palettes. The semiotic goal is to convey purity, natural origin, and a contemporary aesthetic, positioning the brand as premium and aesthetically conscious. It aims to inform consumers about the product offerings while simultaneously building a cohesive and appealing brand image.",
+        "Color Scheme": "The dominant hues span a broad spectrum, incorporating both warm (e.g., vibrant orange, soft peach, lime green) and cool (e.g., muted blue, deep teal, cool grey) tones, creating a diverse palette with varying temperatures. Each product block features a distinct, often monochromatic or analogous, color field, establishing a clear tonal hierarchy where individual variants are easily distinguishable. The brand typography consistently utilizes a dark, near-black hue, providing a strong chromatic anchor against the varied background colors and ensuring legibility. This diverse yet harmonized palette effectively structures perception, guiding the eye to differentiate between products while evoking a sense of natural variety and sophisticated sensory experience.",
+        "Composition": "The composition is characterized by a rigorous modular grid system, dividing the visual field into uniform rectangular units that represent individual product packages. This precise layout establishes a high degree of distributed balance, with visual weight evenly spread across the frame due to the repetitive nature of the forms. The primary focal hierarchy is established by the prominent placement of the 'SUNDRA HILL' brand name at the top of each block, followed by the product-specific details below, creating a clear reading path. The spatial rhythm is highly regular and repetitive, emphasizing order and clarity, while the minimal white lines separating the blocks function as deliberate negative space, enhancing definition and allowing the eye to scan the entire product range efficiently. This systematic grid reinforces the brand's commitment to consistency and a well-curated product line, communicating reliability and a structured approach to natural wellness.",
+        "Shape": "The major forms are predominantly rectangular solids, digitally rendered to simulate product packaging, arranged in a precise, tessellating grid across the entire visual field. Typographic forms are a significant motif, utilizing a clean, sans-serif typeface for the brand name, product titles, and descriptive text. These forms are derived from vector-based graphic elements, ensuring crisp edges and uniform appearance across all units. The spatial relationships among these forms are characterized by adjacency and repetition, creating a seamless visual flow where each rectangular unit contributes to the overall structured pattern. This rhythmic interaction of consistent geometric shapes provides a unifying visual framework, while the varying colors and internal typographic elements introduce diversity and specificity to each product variant.",
+        "Shape Keyword": ["Geometric", "Modular", "Typographic", "Rectilinear"],
+        "Mood & Texture": "The overall mood conveyed is one of contemporary sophistication, cleanliness, and natural purity, achieved through the deliberate absence of overt textural embellishments. The tactile impression generated is uniformly smooth and matte, suggesting high-quality, unblemished packaging materials without any discernible physical roughness or sheen. The surfaces appear to be digitally rendered with a flat, consistent finish, devoid of photo grain, print noise, or visible material imperfections, which contributes to a polished and refined aesthetic. This minimalist approach to texture reinforces the brand's conceptual tone of transparency and essentialism, aligning with the 'all-natural' product claim by suggesting an unadulterated and trustworthy offering, thereby evoking a sense of understated luxury and modern elegance.",
+        "Mood Keyword": [
+          "Clean",
+          "Modern",
+          "Natural",
+          "Minimalist",
+          "Sophisticated"
+        ],
+        "Color": ["Green", "Orange", "Blue"],
+        "Form": "2D",
+        "Emphasis": "Center",
+        "Balance": "High",
+        "Contrast": "Asymmetric",
+        "White space": "Low"
+      },
+      {
+        "id": 9,
+        "file_name": "2025_thegraphicaddict_3.jpg",
+        "year": "2025",
+        "title": "thegraphicaddict_3",
+        "Basic Information": "This poster functions as a promotional artifact for an institutional exhibition, specifically announcing 'VALIE EXPORT: EMBODIED' at the MAK Center for Art and Architecture. Key textual elements include the exhibition title, dates 'FEB 28 \u2013 APR 7, 2024', location 'AT THE SCHINDLER HOUSE, 835 N KINGS ROAD WEST HOLLYWOOD, CA 90069', and the organizing institution 'MAK CENTER FOR ART AND ARCHITECTURE LOS ANGELES', alongside credits and contact information. The conceptual direction is to encapsulate the avant-garde and performative essence of VALIE EXPORT's work through a bold, deconstructed typographic language and a compelling archival image. Its semiotic goal is to attract an audience interested in contemporary art, feminist art history, and experimental design, positioning the exhibition as a significant cultural event. The design visually communicates a blend of historical context and contemporary relevance, inviting intellectual engagement with the 'embodied' theme.",
+        "Color Scheme": "The poster employs a highly restricted color scheme dominated by black, white, and a deep, muted red, establishing a high-contrast and impactful visual identity. The left panel utilizes a stark black background with white typography and a monochrome halftone image, while the right panel features a rich, desaturated red background with black typography. This limited palette creates a sense of gravitas and directness, with the white text on black providing maximum luminosity and immediate legibility. The deep red introduces a warm, yet somber, chromatic element that grounds the composition and prevents it from appearing entirely monochromatic, contributing to a sense of institutional authority infused with artistic intensity.",
+        "Composition": "The composition is fundamentally structured by a strong vertical bisection, dividing the poster into two distinct, equally weighted panels, establishing a formal yet dynamic balance. The left panel features monumental vertical typography and a central photographic element, creating a primary focal hierarchy. The right panel employs large curvilinear typography and smaller informational blocks, complementing the left while providing secondary details. A pronounced spatial rhythm is generated by the interplay of rigid vertical text blocks and fluid curvilinear letterforms, directing the eye through a complex, non-linear path. The strategic use of negative space, particularly around the oversized letterforms, accentuates their shape and reinforces the poster's bold, graphic presence, ultimately reinforcing the exhibition's significance through monumental scale and assertive arrangement.",
+        "Shape": "The poster is predominantly composed of robust, sans-serif typographic forms, which serve as the primary visual motif, appearing in both rectilinear and curvilinear configurations. A central element on the left panel is a large, vertically oriented rounded rectangle, which frames a high-contrast, black and white halftone photograph of a human figure. The '2024' and the 'AND' ligature on the right panel introduce more organic, custom-drawn shapes that contrast with the geometric precision of the main typefaces. These forms are primarily vector-based for the typography, while the central image is clearly a photographic source, exhibiting a distinct dot-matrix texture. The spatial relationships between these shapes are dynamic; large vertical blocks interact with the curvilinear elements to create a powerful visual tension and a sense of contained energy, while the photographic rectangle acts as a focal anchor within the typographic landscape.",
+        "Shape Keyword": [
+          "Typographic",
+          "Geometric",
+          "Curvilinear",
+          "Photographic"
+        ],
+        "Mood & Texture": "The overall mood conveyed by the poster is one of stark intellectualism combined with an underlying rawness and historical depth. The tactile impression is robust and almost archival, suggesting a materiality reminiscent of traditional printing methods. The central photographic element on the left panel features a pronounced halftone texture, simulating print noise and evoking a vintage or documentary aesthetic, which directly connects to the 'embodied' theme of the exhibition. The flat, saturated colors and crisp edges of the typography, contrasted with the grainy image, create a visual tension between digital precision and analog imperfection. This combination of textures reinforces a conceptual tone that is both serious and provocative, reflecting the challenging and enduring nature of VALIE EXPORT's artistic practice.",
+        "Mood Keyword": [
+          "Archival",
+          "Bold",
+          "Provocative",
+          "Industrial",
+          "Direct"
+        ],
+        "Color": ["Red", "Monochrome"],
+        "Form": "Photo",
+        "Emphasis": "Center",
+        "Balance": "High",
+        "Contrast": "Asymmetric",
+        "White space": "Medium"
+      }
+    ]
+  }
 }

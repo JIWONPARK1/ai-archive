@@ -11,7 +11,12 @@ export default function ImageList({ list, onSelect }) {
         <ul className={styles.list}>
           {list?.map((item) => (
             <li key={`${item.title}-${item.id}`} className={styles.item}>
-              <img src={item.image} alt={item.name} className={styles.image} />
+              <img
+                src={`/archives/${item.file_name}`}
+                alt={item.name}
+                className={styles.image}
+                onClick={() => onSelect(item)}
+              />
             </li>
           ))}
         </ul>

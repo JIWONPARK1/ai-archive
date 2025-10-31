@@ -3,7 +3,7 @@ import styles from "./RowItem.module.scss";
 
 export default function RowItem({ category, list }) {
   const totalFrequency = list?.reduce((acc, item) => acc + item.frequency, 0);
-
+  console.log(list);
   return (
     <ul className={styles.container}>
       {list?.map((item) => (

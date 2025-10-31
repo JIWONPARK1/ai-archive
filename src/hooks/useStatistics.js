@@ -15,7 +15,7 @@ export default function useStatistics(imageList) {
     }
 
     // 빈도수 계산 함수
-    const calculateFrequency = (items, key) => {
+    const calculateFrequency = (items, key, resultKey) => {
       const frequencyMap = {};
       items.forEach((item) => {
         const value = item[key];
@@ -23,58 +23,37 @@ export default function useStatistics(imageList) {
           frequencyMap[value] = (frequencyMap[value] || 0) + 1;
         }
       });
+      const finalKey = resultKey || key.toLowerCase().replace(/\s+/g, "_");
       return Object.entries(frequencyMap).map(([value, frequency]) => ({
-        [key.toLowerCase()]: value,
+        [finalKey]: value,
         frequency,
       }));
     };
 
     // 각 카테고리별 빈도수 계산
-    const yearFrequency = calculateFrequency(imageList, "year").map((item) => ({
-      year: item.year,
-      frequency: item.frequency,
-    }));
-
-    const colorFrequency = calculateFrequency(imageList, "Color").map(
-      (item) => ({
-        color: item.color,
-        frequency: item.frequency,
-      })
+    const yearFrequency = calculateFrequency(imageList, "year", "year");
+    const colorFrequency = calculateFrequency(imageList, "Color", "color");
+    const formFrequency = calculateFrequency(imageList, "Form", "form");
+    const emphasisFrequency = calculateFrequency(
+      imageList,
+      "Emphasis",
+      "emphasis"
     );
-
-    const formFrequency = calculateFrequency(imageList, "Form").map((item) => ({
-      form: item.form,
-      frequency: item.frequency,
-    }));
-
-    const emphasisFrequency = calculateFrequency(imageList, "Emphasis").map(
-      (item) => ({
-        emphasis: item.emphasis,
-        frequency: item.frequency,
-      })
+    const balanceFrequency = calculateFrequency(
+      imageList,
+      "Balance",
+      "balance"
     );
-
-    const balanceFrequency = calculateFrequency(imageList, "Balance").map(
-      (item) => ({
-        balance: item.balance,
-        frequency: item.frequency,
-      })
+    const contrastFrequency = calculateFrequency(
+      imageList,
+      "Contrast",
+      "contrast"
     );
-
-    const contrastFrequency = calculateFrequency(imageList, "Contrast").map(
-      (item) => ({
-        contrast: item.contrast,
-        frequency: item.frequency,
-      })
-    );
-
     const whiteSpaceFrequency = calculateFrequency(
       imageList,
-      "White space"
-    ).map((item) => ({
-      white_space: item.white_space,
-      frequency: item.frequency,
-    }));
+      "White space",
+      "white_space"
+    );
 
     return {
       year_frequency: yearFrequency,
