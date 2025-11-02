@@ -24,7 +24,7 @@
         "Color": ["Red", "Black", "White"],
         "Form": "Photo",
         "Emphasis": "Center",
-        "Balance": "Asymmetric",
+        "Balance": "Symmetric",
         "Contrast": "High",
         "White space": "Medium"
       },
@@ -49,8 +49,8 @@
         "Color": ["Red", "Blue", "Green"],
         "Form": "2D",
         "Emphasis": "Center",
-        "Balance": "High",
-        "Contrast": "Symmetric",
+        "Balance": "Symmetric",
+        "Contrast": "High",
         "White space": "High"
       },
       {
@@ -73,8 +73,8 @@
         "Color": ["Black", "White", "Green"],
         "Form": "3D",
         "Emphasis": "Top",
-        "Balance": "Medium",
-        "Contrast": "Asymmetric",
+        "Balance": "Radial",
+        "Contrast": "High",
         "White space": "High"
       },
       {
@@ -103,8 +103,8 @@
         "Color": ["Yellow", "Red", "Blue"],
         "Form": "Photo",
         "Emphasis": "Center",
-        "Balance": "Medium",
-        "Contrast": "Asymmetric",
+        "Balance": "Radial",
+        "Contrast": "High",
         "White space": "High"
       },
       {
@@ -128,8 +128,8 @@
         "Color": ["Green", "Blue", "Yellow"],
         "Form": "3D",
         "Emphasis": "Center",
-        "Balance": "Medium",
-        "Contrast": "Asymmetric",
+        "Balance": "Asymmetric",
+        "Contrast": "High",
         "White space": "Medium"
       },
       {
@@ -147,8 +147,8 @@
         "Color": ["Blue", "Green", "Orange"],
         "Form": "2D",
         "Emphasis": "Center",
-        "Balance": "Medium",
-        "Contrast": "Asymmetric",
+        "Balance": "Asymmetric",
+        "Contrast": "Low",
         "White space": "High"
       },
       {
@@ -177,8 +177,8 @@
         "Color": ["Green", "Purple"],
         "Form": "2D",
         "Emphasis": "Top",
-        "Balance": "Low",
-        "Contrast": "Asymmetric",
+        "Balance": "Symmetric",
+        "Contrast": "High",
         "White space": "Low"
       },
       {
@@ -207,8 +207,8 @@
         "Color": ["Blue", "Orange", "Purple"],
         "Form": "3D",
         "Emphasis": "Center",
-        "Balance": "Medium",
-        "Contrast": "Asymmetric",
+        "Balance": "Asymmetric",
+        "Contrast": "High",
         "White space": "High"
       },
       {
@@ -232,8 +232,8 @@
         "Color": ["Blue", "Green", "Purple"],
         "Form": "2D",
         "Emphasis": "Center",
-        "Balance": "Medium",
-        "Contrast": "Asymmetric",
+        "Balance": "Asymmetric",
+        "Contrast": "Low",
         "White space": "High"
       },
       {
@@ -257,8 +257,8 @@
         "Color": ["Monochrome"],
         "Form": "2D",
         "Emphasis": "Center",
-        "Balance": "Medium",
-        "Contrast": "Asymmetric",
+        "Balance": "Asymmetric",
+        "Contrast": "High",
         "White space": "Low"
       }
     ]
@@ -282,8 +282,8 @@
         "Color": ["Green", "Blue", "Orange"],
         "Form": "2D",
         "Emphasis": "Center",
-        "Balance": "High",
-        "Contrast": "Symmetric",
+        "Balance": "Symmetric",
+        "Contrast": "Low",
         "White space": "Low"
       },
       {
@@ -301,8 +301,8 @@
         "Color": ["Blue", "Monochrome"],
         "Form": "2D",
         "Emphasis": "Center",
-        "Balance": "Medium",
-        "Contrast": "Asymmetric",
+        "Balance": "Asymmetric",
+        "Contrast": "Medium",
         "White space": "High"
       },
       {
@@ -361,8 +361,8 @@
         "Color": ["Red", "Monochrome"],
         "Form": "2D",
         "Emphasis": "Center",
-        "Balance": "High",
-        "Contrast": "Symmetric",
+        "Balance": "Symmetric",
+        "Contrast": "High",
         "White space": "High"
       },
       {
@@ -380,8 +380,8 @@
         "Color": ["Red", "Blue", "Orange"],
         "Form": "3D",
         "Emphasis": "Center",
-        "Balance": "High",
-        "Contrast": "Symmetric",
+        "Balance": "Symmetric",
+        "Contrast": "Medium",
         "White space": "Medium"
       },
       {
@@ -408,8 +408,8 @@
         "Color": ["Monochrome"],
         "Form": "2D",
         "Emphasis": "Left",
-        "Balance": "Low",
-        "Contrast": "Asymmetric",
+        "Balance": "Symmetric",
+        "Contrast": "High",
         "White space": "High"
       },
       {
@@ -428,7 +428,7 @@
         "Form": "2D",
         "Emphasis": "Top",
         "Balance": "Asymmetric",
-        "Contrast": "Asymmetric",
+        "Contrast": "High",
         "White space": "Medium"
       },
       {
@@ -446,8 +446,8 @@
         "Color": ["Blue", "Green", "Yellow"],
         "Form": "2D",
         "Emphasis": "Center",
-        "Balance": "High",
-        "Contrast": "Symmetric",
+        "Balance": "Radial",
+        "Contrast": "High",
         "White space": "Medium"
       },
       {
@@ -471,8 +471,8 @@
         "Color": ["Green", "Orange", "Blue"],
         "Form": "2D",
         "Emphasis": "Center",
-        "Balance": "High",
-        "Contrast": "Asymmetric",
+        "Balance": "Asymmetric",
+        "Contrast": "High",
         "White space": "Low"
       },
       {
@@ -501,8 +501,8 @@
         "Color": ["Red", "Monochrome"],
         "Form": "Photo",
         "Emphasis": "Center",
-        "Balance": "High",
-        "Contrast": "Asymmetric",
+        "Balance": "Symmetric",
+        "Contrast": "Medium",
         "White space": "Medium"
       }
     ]

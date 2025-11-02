@@ -1,15 +1,18 @@
+import { useImageListStore } from "../../stores/imageState";
 import styles from "./ImageList.module.scss";
 
-export default function ImageList({ list, onSelect }) {
+export default function ImageList({ onSelect }) {
+  const { imageList } = useImageListStore();
+
   return (
     <div className={styles.container}>
-      {list.length === 0 ? (
+      {imageList.length === 0 ? (
         <div className={styles.empty}>
           <p>목록이 없습니다.</p>
         </div>
       ) : (
         <ul className={styles.list}>
-          {list?.map((item) => (
+          {imageList?.map((item) => (
             <li key={`${item.title}-${item.id}`} className={styles.item}>
               <img
                 src={`/archives/${item.file_name}`}

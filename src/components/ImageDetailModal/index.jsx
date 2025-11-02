@@ -19,7 +19,6 @@ export default function ImageDetailModal({ image, onClose }) {
       onClose();
     }, 500);
   };
-
   return (
     <div
       className={clsx(
@@ -37,7 +36,7 @@ export default function ImageDetailModal({ image, onClose }) {
       </button>
       <div className={styles.iconContainer}>
         <span className={styles.year}>{image?.year} </span>
-        {[image?.Color]?.map((color) => (
+        {image?.Color?.map((color) => (
           <ColorCircle
             key={color}
             size="sm"
@@ -50,13 +49,21 @@ export default function ImageDetailModal({ image, onClose }) {
         <Icon category="contrast" value={image?.Contrast} />
         <Icon category="whitespace" value={image?.["White space"]} />
       </div>
-      <img src={image?.image} alt={image?.name} className={styles.image} />
-      <span className={styles.descriptionTitle}>overview</span>
-      <p className={styles.description}>{image?.overview}</p>
+      <img
+        src={`/archives/${image?.file_name}`}
+        alt={image?.name}
+        className={styles.image}
+      />
+      <span className={styles.descriptionTitle}>Basic Information</span>
+      <p className={styles.description}>{image?.["Basic Information"]}</p>
       <span className={styles.descriptionTitle}>color and composition</span>
-      <p className={styles.description}>{image?.colorAndComposition}</p>
-      <span className={styles.descriptionTitle}>imagery</span>
-      <p className={styles.description}>{image?.imagery}</p>
+      <p className={styles.description}>{image?.["Color Scheme"]}</p>
+      <span className={styles.descriptionTitle}>Composition</span>
+      <p className={styles.description}>{image?.["Composition"]}</p>
+      <span className={styles.descriptionTitle}>Shape</span>
+      <p className={styles.description}>{image?.["Shape"]}</p>
+      <span className={styles.descriptionTitle}>Mood & Texture</span>
+      <p className={styles.description}>{image?.["Mood & Texture"]}</p>
     </div>
   );
 }

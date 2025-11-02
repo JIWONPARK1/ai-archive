@@ -1,6 +1,6 @@
 import styles from "./App.module.scss";
 import MainTab from "./components/MainTab";
-import { useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import ImageList from "./components/ImageList";
 import SubTab from "./components/SubTab";
 import Statistics from "./components/Statistics";
@@ -12,69 +12,45 @@ import { useFilterStore } from "./stores/filterState";
 import FilterOption from "./components/FilterOption";
 import useStatistics from "./hooks/useStatistics";
 import useImageList from "./hooks/useImageList";
+import { useSelectedStore } from "./stores/selectedState";
 
 function App() {
-  const [selectedArchive, setSelectedArchive] = useState("all");
-  const [selectedShapeKeyword, setSelectedShapeKeyword] = useState(null);
-  const [selectedMoodKeyword, setSelectedMoodKeyword] = useState(null);
   const [selectedImage, setSelectedImage] = useState(null);
   const [isOpenFilterModal, setIsOpenFilterModal] = useState(false);
-  const { filterOptions } = useFilterStore();
-
-  const handleSelectArchive = (id) => {
-    setSelectedArchive(id);
-    setSelectedShapeKeyword(null);
-    setSelectedMoodKeyword(null);
-    setSelectedImage(null);
-  };
-
-  const handleSelectShapeKeyword = (type, id) => {
-    if (type === "shape") {
-      setSelectedShapeKeyword(id);
-      setSelectedMoodKeyword(null);
-    } else if (type === "mood") {
-      setSelectedMoodKeyword(id);
-      setSelectedShapeKeyword(null);
-    }
-  };
+  const { selectedArchive, mode } = useFilterStore();
+  const { setShapes, setMoods } = useSelectedStore();
+  useImageList(selectedArchive);
+  const { statistics } = useStatistics();
 
   const handleSelectImage = (image) => {
     setSelectedImage(image);
   };
+  const selectedStatistics = useMemo(() => {
+    return statisticsData[selectedArchive];
+  }, [selectedArchive]);
 
-  const { imageList } = useImageList(
+  useEffect(() => {
+    if (selectedArchive) {
+      setShapes(selectedStatistics?.top_shape_keyword || []);
+      setMoods(selectedStatistics?.top_mood_keyword || []);
+    }
+  }, [
+    setMoods,
+    setShapes,
     selectedArchive,
-    selectedShapeKeyword,
-    selectedMoodKeyword
-  );
+    selectedStatistics?.top_shape_keyword,
+    selectedStatistics?.top_mood_keyword,
+  ]);
 
-  const { statistics } = useStatistics(imageList);
   return (
     <div className={styles.container}>
       <Header hasBorder />
       <div className={styles.wrapper}>
-        <MainTab selected={selectedArchive} onSelect={handleSelectArchive} />
+        <MainTab />
 
         <div className={styles.contents}>
           <div className={styles.row}>
-            {filterOptions.type ? (
-              <FilterOption
-                year={filterOptions.year}
-                type={filterOptions.type}
-                value={filterOptions.value}
-              />
-            ) : (
-              <SubTab
-                selected={selectedShapeKeyword || selectedMoodKeyword}
-                shapeKeywords={
-                  statisticsData[selectedArchive]?.top_shape_keyword || []
-                }
-                moodKeywords={
-                  statisticsData[selectedArchive]?.top_mood_keyword || []
-                }
-                onSelect={handleSelectShapeKeyword}
-              />
-            )}
+            {mode === "modal" ? <FilterOption /> : <SubTab />}
             <button
               className={styles.filterButton}
               onClick={() => setIsOpenFilterModal(!isOpenFilterModal)}
@@ -82,7 +58,7 @@ function App() {
               Filter
             </button>
           </div>
-          <ImageList list={imageList} onSelect={handleSelectImage} />
+          <ImageList onSelect={handleSelectImage} />
         </div>
       </div>
       <div className={styles.sidebar}>
@@ -101,6 +77,7 @@ function App() {
       {isOpenFilterModal && (
         <FilterModal
           open={isOpenFilterModal}
+          years={selectedStatistics?.year_frequency || []}
           statistics={statistics}
           onClose={() => setIsOpenFilterModal(false)}
         />

@@ -1,44 +1,33 @@
-import { useMemo } from "react";
-import archives from "../datas/archives.json";
+import { useEffect } from "react";
 import { useFilterStore } from "../stores/filterState";
 import { FILTER_OPTIONS } from "../constants/config";
+import { useImageListStore } from "../stores/imageState";
+import useGetImages from "./useGetImages";
 
-export default function useImageList(
-  selectedArchive,
-  selectedShapeKeyword,
-  selectedMoodKeyword
-) {
+export default function useImageList(selectedArchive) {
   const { filterOptions } = useFilterStore();
+  const { setImageList } = useImageListStore();
+  const images = useGetImages();
 
-  const imageList = useMemo(() => {
-    let list = [];
+  useEffect(() => {
+    let list = [...images];
 
-    if (selectedArchive === "all") {
-      list = Object.values(archives).flatMap((archive) => archive.images);
-    } else {
-      list = archives[selectedArchive]?.images || [];
-    }
-
-    // 2. Shape Keyword 필터링
-    if (selectedShapeKeyword) {
-      list = list.filter((image) => {
-        return image["Shape Keyword"]?.includes(selectedShapeKeyword);
-      });
-    }
-
-    // 3. Mood Keyword 필터링
-    if (selectedMoodKeyword) {
-      list = list.filter((image) => {
-        return image["Mood Keyword"]?.includes(selectedMoodKeyword);
-      });
-    }
-
-    // 4. Filter Options 필터링
+    // 5. Filter Options 필터링
     if (filterOptions.type && filterOptions.value) {
-      console.log("useImageList.js - filterOptions:", list);
-      if (filterOptions.type === "year") {
+      // 2. Shape Keyword 필터링
+      if (filterOptions.type === "shape") {
         list = list.filter((image) => {
-          return image.year === filterOptions.value;
+          return image["Shape Keyword"]?.includes(filterOptions.value);
+        });
+      } else if (filterOptions.type === "mood") {
+        // 3. Mood Keyword 필터링
+        list = list.filter((image) => {
+          return image["Mood Keyword"]?.includes(filterOptions.value);
+        });
+      } else if (filterOptions.type === "color") {
+        // 4. Color 필터링
+        list = list.filter((image) => {
+          return image["Color"]?.includes(filterOptions.value);
         });
       } else {
         list = list.filter((image) => {
@@ -47,24 +36,14 @@ export default function useImageList(
           );
         });
       }
+      setImageList(list);
     }
-
-    // 5. Year 필터링 (ALL이 아닌 경우에만)
-    if (filterOptions.year && filterOptions.year !== "ALL") {
+    if (filterOptions.year !== "ALL") {
       list = list.filter((image) => {
         return image.year === filterOptions.year;
       });
+      setImageList(list);
     }
-
-    return list;
-  }, [
-    selectedArchive,
-    selectedShapeKeyword,
-    selectedMoodKeyword,
-    filterOptions,
-  ]);
-
-  return {
-    imageList,
-  };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [selectedArchive, filterOptions, setImageList]);
 }

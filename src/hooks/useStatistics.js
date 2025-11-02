@@ -1,6 +1,9 @@
 import { useMemo } from "react";
+import { useImageListStore } from "../stores/imageState";
 
-export default function useStatistics(imageList) {
+export default function useStatistics() {
+  const { imageList } = useImageListStore();
+
   const statistics = useMemo(() => {
     if (!imageList || imageList.length === 0) {
       return {
@@ -30,9 +33,48 @@ export default function useStatistics(imageList) {
       }));
     };
 
+    // Color 배열 처리 함수 - 각 색상에 1점씩 부여하고 퍼센트 계산
+    const calculateColorFrequency = (items) => {
+      const colorCount = {
+        Red: 0,
+        Orange: 0,
+        Yellow: 0,
+        Blue: 0,
+        Purple: 0,
+        Green: 0,
+        Monochrome: 0,
+      };
+      let totalColorPoints = 0;
+
+      // 각 이미지의 Color 배열을 순회하며 색상별 점수 계산
+      items.forEach((item) => {
+        if (item.Color && Array.isArray(item.Color)) {
+          item.Color.forEach((color) => {
+            if (color === "White" || color === "Black") {
+              colorCount.Monochrome = (colorCount.Monochrome || 0) + 1;
+              totalColorPoints += 1;
+            } else {
+              colorCount[color] = (colorCount[color] || 0) + 1;
+              totalColorPoints += 1;
+            }
+          });
+        }
+      });
+
+      // 각 색상의 퍼센트 계산
+      return Object.entries(colorCount).map(([color, frequency]) => ({
+        color: color,
+        frequency: frequency,
+        percentage:
+          totalColorPoints > 0
+            ? ((frequency / totalColorPoints) * 100).toFixed(2)
+            : 0,
+      }));
+    };
+
     // 각 카테고리별 빈도수 계산
     const yearFrequency = calculateFrequency(imageList, "year", "year");
-    const colorFrequency = calculateFrequency(imageList, "Color", "color");
+    const colorFrequency = calculateColorFrequency(imageList);
     const formFrequency = calculateFrequency(imageList, "Form", "form");
     const emphasisFrequency = calculateFrequency(
       imageList,

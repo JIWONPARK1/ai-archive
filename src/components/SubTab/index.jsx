@@ -1,30 +1,51 @@
 import clsx from "clsx";
 import styles from "./SubTab.module.scss";
+import { useSelectedStore } from "../../stores/selectedState";
+import { useImageListStore } from "../../stores/imageState";
+import useGetImages from "../../hooks/useGetImages";
+import { useFilterStore } from "../../stores/filterState";
 
-export default function SubTab({
-  shapeKeywords,
-  moodKeywords,
-  selected,
-  onSelect,
-}) {
+export default function SubTab() {
+  const { shapes, moods } = useSelectedStore();
+  const setImageList = useImageListStore((state) => state.setImageList);
+  const setTab = useFilterStore((state) => state.setTab);
+  const tab = useFilterStore((state) => state.tab || null);
+  const images = useGetImages();
+
+  const handleSelectShape = (id, keyword) => {
+    const filteredImages = images.filter((image) => {
+      return image["Shape Keyword"]?.includes(keyword);
+    });
+    setTab("shape", keyword);
+    setImageList(filteredImages);
+  };
+
+  const handleSelectMood = (id, keyword) => {
+    const filteredImages = images.filter((image) => {
+      return image["Mood Keyword"]?.includes(keyword);
+    });
+    setTab("mood", keyword);
+    setImageList(filteredImages);
+  };
+  console.log(tab);
   return (
     <ul className={styles.tabList}>
-      {shapeKeywords?.map((tab) => (
+      {shapes?.map((item) => (
         <Item
-          key={tab.keyword}
+          key={item.keyword}
           type="shape"
-          keyword={tab.keyword}
-          selected={selected}
-          onSelect={onSelect}
+          keyword={item.keyword}
+          selected={tab?.value}
+          onSelect={handleSelectShape}
         />
       ))}
-      {moodKeywords?.map((tab) => (
+      {moods?.map((item) => (
         <Item
           type="mood"
-          key={tab.keyword}
-          keyword={tab.keyword}
-          selected={selected}
-          onSelect={onSelect}
+          key={item.keyword}
+          keyword={item.keyword}
+          selected={tab?.value}
+          onSelect={handleSelectMood}
         />
       ))}
     </ul>

@@ -4,12 +4,18 @@ import { useEffect, useMemo, useState } from "react";
 import FilterDetail from "../FilterDetail";
 import clsx from "clsx";
 import { useFilterStore } from "../../stores/filterState";
+import { useSelectedStore } from "../../stores/selectedState";
+import { useImageListStore } from "../../stores/imageState";
+import useGetImages from "../../hooks/useGetImages";
 
-export default function FilterModal({ open, onClose, statistics }) {
+export default function FilterModal({ open, onClose, statistics, years }) {
   const [isOpenFilterDetailModal, setIsOpenFilterDetailModal] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
   const [selectedDetailOption, setSelectedDetailOption] = useState("");
-  const { filterOptions, setFilterOptions } = useFilterStore();
+  const { filterOptions, setFilterOptions, setFilterMode } = useFilterStore();
+  const { shapes, moods } = useSelectedStore();
+  const images = useGetImages();
+  const { setImageList } = useImageListStore();
 
   const yearList = useMemo(() => {
     if (!statistics) return [];
@@ -18,12 +24,12 @@ export default function FilterModal({ open, onClose, statistics }) {
         keyword: "ALL",
         value: "ALL",
       },
-      ...(statistics.year_frequency?.map((item) => ({
+      ...(years?.map((item) => ({
         keyword: item.year,
         value: item.year,
       })) || []),
     ];
-  }, [statistics]);
+  }, [statistics, years]);
 
   useEffect(() => {
     if (open) {
@@ -47,15 +53,20 @@ export default function FilterModal({ open, onClose, statistics }) {
 
   const handleSelectFilter = (type, value) => {
     setFilterOptions({ year: filterOptions.year, type, value });
+    setFilterMode("modal");
     onClose();
   };
 
   const handleSelectYear = (_, value) => {
     if (value === "ALL") {
       setFilterOptions({ year: "ALL", type: null, value: null });
+      setFilterMode("tab");
+      setImageList(images);
       onClose();
     } else {
       setFilterOptions({ year: value, type: null, value: null });
+      setFilterMode("modal");
+      onClose();
     }
   };
 
@@ -98,7 +109,7 @@ export default function FilterModal({ open, onClose, statistics }) {
             onSeeAll={() => handleSeeAll("shape")}
           />
           <List
-            list={statistics?.top_shape_keyword || []}
+            list={shapes}
             type="shape"
             onSelect={handleSelectFilter}
             selected={null}
@@ -111,7 +122,7 @@ export default function FilterModal({ open, onClose, statistics }) {
             onSeeAll={() => handleSeeAll("mood")}
           />
           <List
-            list={statistics?.top_mood_keyword || []}
+            list={moods}
             type="mood"
             onSelect={handleSelectFilter}
             selected={null}
