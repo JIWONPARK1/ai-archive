@@ -1,2396 +1,3660 @@
 {
-  "all": {
-    "top_shape_keyword": [
-      {
-        "keyword": "Typographic",
-        "frequency": 12
-      },
-      {
-        "keyword": "Geometric",
-        "frequency": 9
-      },
-      {
-        "keyword": "Organic",
-        "frequency": 6
-      }
-    ],
-    "top_mood_keyword": [
-      {
-        "keyword": "Vibrant",
-        "frequency": 6
-      },
-      {
-        "keyword": "Digital",
-        "frequency": 6
-      },
-      {
-        "keyword": "Contemplative",
-        "frequency": 4
-      }
-    ],
-    "year_frequency": [
-      {
-        "year": "2022",
-        "frequency": 1
-      },
-      {
-        "year": "2023",
-        "frequency": 5
-      },
-      {
-        "year": "2024",
-        "frequency": 8
-      },
-      {
-        "year": "2025",
-        "frequency": 6
-      }
-    ],
-    "color_frequency": [
-      {
-        "color": "Blue",
-        "frequency": 11
-      },
-      {
-        "color": "Green",
-        "frequency": 9
-      },
-      {
-        "color": "Monochrome",
-        "frequency": 7
-      },
-      {
-        "color": "Orange",
-        "frequency": 6
-      },
-      {
-        "color": "Purple",
-        "frequency": 3
-      },
-      {
-        "color": "Red",
-        "frequency": 6
-      },
-      {
-        "color": "Yellow",
-        "frequency": 3
-      }
-    ],
-    "form_frequency": [
-      {
-        "name": "2D",
-        "frequency": 12
-      },
-      {
-        "name": "3D",
-        "frequency": 4
-      },
-      {
-        "name": "Photo",
-        "frequency": 4
-      }
-    ],
-    "emphasis_frequency": [
-      {
-        "name": "Bottom",
-        "frequency": 0
-      },
-      {
-        "name": "Center",
-        "frequency": 16
-      },
-      {
-        "name": "Left",
-        "frequency": 1
-      },
-      {
-        "name": "Right",
-        "frequency": 0
-      },
-      {
-        "name": "Top",
-        "frequency": 3
-      }
-    ],
-    "balance_frequency": [
-      {
-        "name": "High",
-        "frequency": 7
-      },
-      {
-        "name": "Low",
-        "frequency": 2
-      },
-      {
-        "name": "Medium",
-        "frequency": 8
-      }
-    ],
-    "contrast_frequency": [
-      {
-        "name": "Asymmetric",
-        "frequency": 13
-      },
-      {
-        "name": "Radial",
-        "frequency": 0
-      },
-      {
-        "name": "Symmetric",
-        "frequency": 5
-      }
-    ],
-    "white_space_frequency": [
-      {
-        "name": "High",
-        "frequency": 10
-      },
-      {
-        "name": "Low",
-        "frequency": 4
-      },
-      {
-        "name": "Medium",
-        "frequency": 6
-      }
-    ]
-  },
-  "archive1": {
-    "top_shape_keyword": [
-      {
-        "keyword": "Typographic",
-        "frequency": 7
-      },
-      {
-        "keyword": "Organic",
-        "frequency": 4
-      },
-      {
-        "keyword": "Fragmented",
-        "frequency": 3
-      }
-    ],
-    "top_mood_keyword": [
-      {
-        "keyword": "Digital",
-        "frequency": 5
-      },
-      {
-        "keyword": "Vibrant",
-        "frequency": 4
-      },
-      {
-        "keyword": "Fragmented",
-        "frequency": 3
-      }
-    ],
-    "year_frequency": [
-      {
-        "year": "2023",
-        "frequency": 3
-      },
-      {
-        "year": "2024",
-        "frequency": 4
-      },
-      {
-        "year": "2025",
-        "frequency": 3
-      }
-    ],
-    "color_frequency": [
-      {
-        "color": "Blue",
-        "frequency": 6
-      },
-      {
-        "color": "Green",
-        "frequency": 6
-      },
-      {
-        "color": "Monochrome",
-        "frequency": 1
-      },
-      {
-        "color": "Orange",
-        "frequency": 2
-      },
-      {
-        "color": "Purple",
-        "frequency": 3
-      },
-      {
-        "color": "Red",
-        "frequency": 3
-      },
-      {
-        "color": "Yellow",
-        "frequency": 2
-      }
-    ],
-    "form_frequency": [
-      {
-        "name": "2D",
-        "frequency": 5
-      },
-      {
-        "name": "3D",
-        "frequency": 3
-      },
-      {
-        "name": "Photo",
-        "frequency": 2
-      }
-    ],
-    "emphasis_frequency": [
-      {
-        "name": "Bottom",
-        "frequency": 0
-      },
-      {
-        "name": "Center",
-        "frequency": 8
-      },
-      {
-        "name": "Left",
-        "frequency": 0
-      },
-      {
-        "name": "Right",
-        "frequency": 0
-      },
-      {
-        "name": "Top",
-        "frequency": 2
-      }
-    ],
-    "balance_frequency": [
-      {
-        "name": "High",
-        "frequency": 1
-      },
-      {
-        "name": "Low",
-        "frequency": 1
-      },
-      {
-        "name": "Medium",
-        "frequency": 7
-      }
-    ],
-    "contrast_frequency": [
-      {
-        "name": "Asymmetric",
-        "frequency": 8
-      },
-      {
-        "name": "Radial",
-        "frequency": 0
-      },
-      {
-        "name": "Symmetric",
-        "frequency": 1
-      }
-    ],
-    "white_space_frequency": [
-      {
-        "name": "High",
-        "frequency": 6
-      },
-      {
-        "name": "Low",
-        "frequency": 2
-      },
-      {
-        "name": "Medium",
-        "frequency": 2
-      }
-    ]
-  },
-  "archive2": {
-    "top_shape_keyword": [
-      {
-        "keyword": "Geometric",
-        "frequency": 6
-      },
-      {
-        "keyword": "Typographic",
-        "frequency": 5
-      },
-      {
-        "keyword": "Modular",
-        "frequency": 4
-      }
-    ],
-    "top_mood_keyword": [
-      {
-        "keyword": "Clean",
-        "frequency": 3
-      },
-      {
-        "keyword": "Modern",
-        "frequency": 3
-      },
-      {
-        "keyword": "Playful",
-        "frequency": 2
-      }
-    ],
-    "year_frequency": [
-      {
-        "year": "2022",
-        "frequency": 1
-      },
-      {
-        "year": "2023",
-        "frequency": 2
-      },
-      {
-        "year": "2024",
-        "frequency": 4
-      },
-      {
-        "year": "2025",
-        "frequency": 3
-      }
-    ],
-    "color_frequency": [
-      {
-        "color": "Blue",
-        "frequency": 5
-      },
-      {
-        "color": "Green",
-        "frequency": 3
-      },
-      {
-        "color": "Monochrome",
-        "frequency": 6
-      },
-      {
-        "color": "Orange",
-        "frequency": 4
-      },
-      {
-        "color": "Purple",
-        "frequency": 0
-      },
-      {
-        "color": "Red",
-        "frequency": 3
-      },
-      {
-        "color": "Yellow",
-        "frequency": 1
-      }
-    ],
-    "form_frequency": [
-      {
-        "name": "2D",
-        "frequency": 7
-      },
-      {
-        "name": "3D",
-        "frequency": 1
-      },
-      {
-        "name": "Photo",
-        "frequency": 2
-      }
-    ],
-    "emphasis_frequency": [
-      {
-        "name": "Bottom",
-        "frequency": 0
-      },
-      {
-        "name": "Center",
-        "frequency": 8
-      },
-      {
-        "name": "Left",
-        "frequency": 1
-      },
-      {
-        "name": "Right",
-        "frequency": 0
-      },
-      {
-        "name": "Top",
-        "frequency": 1
-      }
-    ],
-    "balance_frequency": [
-      {
-        "name": "High",
-        "frequency": 6
-      },
-      {
-        "name": "Low",
-        "frequency": 1
-      },
-      {
-        "name": "Medium",
-        "frequency": 1
-      }
-    ],
-    "contrast_frequency": [
-      {
-        "name": "Asymmetric",
-        "frequency": 5
-      },
-      {
-        "name": "Radial",
-        "frequency": 0
-      },
-      {
-        "name": "Symmetric",
-        "frequency": 4
-      }
-    ],
-    "white_space_frequency": [
-      {
-        "name": "High",
-        "frequency": 4
-      },
-      {
-        "name": "Low",
-        "frequency": 2
-      },
-      {
-        "name": "Medium",
-        "frequency": 4
-      }
-    ]
-  },
-  "keyword_groups": {
-    "shape_keyword_groups": {
-      "Typographic": {
-        "year_frequency": [
-          {
-            "year": "2023",
-            "frequency": 3
-          },
-          {
-            "year": "2024",
-            "frequency": 4
-          },
-          {
-            "year": "2025",
-            "frequency": 5
-          }
-        ],
-        "color_frequency": [
-          {
-            "color": "Blue",
-            "frequency": 6
-          },
-          {
-            "color": "Green",
-            "frequency": 6
-          },
-          {
-            "color": "Monochrome",
-            "frequency": 4
-          },
-          {
-            "color": "Orange",
-            "frequency": 3
-          },
-          {
-            "color": "Purple",
-            "frequency": 1
-          },
-          {
-            "color": "Red",
-            "frequency": 3
-          },
-          {
-            "color": "Yellow",
-            "frequency": 3
-          }
-        ],
-        "form_frequency": [
-          {
-            "name": "2D",
-            "frequency": 6
-          },
-          {
-            "name": "3D",
-            "frequency": 2
-          },
-          {
-            "name": "Photo",
-            "frequency": 4
-          }
-        ],
-        "emphasis_frequency": [
-          {
-            "name": "Bottom",
-            "frequency": 0
-          },
-          {
-            "name": "Center",
-            "frequency": 10
-          },
-          {
-            "name": "Left",
-            "frequency": 0
-          },
-          {
-            "name": "Right",
-            "frequency": 0
-          },
-          {
-            "name": "Top",
-            "frequency": 2
-          }
-        ],
-        "balance_frequency": [
-          {
-            "name": "High",
-            "frequency": 3
-          },
-          {
-            "name": "Low",
-            "frequency": 0
-          },
-          {
-            "name": "Medium",
-            "frequency": 6
-          }
-        ],
-        "contrast_frequency": [
-          {
-            "name": "Asymmetric",
-            "frequency": 9
-          },
-          {
-            "name": "Radial",
-            "frequency": 0
-          },
-          {
-            "name": "Symmetric",
-            "frequency": 1
-          }
-        ],
-        "white_space_frequency": [
-          {
-            "name": "High",
-            "frequency": 5
-          },
-          {
-            "name": "Low",
-            "frequency": 2
-          },
-          {
-            "name": "Medium",
-            "frequency": 5
-          }
-        ]
-      },
-      "Geometric": {
-        "year_frequency": [
-          {
-            "year": "2023",
-            "frequency": 2
-          },
-          {
-            "year": "2024",
-            "frequency": 3
-          },
-          {
-            "year": "2025",
-            "frequency": 4
-          }
-        ],
-        "color_frequency": [
-          {
-            "color": "Blue",
-            "frequency": 6
-          },
-          {
-            "color": "Green",
-            "frequency": 5
-          },
-          {
-            "color": "Monochrome",
-            "frequency": 3
-          },
-          {
-            "color": "Orange",
-            "frequency": 2
-          },
-          {
-            "color": "Purple",
-            "frequency": 1
-          },
-          {
-            "color": "Red",
-            "frequency": 4
-          },
-          {
-            "color": "Yellow",
-            "frequency": 2
-          }
-        ],
-        "form_frequency": [
-          {
-            "name": "2D",
-            "frequency": 5
-          },
-          {
-            "name": "3D",
-            "frequency": 2
-          },
-          {
-            "name": "Photo",
-            "frequency": 2
-          }
-        ],
-        "emphasis_frequency": [
-          {
-            "name": "Bottom",
-            "frequency": 0
-          },
-          {
-            "name": "Center",
-            "frequency": 9
-          },
-          {
-            "name": "Left",
-            "frequency": 0
-          },
-          {
-            "name": "Right",
-            "frequency": 0
-          },
-          {
-            "name": "Top",
-            "frequency": 0
-          }
-        ],
-        "balance_frequency": [
-          {
-            "name": "High",
-            "frequency": 6
-          },
-          {
-            "name": "Low",
-            "frequency": 0
-          },
-          {
-            "name": "Medium",
-            "frequency": 2
-          }
-        ],
-        "contrast_frequency": [
-          {
-            "name": "Asymmetric",
-            "frequency": 4
-          },
-          {
-            "name": "Radial",
-            "frequency": 0
-          },
-          {
-            "name": "Symmetric",
-            "frequency": 4
-          }
-        ],
-        "white_space_frequency": [
-          {
-            "name": "High",
-            "frequency": 4
-          },
-          {
-            "name": "Low",
-            "frequency": 1
-          },
-          {
-            "name": "Medium",
-            "frequency": 4
-          }
-        ]
-      },
-      "Organic": {
-        "year_frequency": [
-          {
-            "year": "2023",
-            "frequency": 2
-          },
-          {
-            "year": "2024",
-            "frequency": 3
-          },
-          {
-            "year": "2025",
-            "frequency": 1
-          }
-        ],
-        "color_frequency": [
-          {
-            "color": "Blue",
-            "frequency": 3
-          },
-          {
-            "color": "Green",
-            "frequency": 2
-          },
-          {
-            "color": "Monochrome",
-            "frequency": 3
-          },
-          {
-            "color": "Orange",
-            "frequency": 2
-          },
-          {
-            "color": "Purple",
-            "frequency": 0
-          },
-          {
-            "color": "Red",
-            "frequency": 1
-          },
-          {
-            "color": "Yellow",
-            "frequency": 1
-          }
-        ],
-        "form_frequency": [
-          {
-            "name": "2D",
-            "frequency": 4
-          },
-          {
-            "name": "3D",
-            "frequency": 1
-          },
-          {
-            "name": "Photo",
-            "frequency": 1
-          }
-        ],
-        "emphasis_frequency": [
-          {
-            "name": "Bottom",
-            "frequency": 0
-          },
-          {
-            "name": "Center",
-            "frequency": 4
-          },
-          {
-            "name": "Left",
-            "frequency": 0
-          },
-          {
-            "name": "Right",
-            "frequency": 0
-          },
-          {
-            "name": "Top",
-            "frequency": 2
-          }
-        ],
-        "balance_frequency": [
-          {
-            "name": "High",
-            "frequency": 0
-          },
-          {
-            "name": "Low",
-            "frequency": 0
-          },
-          {
-            "name": "Medium",
-            "frequency": 5
-          }
-        ],
-        "contrast_frequency": [
-          {
-            "name": "Asymmetric",
-            "frequency": 6
-          },
-          {
-            "name": "Radial",
-            "frequency": 0
-          },
-          {
-            "name": "Symmetric",
-            "frequency": 0
-          }
-        ],
-        "white_space_frequency": [
-          {
-            "name": "High",
-            "frequency": 4
-          },
-          {
-            "name": "Low",
-            "frequency": 1
-          },
-          {
-            "name": "Medium",
-            "frequency": 1
-          }
-        ]
-      }
-    },
-    "mood_keyword_groups": {
-      "Vibrant": {
-        "year_frequency": [
-          {
-            "year": "2023",
-            "frequency": 2
-          },
-          {
-            "year": "2024",
-            "frequency": 2
-          },
-          {
-            "year": "2025",
-            "frequency": 2
-          }
-        ],
-        "color_frequency": [
-          {
-            "color": "Blue",
-            "frequency": 5
-          },
-          {
-            "color": "Green",
-            "frequency": 4
-          },
-          {
-            "color": "Monochrome",
-            "frequency": 0
-          },
-          {
-            "color": "Orange",
-            "frequency": 3
-          },
-          {
-            "color": "Purple",
-            "frequency": 1
-          },
-          {
-            "color": "Red",
-            "frequency": 2
-          },
-          {
-            "color": "Yellow",
-            "frequency": 1
-          }
-        ],
-        "form_frequency": [
-          {
-            "name": "2D",
-            "frequency": 3
-          },
-          {
-            "name": "3D",
-            "frequency": 3
-          },
-          {
-            "name": "Photo",
-            "frequency": 0
-          }
-        ],
-        "emphasis_frequency": [
-          {
-            "name": "Bottom",
-            "frequency": 0
-          },
-          {
-            "name": "Center",
-            "frequency": 5
-          },
-          {
-            "name": "Left",
-            "frequency": 0
-          },
-          {
-            "name": "Right",
-            "frequency": 0
-          },
-          {
-            "name": "Top",
-            "frequency": 1
-          }
-        ],
-        "balance_frequency": [
-          {
-            "name": "High",
-            "frequency": 3
-          },
-          {
-            "name": "Low",
-            "frequency": 0
-          },
-          {
-            "name": "Medium",
-            "frequency": 3
-          }
-        ],
-        "contrast_frequency": [
-          {
-            "name": "Asymmetric",
-            "frequency": 3
-          },
-          {
-            "name": "Radial",
-            "frequency": 0
-          },
-          {
-            "name": "Symmetric",
-            "frequency": 3
-          }
-        ],
-        "white_space_frequency": [
-          {
-            "name": "High",
-            "frequency": 4
-          },
-          {
-            "name": "Low",
-            "frequency": 0
-          },
-          {
-            "name": "Medium",
-            "frequency": 2
-          }
-        ]
-      },
-      "Digital": {
-        "year_frequency": [
-          {
-            "year": "2023",
-            "frequency": 1
-          },
-          {
-            "year": "2024",
-            "frequency": 3
-          },
-          {
-            "year": "2025",
-            "frequency": 2
-          }
-        ],
-        "color_frequency": [
-          {
-            "color": "Blue",
-            "frequency": 3
-          },
-          {
-            "color": "Green",
-            "frequency": 4
-          },
-          {
-            "color": "Monochrome",
-            "frequency": 2
-          },
-          {
-            "color": "Orange",
-            "frequency": 1
-          },
-          {
-            "color": "Purple",
-            "frequency": 2
-          },
-          {
-            "color": "Red",
-            "frequency": 1
-          },
-          {
-            "color": "Yellow",
-            "frequency": 1
-          }
-        ],
-        "form_frequency": [
-          {
-            "name": "2D",
-            "frequency": 5
-          },
-          {
-            "name": "3D",
-            "frequency": 1
-          },
-          {
-            "name": "Photo",
-            "frequency": 0
-          }
-        ],
-        "emphasis_frequency": [
-          {
-            "name": "Bottom",
-            "frequency": 0
-          },
-          {
-            "name": "Center",
-            "frequency": 4
-          },
-          {
-            "name": "Left",
-            "frequency": 0
-          },
-          {
-            "name": "Right",
-            "frequency": 0
-          },
-          {
-            "name": "Top",
-            "frequency": 2
-          }
-        ],
-        "balance_frequency": [
-          {
-            "name": "High",
-            "frequency": 1
-          },
-          {
-            "name": "Low",
-            "frequency": 1
-          },
-          {
-            "name": "Medium",
-            "frequency": 3
-          }
-        ],
-        "contrast_frequency": [
-          {
-            "name": "Asymmetric",
-            "frequency": 5
-          },
-          {
-            "name": "Radial",
-            "frequency": 0
-          },
-          {
-            "name": "Symmetric",
-            "frequency": 1
-          }
-        ],
-        "white_space_frequency": [
-          {
-            "name": "High",
-            "frequency": 2
-          },
-          {
-            "name": "Low",
-            "frequency": 2
-          },
-          {
-            "name": "Medium",
-            "frequency": 2
-          }
-        ]
-      },
-      "Contemplative": {
-        "year_frequency": [
-          {
-            "year": "2023",
-            "frequency": 2
-          },
-          {
-            "year": "2024",
-            "frequency": 2
-          }
-        ],
-        "color_frequency": [
-          {
-            "color": "Blue",
-            "frequency": 3
-          },
-          {
-            "color": "Green",
-            "frequency": 1
-          },
-          {
-            "color": "Monochrome",
-            "frequency": 2
-          },
-          {
-            "color": "Orange",
-            "frequency": 0
-          },
-          {
-            "color": "Purple",
-            "frequency": 0
-          },
-          {
-            "color": "Red",
-            "frequency": 3
-          },
-          {
-            "color": "Yellow",
-            "frequency": 1
-          }
-        ],
-        "form_frequency": [
-          {
-            "name": "2D",
-            "frequency": 3
-          },
-          {
-            "name": "3D",
-            "frequency": 0
-          },
-          {
-            "name": "Photo",
-            "frequency": 1
-          }
-        ],
-        "emphasis_frequency": [
-          {
-            "name": "Bottom",
-            "frequency": 0
-          },
-          {
-            "name": "Center",
-            "frequency": 4
-          },
-          {
-            "name": "Left",
-            "frequency": 0
-          },
-          {
-            "name": "Right",
-            "frequency": 0
-          },
-          {
-            "name": "Top",
-            "frequency": 0
-          }
-        ],
-        "balance_frequency": [
-          {
-            "name": "High",
-            "frequency": 2
-          },
-          {
-            "name": "Low",
-            "frequency": 0
-          },
-          {
-            "name": "Medium",
-            "frequency": 2
-          }
-        ],
-        "contrast_frequency": [
-          {
-            "name": "Asymmetric",
-            "frequency": 2
-          },
-          {
-            "name": "Radial",
-            "frequency": 0
-          },
-          {
-            "name": "Symmetric",
-            "frequency": 2
-          }
-        ],
-        "white_space_frequency": [
-          {
-            "name": "High",
-            "frequency": 4
-          },
-          {
-            "name": "Low",
-            "frequency": 0
-          },
-          {
-            "name": "Medium",
-            "frequency": 0
-          }
-        ]
-      }
-    }
-  },
-  "keyword_ranks": {
     "all": {
-      "Shape": {
-        "2023": [
-          {
-            "keyword": "Typographic",
-            "frequency": 3
-          },
-          {
-            "keyword": "Geometric",
-            "frequency": 2
-          },
-          {
-            "keyword": "Organic",
-            "frequency": 2
-          },
-          {
-            "keyword": "Fragmented",
-            "frequency": 1
-          },
-          {
-            "keyword": "Dynamic",
-            "frequency": 1
-          },
-          {
-            "keyword": "Graphic",
-            "frequency": 1
-          },
-          {
-            "keyword": "Symbolic",
-            "frequency": 1
-          },
-          {
-            "keyword": "Vector",
-            "frequency": 1
-          },
-          {
-            "keyword": "Overlapping",
-            "frequency": 1
-          },
-          {
-            "keyword": "3D Rendered",
-            "frequency": 1
-          },
-          {
-            "keyword": "Cylindrical",
-            "frequency": 1
-          },
-          {
-            "keyword": "Curvilinear",
-            "frequency": 1
-          },
-          {
-            "keyword": "Silhouetted",
-            "frequency": 1
-          },
-          {
-            "keyword": "Layered",
-            "frequency": 1
-          },
-          {
-            "keyword": "Photographic",
-            "frequency": 1
-          }
+        "top_shape_keyword": [
+            {
+                "keyword": "Geometric",
+                "frequency": 9
+            },
+            {
+                "keyword": "Typographic",
+                "frequency": 9
+            },
+            {
+                "keyword": "Type-as-Image",
+                "frequency": 8
+            }
         ],
-        "2024": [
-          {
-            "keyword": "Typographic",
-            "frequency": 4
-          },
-          {
-            "keyword": "Organic",
-            "frequency": 3
-          },
-          {
-            "keyword": "Geometric",
-            "frequency": 3
-          },
-          {
-            "keyword": "Sculptural",
-            "frequency": 1
-          },
-          {
-            "keyword": "Curvilinear",
-            "frequency": 1
-          },
-          {
-            "keyword": "Pixelated",
-            "frequency": 1
-          },
-          {
-            "keyword": "Avatar",
-            "frequency": 1
-          },
-          {
-            "keyword": "Layered",
-            "frequency": 1
-          },
-          {
-            "keyword": "Typographic Distortion",
-            "frequency": 1
-          },
-          {
-            "keyword": "Geometric Fragmentation",
-            "frequency": 1
-          },
-          {
-            "keyword": "Vectorial",
-            "frequency": 1
-          },
-          {
-            "keyword": "Symbolic",
-            "frequency": 1
-          },
-          {
-            "keyword": "Calligraphic",
-            "frequency": 1
-          },
-          {
-            "keyword": "Modular",
-            "frequency": 1
-          },
-          {
-            "keyword": "Type-as-Image",
-            "frequency": 1
-          },
-          {
-            "keyword": "Spherical",
-            "frequency": 1
-          },
-          {
-            "keyword": "Gradient-filled",
-            "frequency": 1
-          },
-          {
-            "keyword": "Organic Typographic",
-            "frequency": 1
-          },
-          {
-            "keyword": "Fluid",
-            "frequency": 1
-          },
-          {
-            "keyword": "Experimental Letterforms",
-            "frequency": 1
-          },
-          {
-            "keyword": "Abstract",
-            "frequency": 1
-          },
-          {
-            "keyword": "Digital",
-            "frequency": 1
-          }
+        "top_mood_keyword": [
+            {
+                "keyword": "Vibrant",
+                "frequency": 6
+            },
+            {
+                "keyword": "Futuristic",
+                "frequency": 5
+            },
+            {
+                "keyword": "Contemplative",
+                "frequency": 4
+            }
         ],
-        "2025": [
-          {
-            "keyword": "Typographic",
-            "frequency": 5
-          },
-          {
-            "keyword": "Geometric",
-            "frequency": 4
-          },
-          {
-            "keyword": "Modular",
-            "frequency": 3
-          },
-          {
-            "keyword": "Fragmented",
-            "frequency": 2
-          },
-          {
-            "keyword": "Layered",
-            "frequency": 2
-          },
-          {
-            "keyword": "Abstract-Organic",
-            "frequency": 1
-          },
-          {
-            "keyword": "3D-Rendered",
-            "frequency": 1
-          },
-          {
-            "keyword": "Typographic-as-Image",
-            "frequency": 1
-          },
-          {
-            "keyword": "Clustered",
-            "frequency": 1
-          },
-          {
-            "keyword": "Organic",
-            "frequency": 1
-          },
-          {
-            "keyword": "Rectilinear",
-            "frequency": 1
-          },
-          {
-            "keyword": "Curvilinear",
-            "frequency": 1
-          },
-          {
-            "keyword": "Photographic",
-            "frequency": 1
-          }
+        "year_frequency": [
+            {
+                "year": "2022",
+                "frequency": 1
+            },
+            {
+                "year": "2023",
+                "frequency": 5
+            },
+            {
+                "year": "2024",
+                "frequency": 8
+            },
+            {
+                "year": "2025",
+                "frequency": 6
+            }
         ],
-        "2022": [
-          {
-            "keyword": "Modular",
-            "frequency": 1
-          },
-          {
-            "keyword": "Abstract",
-            "frequency": 1
-          },
-          {
-            "keyword": "Curvilinear",
-            "frequency": 1
-          },
-          {
-            "keyword": "Symbolic",
-            "frequency": 1
-          }
+        "color_frequency": [
+            {
+                "color": "Blue",
+                "frequency": 9
+            },
+            {
+                "color": "Green",
+                "frequency": 8
+            },
+            {
+                "color": "Monochrome",
+                "frequency": 5
+            },
+            {
+                "color": "Orange",
+                "frequency": 6
+            },
+            {
+                "color": "Purple",
+                "frequency": 3
+            },
+            {
+                "color": "Red",
+                "frequency": 8
+            },
+            {
+                "color": "Yellow",
+                "frequency": 4
+            }
+        ],
+        "form_frequency": [
+            {
+                "name": "2D",
+                "frequency": 12
+            },
+            {
+                "name": "3D",
+                "frequency": 6
+            },
+            {
+                "name": "Photo",
+                "frequency": 2
+            }
+        ],
+        "emphasis_frequency": [
+            {
+                "name": "Bottom",
+                "frequency": 0
+            },
+            {
+                "name": "Center",
+                "frequency": 17
+            },
+            {
+                "name": "Left",
+                "frequency": 0
+            },
+            {
+                "name": "Right",
+                "frequency": 0
+            },
+            {
+                "name": "Top",
+                "frequency": 3
+            }
+        ],
+        "balance_frequency": [
+            {
+                "name": "Asymmetric",
+                "frequency": 13
+            },
+            {
+                "name": "Radial",
+                "frequency": 0
+            },
+            {
+                "name": "Symmetric",
+                "frequency": 7
+            }
+        ],
+        "contrast_frequency": [
+            {
+                "name": "High",
+                "frequency": 19
+            },
+            {
+                "name": "Low",
+                "frequency": 0
+            },
+            {
+                "name": "Medium",
+                "frequency": 1
+            }
+        ],
+        "white_space_frequency": [
+            {
+                "name": "High",
+                "frequency": 7
+            },
+            {
+                "name": "Low",
+                "frequency": 3
+            },
+            {
+                "name": "Medium",
+                "frequency": 10
+            }
         ]
-      },
-      "Mood": {
-        "2023": [
-          {
-            "keyword": "Vibrant",
-            "frequency": 2
-          },
-          {
-            "keyword": "Contemplative",
-            "frequency": 2
-          },
-          {
-            "keyword": "Ethereal",
-            "frequency": 2
-          },
-          {
-            "keyword": "Urgent",
-            "frequency": 1
-          },
-          {
-            "keyword": "Confrontational",
-            "frequency": 1
-          },
-          {
-            "keyword": "Distressed",
-            "frequency": 1
-          },
-          {
-            "keyword": "Gritty",
-            "frequency": 1
-          },
-          {
-            "keyword": "Visceral",
-            "frequency": 1
-          },
-          {
-            "keyword": "Cryptic",
-            "frequency": 1
-          },
-          {
-            "keyword": "Digital",
-            "frequency": 1
-          },
-          {
-            "keyword": "Synthetic",
-            "frequency": 1
-          },
-          {
-            "keyword": "Futuristic",
-            "frequency": 1
-          },
-          {
-            "keyword": "Sleek",
-            "frequency": 1
-          },
-          {
-            "keyword": "Tranquil",
-            "frequency": 1
-          },
-          {
-            "keyword": "Soft",
-            "frequency": 1
-          },
-          {
-            "keyword": "Archival",
-            "frequency": 1
-          },
-          {
-            "keyword": "Refined",
-            "frequency": 1
-          },
-          {
-            "keyword": "Intellectual",
-            "frequency": 1
-          },
-          {
-            "keyword": "Modern",
-            "frequency": 1
-          },
-          {
-            "keyword": "Structured",
-            "frequency": 1
-          }
-        ],
-        "2024": [
-          {
-            "keyword": "Digital",
-            "frequency": 3
-          },
-          {
-            "keyword": "Contemplative",
-            "frequency": 2
-          },
-          {
-            "keyword": "Energetic",
-            "frequency": 2
-          },
-          {
-            "keyword": "Fragmented",
-            "frequency": 2
-          },
-          {
-            "keyword": "Vibrant",
-            "frequency": 2
-          },
-          {
-            "keyword": "Defiant",
-            "frequency": 1
-          },
-          {
-            "keyword": "Resilient",
-            "frequency": 1
-          },
-          {
-            "keyword": "Textured",
-            "frequency": 1
-          },
-          {
-            "keyword": "Somber",
-            "frequency": 1
-          },
-          {
-            "keyword": "Modern",
-            "frequency": 1
-          },
-          {
-            "keyword": "Futuristic",
-            "frequency": 1
-          },
-          {
-            "keyword": "Luminous",
-            "frequency": 1
-          },
-          {
-            "keyword": "Ethereal",
-            "frequency": 1
-          },
-          {
-            "keyword": "Fluid",
-            "frequency": 1
-          },
-          {
-            "keyword": "Disturbing",
-            "frequency": 1
-          },
-          {
-            "keyword": "Aggressive",
-            "frequency": 1
-          },
-          {
-            "keyword": "Raw",
-            "frequency": 1
-          },
-          {
-            "keyword": "Precise",
-            "frequency": 1
-          },
-          {
-            "keyword": "Traditional-Modern",
-            "frequency": 1
-          },
-          {
-            "keyword": "Structured",
-            "frequency": 1
-          },
-          {
-            "keyword": "Synthetic",
-            "frequency": 1
-          },
-          {
-            "keyword": "Glossy",
-            "frequency": 1
-          },
-          {
-            "keyword": "Experimental",
-            "frequency": 1
-          },
-          {
-            "keyword": "Deconstructive",
-            "frequency": 1
-          },
-          {
-            "keyword": "Analog-Simulated",
-            "frequency": 1
-          },
-          {
-            "keyword": "Clinical",
-            "frequency": 1
-          },
-          {
-            "keyword": "Contemporary",
-            "frequency": 1
-          },
-          {
-            "keyword": "Intellectual",
-            "frequency": 1
-          },
-          {
-            "keyword": "Abstract",
-            "frequency": 1
-          }
-        ],
-        "2025": [
-          {
-            "keyword": "Playful",
-            "frequency": 2
-          },
-          {
-            "keyword": "Vibrant",
-            "frequency": 2
-          },
-          {
-            "keyword": "Digital",
-            "frequency": 2
-          },
-          {
-            "keyword": "Complex",
-            "frequency": 2
-          },
-          {
-            "keyword": "Modern",
-            "frequency": 2
-          },
-          {
-            "keyword": "Clean",
-            "frequency": 2
-          },
-          {
-            "keyword": "Contemporary",
-            "frequency": 1
-          },
-          {
-            "keyword": "Curious",
-            "frequency": 1
-          },
-          {
-            "keyword": "Surreal",
-            "frequency": 1
-          },
-          {
-            "keyword": "Intellectual",
-            "frequency": 1
-          },
-          {
-            "keyword": "Fragmented",
-            "frequency": 1
-          },
-          {
-            "keyword": "Urgent",
-            "frequency": 1
-          },
-          {
-            "keyword": "Intense",
-            "frequency": 1
-          },
-          {
-            "keyword": "Disquieting",
-            "frequency": 1
-          },
-          {
-            "keyword": "Cerebral",
-            "frequency": 1
-          },
-          {
-            "keyword": "Systematic",
-            "frequency": 1
-          },
-          {
-            "keyword": "Natural",
-            "frequency": 1
-          },
-          {
-            "keyword": "Minimalist",
-            "frequency": 1
-          },
-          {
-            "keyword": "Sophisticated",
-            "frequency": 1
-          },
-          {
-            "keyword": "Archival",
-            "frequency": 1
-          },
-          {
-            "keyword": "Bold",
-            "frequency": 1
-          },
-          {
-            "keyword": "Provocative",
-            "frequency": 1
-          },
-          {
-            "keyword": "Industrial",
-            "frequency": 1
-          },
-          {
-            "keyword": "Direct",
-            "frequency": 1
-          }
-        ],
-        "2022": [
-          {
-            "keyword": "Playful",
-            "frequency": 1
-          },
-          {
-            "keyword": "Graphic",
-            "frequency": 1
-          },
-          {
-            "keyword": "Retro",
-            "frequency": 1
-          },
-          {
-            "keyword": "Clean",
-            "frequency": 1
-          }
-        ]
-      }
     },
     "archive1": {
-      "Shape": {
-        "2023": [
-          {
-            "keyword": "Typographic",
-            "frequency": 2
-          },
-          {
-            "keyword": "Fragmented",
-            "frequency": 1
-          },
-          {
-            "keyword": "Dynamic",
-            "frequency": 1
-          },
-          {
-            "keyword": "Graphic",
-            "frequency": 1
-          },
-          {
-            "keyword": "Geometric",
-            "frequency": 1
-          },
-          {
-            "keyword": "Symbolic",
-            "frequency": 1
-          },
-          {
-            "keyword": "Vector",
-            "frequency": 1
-          },
-          {
-            "keyword": "Overlapping",
-            "frequency": 1
-          },
-          {
-            "keyword": "3D Rendered",
-            "frequency": 1
-          },
-          {
-            "keyword": "Organic",
-            "frequency": 1
-          },
-          {
-            "keyword": "Cylindrical",
-            "frequency": 1
-          }
+        "top_shape_keyword": [
+            {
+                "keyword": "Type-as-Image",
+                "frequency": 5
+            },
+            {
+                "keyword": "Fragmented",
+                "frequency": 3
+            },
+            {
+                "keyword": "Typographic",
+                "frequency": 3
+            }
         ],
-        "2024": [
-          {
-            "keyword": "Typographic",
-            "frequency": 3
-          },
-          {
-            "keyword": "Organic",
-            "frequency": 2
-          },
-          {
-            "keyword": "Sculptural",
-            "frequency": 1
-          },
-          {
-            "keyword": "Curvilinear",
-            "frequency": 1
-          },
-          {
-            "keyword": "Pixelated",
-            "frequency": 1
-          },
-          {
-            "keyword": "Avatar",
-            "frequency": 1
-          },
-          {
-            "keyword": "Geometric",
-            "frequency": 1
-          },
-          {
-            "keyword": "Layered",
-            "frequency": 1
-          },
-          {
-            "keyword": "Typographic Distortion",
-            "frequency": 1
-          },
-          {
-            "keyword": "Geometric Fragmentation",
-            "frequency": 1
-          },
-          {
-            "keyword": "Vectorial",
-            "frequency": 1
-          },
-          {
-            "keyword": "Symbolic",
-            "frequency": 1
-          }
+        "top_mood_keyword": [
+            {
+                "keyword": "Vibrant",
+                "frequency": 4
+            },
+            {
+                "keyword": "Futuristic",
+                "frequency": 4
+            },
+            {
+                "keyword": "Urgent",
+                "frequency": 3
+            }
         ],
-        "2025": [
-          {
-            "keyword": "Typographic",
-            "frequency": 2
-          },
-          {
-            "keyword": "Fragmented",
-            "frequency": 2
-          },
-          {
-            "keyword": "Abstract-Organic",
-            "frequency": 1
-          },
-          {
-            "keyword": "3D-Rendered",
-            "frequency": 1
-          },
-          {
-            "keyword": "Typographic-as-Image",
-            "frequency": 1
-          },
-          {
-            "keyword": "Clustered",
-            "frequency": 1
-          },
-          {
-            "keyword": "Geometric",
-            "frequency": 1
-          },
-          {
-            "keyword": "Modular",
-            "frequency": 1
-          },
-          {
-            "keyword": "Organic",
-            "frequency": 1
-          },
-          {
-            "keyword": "Layered",
-            "frequency": 1
-          }
+        "year_frequency": [
+            {
+                "year": "2023",
+                "frequency": 3
+            },
+            {
+                "year": "2024",
+                "frequency": 4
+            },
+            {
+                "year": "2025",
+                "frequency": 3
+            }
+        ],
+        "color_frequency": [
+            {
+                "color": "Blue",
+                "frequency": 5
+            },
+            {
+                "color": "Green",
+                "frequency": 5
+            },
+            {
+                "color": "Monochrome",
+                "frequency": 1
+            },
+            {
+                "color": "Orange",
+                "frequency": 2
+            },
+            {
+                "color": "Purple",
+                "frequency": 2
+            },
+            {
+                "color": "Red",
+                "frequency": 3
+            },
+            {
+                "color": "Yellow",
+                "frequency": 3
+            }
+        ],
+        "form_frequency": [
+            {
+                "name": "2D",
+                "frequency": 4
+            },
+            {
+                "name": "3D",
+                "frequency": 5
+            },
+            {
+                "name": "Photo",
+                "frequency": 1
+            }
+        ],
+        "emphasis_frequency": [
+            {
+                "name": "Bottom",
+                "frequency": 0
+            },
+            {
+                "name": "Center",
+                "frequency": 8
+            },
+            {
+                "name": "Left",
+                "frequency": 0
+            },
+            {
+                "name": "Right",
+                "frequency": 0
+            },
+            {
+                "name": "Top",
+                "frequency": 2
+            }
+        ],
+        "balance_frequency": [
+            {
+                "name": "Asymmetric",
+                "frequency": 8
+            },
+            {
+                "name": "Radial",
+                "frequency": 0
+            },
+            {
+                "name": "Symmetric",
+                "frequency": 2
+            }
+        ],
+        "contrast_frequency": [
+            {
+                "name": "High",
+                "frequency": 10
+            },
+            {
+                "name": "Low",
+                "frequency": 0
+            },
+            {
+                "name": "Medium",
+                "frequency": 0
+            }
+        ],
+        "white_space_frequency": [
+            {
+                "name": "High",
+                "frequency": 3
+            },
+            {
+                "name": "Low",
+                "frequency": 1
+            },
+            {
+                "name": "Medium",
+                "frequency": 6
+            }
         ]
-      },
-      "Mood": {
-        "2023": [
-          {
-            "keyword": "Vibrant",
-            "frequency": 2
-          },
-          {
-            "keyword": "Urgent",
-            "frequency": 1
-          },
-          {
-            "keyword": "Confrontational",
-            "frequency": 1
-          },
-          {
-            "keyword": "Distressed",
-            "frequency": 1
-          },
-          {
-            "keyword": "Gritty",
-            "frequency": 1
-          },
-          {
-            "keyword": "Visceral",
-            "frequency": 1
-          },
-          {
-            "keyword": "Cryptic",
-            "frequency": 1
-          },
-          {
-            "keyword": "Digital",
-            "frequency": 1
-          },
-          {
-            "keyword": "Synthetic",
-            "frequency": 1
-          },
-          {
-            "keyword": "Contemplative",
-            "frequency": 1
-          },
-          {
-            "keyword": "Ethereal",
-            "frequency": 1
-          },
-          {
-            "keyword": "Futuristic",
-            "frequency": 1
-          },
-          {
-            "keyword": "Sleek",
-            "frequency": 1
-          }
-        ],
-        "2024": [
-          {
-            "keyword": "Digital",
-            "frequency": 2
-          },
-          {
-            "keyword": "Fragmented",
-            "frequency": 2
-          },
-          {
-            "keyword": "Defiant",
-            "frequency": 1
-          },
-          {
-            "keyword": "Resilient",
-            "frequency": 1
-          },
-          {
-            "keyword": "Textured",
-            "frequency": 1
-          },
-          {
-            "keyword": "Somber",
-            "frequency": 1
-          },
-          {
-            "keyword": "Contemplative",
-            "frequency": 1
-          },
-          {
-            "keyword": "Energetic",
-            "frequency": 1
-          },
-          {
-            "keyword": "Modern",
-            "frequency": 1
-          },
-          {
-            "keyword": "Futuristic",
-            "frequency": 1
-          },
-          {
-            "keyword": "Luminous",
-            "frequency": 1
-          },
-          {
-            "keyword": "Ethereal",
-            "frequency": 1
-          },
-          {
-            "keyword": "Vibrant",
-            "frequency": 1
-          },
-          {
-            "keyword": "Fluid",
-            "frequency": 1
-          },
-          {
-            "keyword": "Disturbing",
-            "frequency": 1
-          },
-          {
-            "keyword": "Aggressive",
-            "frequency": 1
-          },
-          {
-            "keyword": "Raw",
-            "frequency": 1
-          }
-        ],
-        "2025": [
-          {
-            "keyword": "Digital",
-            "frequency": 2
-          },
-          {
-            "keyword": "Complex",
-            "frequency": 2
-          },
-          {
-            "keyword": "Playful",
-            "frequency": 1
-          },
-          {
-            "keyword": "Contemporary",
-            "frequency": 1
-          },
-          {
-            "keyword": "Curious",
-            "frequency": 1
-          },
-          {
-            "keyword": "Vibrant",
-            "frequency": 1
-          },
-          {
-            "keyword": "Surreal",
-            "frequency": 1
-          },
-          {
-            "keyword": "Intellectual",
-            "frequency": 1
-          },
-          {
-            "keyword": "Fragmented",
-            "frequency": 1
-          },
-          {
-            "keyword": "Urgent",
-            "frequency": 1
-          },
-          {
-            "keyword": "Intense",
-            "frequency": 1
-          },
-          {
-            "keyword": "Disquieting",
-            "frequency": 1
-          },
-          {
-            "keyword": "Cerebral",
-            "frequency": 1
-          }
-        ]
-      }
     },
     "archive2": {
-      "Shape": {
-        "2022": [
-          {
-            "keyword": "Modular",
-            "frequency": 1
-          },
-          {
-            "keyword": "Abstract",
-            "frequency": 1
-          },
-          {
-            "keyword": "Curvilinear",
-            "frequency": 1
-          },
-          {
-            "keyword": "Symbolic",
-            "frequency": 1
-          }
+        "top_shape_keyword": [
+            {
+                "keyword": "Geometric",
+                "frequency": 7
+            },
+            {
+                "keyword": "Typographic",
+                "frequency": 6
+            },
+            {
+                "keyword": "Modular",
+                "frequency": 4
+            }
         ],
-        "2023": [
-          {
-            "keyword": "Curvilinear",
-            "frequency": 1
-          },
-          {
-            "keyword": "Silhouetted",
-            "frequency": 1
-          },
-          {
-            "keyword": "Organic",
-            "frequency": 1
-          },
-          {
-            "keyword": "Typographic",
-            "frequency": 1
-          },
-          {
-            "keyword": "Geometric",
-            "frequency": 1
-          },
-          {
-            "keyword": "Layered",
-            "frequency": 1
-          },
-          {
-            "keyword": "Photographic",
-            "frequency": 1
-          }
+        "top_mood_keyword": [
+            {
+                "keyword": "Clean",
+                "frequency": 3
+            },
+            {
+                "keyword": "Modern",
+                "frequency": 3
+            },
+            {
+                "keyword": "Contemplative",
+                "frequency": 3
+            }
         ],
-        "2024": [
-          {
-            "keyword": "Geometric",
-            "frequency": 2
-          },
-          {
-            "keyword": "Calligraphic",
-            "frequency": 1
-          },
-          {
-            "keyword": "Modular",
-            "frequency": 1
-          },
-          {
-            "keyword": "Type-as-Image",
-            "frequency": 1
-          },
-          {
-            "keyword": "Spherical",
-            "frequency": 1
-          },
-          {
-            "keyword": "Gradient-filled",
-            "frequency": 1
-          },
-          {
-            "keyword": "Organic Typographic",
-            "frequency": 1
-          },
-          {
-            "keyword": "Fluid",
-            "frequency": 1
-          },
-          {
-            "keyword": "Experimental Letterforms",
-            "frequency": 1
-          },
-          {
-            "keyword": "Abstract",
-            "frequency": 1
-          },
-          {
-            "keyword": "Digital",
-            "frequency": 1
-          },
-          {
-            "keyword": "Organic",
-            "frequency": 1
-          },
-          {
-            "keyword": "Typographic",
-            "frequency": 1
-          }
+        "year_frequency": [
+            {
+                "year": "2022",
+                "frequency": 1
+            },
+            {
+                "year": "2023",
+                "frequency": 2
+            },
+            {
+                "year": "2024",
+                "frequency": 4
+            },
+            {
+                "year": "2025",
+                "frequency": 3
+            }
         ],
-        "2025": [
-          {
-            "keyword": "Typographic",
-            "frequency": 3
-          },
-          {
-            "keyword": "Geometric",
-            "frequency": 3
-          },
-          {
-            "keyword": "Modular",
-            "frequency": 2
-          },
-          {
-            "keyword": "Layered",
-            "frequency": 1
-          },
-          {
-            "keyword": "Rectilinear",
-            "frequency": 1
-          },
-          {
-            "keyword": "Curvilinear",
-            "frequency": 1
-          },
-          {
-            "keyword": "Photographic",
-            "frequency": 1
-          }
+        "color_frequency": [
+            {
+                "color": "Blue",
+                "frequency": 4
+            },
+            {
+                "color": "Green",
+                "frequency": 3
+            },
+            {
+                "color": "Monochrome",
+                "frequency": 4
+            },
+            {
+                "color": "Orange",
+                "frequency": 4
+            },
+            {
+                "color": "Purple",
+                "frequency": 1
+            },
+            {
+                "color": "Red",
+                "frequency": 5
+            },
+            {
+                "color": "Yellow",
+                "frequency": 1
+            }
+        ],
+        "form_frequency": [
+            {
+                "name": "2D",
+                "frequency": 8
+            },
+            {
+                "name": "3D",
+                "frequency": 1
+            },
+            {
+                "name": "Photo",
+                "frequency": 1
+            }
+        ],
+        "emphasis_frequency": [
+            {
+                "name": "Bottom",
+                "frequency": 0
+            },
+            {
+                "name": "Center",
+                "frequency": 9
+            },
+            {
+                "name": "Left",
+                "frequency": 0
+            },
+            {
+                "name": "Right",
+                "frequency": 0
+            },
+            {
+                "name": "Top",
+                "frequency": 1
+            }
+        ],
+        "balance_frequency": [
+            {
+                "name": "Asymmetric",
+                "frequency": 5
+            },
+            {
+                "name": "Radial",
+                "frequency": 0
+            },
+            {
+                "name": "Symmetric",
+                "frequency": 5
+            }
+        ],
+        "contrast_frequency": [
+            {
+                "name": "High",
+                "frequency": 9
+            },
+            {
+                "name": "Low",
+                "frequency": 0
+            },
+            {
+                "name": "Medium",
+                "frequency": 1
+            }
+        ],
+        "white_space_frequency": [
+            {
+                "name": "High",
+                "frequency": 4
+            },
+            {
+                "name": "Low",
+                "frequency": 2
+            },
+            {
+                "name": "Medium",
+                "frequency": 4
+            }
         ]
-      },
-      "Mood": {
-        "2022": [
-          {
-            "keyword": "Playful",
-            "frequency": 1
-          },
-          {
-            "keyword": "Graphic",
-            "frequency": 1
-          },
-          {
-            "keyword": "Retro",
-            "frequency": 1
-          },
-          {
-            "keyword": "Clean",
-            "frequency": 1
-          }
-        ],
-        "2023": [
-          {
-            "keyword": "Tranquil",
-            "frequency": 1
-          },
-          {
-            "keyword": "Ethereal",
-            "frequency": 1
-          },
-          {
-            "keyword": "Contemplative",
-            "frequency": 1
-          },
-          {
-            "keyword": "Soft",
-            "frequency": 1
-          },
-          {
-            "keyword": "Archival",
-            "frequency": 1
-          },
-          {
-            "keyword": "Refined",
-            "frequency": 1
-          },
-          {
-            "keyword": "Intellectual",
-            "frequency": 1
-          },
-          {
-            "keyword": "Modern",
-            "frequency": 1
-          },
-          {
-            "keyword": "Structured",
-            "frequency": 1
-          }
-        ],
-        "2024": [
-          {
-            "keyword": "Contemplative",
-            "frequency": 1
-          },
-          {
-            "keyword": "Precise",
-            "frequency": 1
-          },
-          {
-            "keyword": "Traditional-Modern",
-            "frequency": 1
-          },
-          {
-            "keyword": "Structured",
-            "frequency": 1
-          },
-          {
-            "keyword": "Energetic",
-            "frequency": 1
-          },
-          {
-            "keyword": "Synthetic",
-            "frequency": 1
-          },
-          {
-            "keyword": "Vibrant",
-            "frequency": 1
-          },
-          {
-            "keyword": "Glossy",
-            "frequency": 1
-          },
-          {
-            "keyword": "Experimental",
-            "frequency": 1
-          },
-          {
-            "keyword": "Deconstructive",
-            "frequency": 1
-          },
-          {
-            "keyword": "Analog-Simulated",
-            "frequency": 1
-          },
-          {
-            "keyword": "Clinical",
-            "frequency": 1
-          },
-          {
-            "keyword": "Contemporary",
-            "frequency": 1
-          },
-          {
-            "keyword": "Digital",
-            "frequency": 1
-          },
-          {
-            "keyword": "Intellectual",
-            "frequency": 1
-          },
-          {
-            "keyword": "Abstract",
-            "frequency": 1
-          }
-        ],
-        "2025": [
-          {
-            "keyword": "Modern",
-            "frequency": 2
-          },
-          {
-            "keyword": "Clean",
-            "frequency": 2
-          },
-          {
-            "keyword": "Vibrant",
-            "frequency": 1
-          },
-          {
-            "keyword": "Systematic",
-            "frequency": 1
-          },
-          {
-            "keyword": "Playful",
-            "frequency": 1
-          },
-          {
-            "keyword": "Natural",
-            "frequency": 1
-          },
-          {
-            "keyword": "Minimalist",
-            "frequency": 1
-          },
-          {
-            "keyword": "Sophisticated",
-            "frequency": 1
-          },
-          {
-            "keyword": "Archival",
-            "frequency": 1
-          },
-          {
-            "keyword": "Bold",
-            "frequency": 1
-          },
-          {
-            "keyword": "Provocative",
-            "frequency": 1
-          },
-          {
-            "keyword": "Industrial",
-            "frequency": 1
-          },
-          {
-            "keyword": "Direct",
-            "frequency": 1
-          }
-        ]
-      }
+    },
+    "keyword_groups": {
+        "shape_keyword_groups": {
+            "Geometric": {
+                "year_frequency": [
+                    {
+                        "year": "2022",
+                        "frequency": 1
+                    },
+                    {
+                        "year": "2023",
+                        "frequency": 2
+                    },
+                    {
+                        "year": "2024",
+                        "frequency": 3
+                    },
+                    {
+                        "year": "2025",
+                        "frequency": 3
+                    }
+                ],
+                "color_frequency": [
+                    {
+                        "color": "Blue",
+                        "frequency": 4
+                    },
+                    {
+                        "color": "Green",
+                        "frequency": 4
+                    },
+                    {
+                        "color": "Monochrome",
+                        "frequency": 1
+                    },
+                    {
+                        "color": "Orange",
+                        "frequency": 3
+                    },
+                    {
+                        "color": "Purple",
+                        "frequency": 2
+                    },
+                    {
+                        "color": "Red",
+                        "frequency": 5
+                    },
+                    {
+                        "color": "Yellow",
+                        "frequency": 1
+                    }
+                ],
+                "form_frequency": [
+                    {
+                        "name": "2D",
+                        "frequency": 7
+                    },
+                    {
+                        "name": "3D",
+                        "frequency": 1
+                    },
+                    {
+                        "name": "Photo",
+                        "frequency": 1
+                    }
+                ],
+                "emphasis_frequency": [
+                    {
+                        "name": "Bottom",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Center",
+                        "frequency": 8
+                    },
+                    {
+                        "name": "Left",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Right",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Top",
+                        "frequency": 1
+                    }
+                ],
+                "balance_frequency": [
+                    {
+                        "name": "Asymmetric",
+                        "frequency": 3
+                    },
+                    {
+                        "name": "Radial",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Symmetric",
+                        "frequency": 6
+                    }
+                ],
+                "contrast_frequency": [
+                    {
+                        "name": "High",
+                        "frequency": 9
+                    },
+                    {
+                        "name": "Low",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Medium",
+                        "frequency": 0
+                    }
+                ],
+                "white_space_frequency": [
+                    {
+                        "name": "High",
+                        "frequency": 2
+                    },
+                    {
+                        "name": "Low",
+                        "frequency": 2
+                    },
+                    {
+                        "name": "Medium",
+                        "frequency": 5
+                    }
+                ]
+            },
+            "Typographic": {
+                "year_frequency": [
+                    {
+                        "year": "2023",
+                        "frequency": 3
+                    },
+                    {
+                        "year": "2024",
+                        "frequency": 4
+                    },
+                    {
+                        "year": "2025",
+                        "frequency": 2
+                    }
+                ],
+                "color_frequency": [
+                    {
+                        "color": "Blue",
+                        "frequency": 4
+                    },
+                    {
+                        "color": "Green",
+                        "frequency": 3
+                    },
+                    {
+                        "color": "Monochrome",
+                        "frequency": 4
+                    },
+                    {
+                        "color": "Orange",
+                        "frequency": 3
+                    },
+                    {
+                        "color": "Purple",
+                        "frequency": 0
+                    },
+                    {
+                        "color": "Red",
+                        "frequency": 4
+                    },
+                    {
+                        "color": "Yellow",
+                        "frequency": 1
+                    }
+                ],
+                "form_frequency": [
+                    {
+                        "name": "2D",
+                        "frequency": 5
+                    },
+                    {
+                        "name": "3D",
+                        "frequency": 3
+                    },
+                    {
+                        "name": "Photo",
+                        "frequency": 1
+                    }
+                ],
+                "emphasis_frequency": [
+                    {
+                        "name": "Bottom",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Center",
+                        "frequency": 7
+                    },
+                    {
+                        "name": "Left",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Right",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Top",
+                        "frequency": 2
+                    }
+                ],
+                "balance_frequency": [
+                    {
+                        "name": "Asymmetric",
+                        "frequency": 7
+                    },
+                    {
+                        "name": "Radial",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Symmetric",
+                        "frequency": 2
+                    }
+                ],
+                "contrast_frequency": [
+                    {
+                        "name": "High",
+                        "frequency": 8
+                    },
+                    {
+                        "name": "Low",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Medium",
+                        "frequency": 1
+                    }
+                ],
+                "white_space_frequency": [
+                    {
+                        "name": "High",
+                        "frequency": 4
+                    },
+                    {
+                        "name": "Low",
+                        "frequency": 1
+                    },
+                    {
+                        "name": "Medium",
+                        "frequency": 4
+                    }
+                ]
+            },
+            "Type-as-Image": {
+                "year_frequency": [
+                    {
+                        "year": "2024",
+                        "frequency": 4
+                    },
+                    {
+                        "year": "2025",
+                        "frequency": 4
+                    }
+                ],
+                "color_frequency": [
+                    {
+                        "color": "Blue",
+                        "frequency": 4
+                    },
+                    {
+                        "color": "Green",
+                        "frequency": 3
+                    },
+                    {
+                        "color": "Monochrome",
+                        "frequency": 1
+                    },
+                    {
+                        "color": "Orange",
+                        "frequency": 3
+                    },
+                    {
+                        "color": "Purple",
+                        "frequency": 2
+                    },
+                    {
+                        "color": "Red",
+                        "frequency": 3
+                    },
+                    {
+                        "color": "Yellow",
+                        "frequency": 2
+                    }
+                ],
+                "form_frequency": [
+                    {
+                        "name": "2D",
+                        "frequency": 5
+                    },
+                    {
+                        "name": "3D",
+                        "frequency": 3
+                    },
+                    {
+                        "name": "Photo",
+                        "frequency": 0
+                    }
+                ],
+                "emphasis_frequency": [
+                    {
+                        "name": "Bottom",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Center",
+                        "frequency": 7
+                    },
+                    {
+                        "name": "Left",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Right",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Top",
+                        "frequency": 1
+                    }
+                ],
+                "balance_frequency": [
+                    {
+                        "name": "Asymmetric",
+                        "frequency": 5
+                    },
+                    {
+                        "name": "Radial",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Symmetric",
+                        "frequency": 3
+                    }
+                ],
+                "contrast_frequency": [
+                    {
+                        "name": "High",
+                        "frequency": 8
+                    },
+                    {
+                        "name": "Low",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Medium",
+                        "frequency": 0
+                    }
+                ],
+                "white_space_frequency": [
+                    {
+                        "name": "High",
+                        "frequency": 3
+                    },
+                    {
+                        "name": "Low",
+                        "frequency": 1
+                    },
+                    {
+                        "name": "Medium",
+                        "frequency": 4
+                    }
+                ]
+            }
+        },
+        "mood_keyword_groups": {
+            "Contemplative": {
+                "year_frequency": [
+                    {
+                        "year": "2023",
+                        "frequency": 3
+                    },
+                    {
+                        "year": "2024",
+                        "frequency": 1
+                    }
+                ],
+                "color_frequency": [
+                    {
+                        "color": "Blue",
+                        "frequency": 2
+                    },
+                    {
+                        "color": "Green",
+                        "frequency": 1
+                    },
+                    {
+                        "color": "Monochrome",
+                        "frequency": 2
+                    },
+                    {
+                        "color": "Orange",
+                        "frequency": 1
+                    },
+                    {
+                        "color": "Purple",
+                        "frequency": 0
+                    },
+                    {
+                        "color": "Red",
+                        "frequency": 1
+                    },
+                    {
+                        "color": "Yellow",
+                        "frequency": 0
+                    }
+                ],
+                "form_frequency": [
+                    {
+                        "name": "2D",
+                        "frequency": 3
+                    },
+                    {
+                        "name": "3D",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Photo",
+                        "frequency": 1
+                    }
+                ],
+                "emphasis_frequency": [
+                    {
+                        "name": "Bottom",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Center",
+                        "frequency": 4
+                    },
+                    {
+                        "name": "Left",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Right",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Top",
+                        "frequency": 0
+                    }
+                ],
+                "balance_frequency": [
+                    {
+                        "name": "Asymmetric",
+                        "frequency": 2
+                    },
+                    {
+                        "name": "Radial",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Symmetric",
+                        "frequency": 2
+                    }
+                ],
+                "contrast_frequency": [
+                    {
+                        "name": "High",
+                        "frequency": 3
+                    },
+                    {
+                        "name": "Low",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Medium",
+                        "frequency": 1
+                    }
+                ],
+                "white_space_frequency": [
+                    {
+                        "name": "High",
+                        "frequency": 3
+                    },
+                    {
+                        "name": "Low",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Medium",
+                        "frequency": 1
+                    }
+                ]
+            },
+            "Vibrant": {
+                "year_frequency": [
+                    {
+                        "year": "2023",
+                        "frequency": 1
+                    },
+                    {
+                        "year": "2024",
+                        "frequency": 3
+                    },
+                    {
+                        "year": "2025",
+                        "frequency": 2
+                    }
+                ],
+                "color_frequency": [
+                    {
+                        "color": "Blue",
+                        "frequency": 6
+                    },
+                    {
+                        "color": "Green",
+                        "frequency": 3
+                    },
+                    {
+                        "color": "Monochrome",
+                        "frequency": 0
+                    },
+                    {
+                        "color": "Orange",
+                        "frequency": 3
+                    },
+                    {
+                        "color": "Purple",
+                        "frequency": 1
+                    },
+                    {
+                        "color": "Red",
+                        "frequency": 2
+                    },
+                    {
+                        "color": "Yellow",
+                        "frequency": 2
+                    }
+                ],
+                "form_frequency": [
+                    {
+                        "name": "2D",
+                        "frequency": 3
+                    },
+                    {
+                        "name": "3D",
+                        "frequency": 3
+                    },
+                    {
+                        "name": "Photo",
+                        "frequency": 0
+                    }
+                ],
+                "emphasis_frequency": [
+                    {
+                        "name": "Bottom",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Center",
+                        "frequency": 6
+                    },
+                    {
+                        "name": "Left",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Right",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Top",
+                        "frequency": 0
+                    }
+                ],
+                "balance_frequency": [
+                    {
+                        "name": "Asymmetric",
+                        "frequency": 3
+                    },
+                    {
+                        "name": "Radial",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Symmetric",
+                        "frequency": 3
+                    }
+                ],
+                "contrast_frequency": [
+                    {
+                        "name": "High",
+                        "frequency": 6
+                    },
+                    {
+                        "name": "Low",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Medium",
+                        "frequency": 0
+                    }
+                ],
+                "white_space_frequency": [
+                    {
+                        "name": "High",
+                        "frequency": 2
+                    },
+                    {
+                        "name": "Low",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Medium",
+                        "frequency": 4
+                    }
+                ]
+            },
+            "Futuristic": {
+                "year_frequency": [
+                    {
+                        "year": "2023",
+                        "frequency": 1
+                    },
+                    {
+                        "year": "2024",
+                        "frequency": 3
+                    },
+                    {
+                        "year": "2025",
+                        "frequency": 1
+                    }
+                ],
+                "color_frequency": [
+                    {
+                        "color": "Blue",
+                        "frequency": 4
+                    },
+                    {
+                        "color": "Green",
+                        "frequency": 2
+                    },
+                    {
+                        "color": "Monochrome",
+                        "frequency": 0
+                    },
+                    {
+                        "color": "Orange",
+                        "frequency": 3
+                    },
+                    {
+                        "color": "Purple",
+                        "frequency": 1
+                    },
+                    {
+                        "color": "Red",
+                        "frequency": 1
+                    },
+                    {
+                        "color": "Yellow",
+                        "frequency": 2
+                    }
+                ],
+                "form_frequency": [
+                    {
+                        "name": "2D",
+                        "frequency": 1
+                    },
+                    {
+                        "name": "3D",
+                        "frequency": 4
+                    },
+                    {
+                        "name": "Photo",
+                        "frequency": 0
+                    }
+                ],
+                "emphasis_frequency": [
+                    {
+                        "name": "Bottom",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Center",
+                        "frequency": 4
+                    },
+                    {
+                        "name": "Left",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Right",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Top",
+                        "frequency": 1
+                    }
+                ],
+                "balance_frequency": [
+                    {
+                        "name": "Asymmetric",
+                        "frequency": 4
+                    },
+                    {
+                        "name": "Radial",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Symmetric",
+                        "frequency": 1
+                    }
+                ],
+                "contrast_frequency": [
+                    {
+                        "name": "High",
+                        "frequency": 5
+                    },
+                    {
+                        "name": "Low",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Medium",
+                        "frequency": 0
+                    }
+                ],
+                "white_space_frequency": [
+                    {
+                        "name": "High",
+                        "frequency": 2
+                    },
+                    {
+                        "name": "Low",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Medium",
+                        "frequency": 3
+                    }
+                ]
+            }
+        }
+    },
+    "keyword_ranks": {
+        "all": {
+            "Shape": {
+                "2023": [
+                    {
+                        "keyword": "Typographic",
+                        "frequency": 3
+                    },
+                    {
+                        "keyword": "Geometric",
+                        "frequency": 2
+                    },
+                    {
+                        "keyword": "Distorted Figurative",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Expressive Brushwork",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "High-Contrast Typographic",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Fragmented",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Curvilinear",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Vectorial",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Symbolic",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "3D Render",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Luminescent",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Cylindrical",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Stylized",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Blurred",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Illustrative",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Photoreal",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Layered",
+                        "frequency": 1
+                    }
+                ],
+                "2024": [
+                    {
+                        "keyword": "Typographic",
+                        "frequency": 4
+                    },
+                    {
+                        "keyword": "Type-as-Image",
+                        "frequency": 4
+                    },
+                    {
+                        "keyword": "Geometric",
+                        "frequency": 3
+                    },
+                    {
+                        "keyword": "Organic",
+                        "frequency": 2
+                    },
+                    {
+                        "keyword": "Modular",
+                        "frequency": 2
+                    },
+                    {
+                        "keyword": "Distorted",
+                        "frequency": 2
+                    },
+                    {
+                        "keyword": "Curvilinear",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Textural",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Pixelated",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Hybrid",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Overlapping",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Luminous",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Fragmented",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Calligraphic",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Spherical",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Gradient",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Rounded Rectangular",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Deconstructed Halftone",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Grid-based",
+                        "frequency": 1
+                    }
+                ],
+                "2025": [
+                    {
+                        "keyword": "Type-as-Image",
+                        "frequency": 4
+                    },
+                    {
+                        "keyword": "Modular",
+                        "frequency": 3
+                    },
+                    {
+                        "keyword": "Geometric",
+                        "frequency": 3
+                    },
+                    {
+                        "keyword": "Typographic",
+                        "frequency": 2
+                    },
+                    {
+                        "keyword": "Layered",
+                        "frequency": 2
+                    },
+                    {
+                        "keyword": "Abstract-Geometric",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Organic-Curvilinear",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "3D-Rendered",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Fragmented",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Organic-Geometric Synthesis",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Distorted",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Rectilinear",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Curvilinear",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Halftone",
+                        "frequency": 1
+                    }
+                ],
+                "2022": [
+                    {
+                        "keyword": "Geometric",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Organic-Abstract",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Vector",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Modular",
+                        "frequency": 1
+                    }
+                ]
+            },
+            "Mood": {
+                "2023": [
+                    {
+                        "keyword": "Contemplative",
+                        "frequency": 3
+                    },
+                    {
+                        "keyword": "Urgent",
+                        "frequency": 2
+                    },
+                    {
+                        "keyword": "Abstract",
+                        "frequency": 2
+                    },
+                    {
+                        "keyword": "Distressed",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Confrontational",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Raw",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Dramatic",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Synthetic",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Vibrant",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Futuristic",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Luminescent",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Sleek",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Energetic",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Modern",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Ethereal",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Diffused",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Refined",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Archival",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Understated",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Textural",
+                        "frequency": 1
+                    }
+                ],
+                "2024": [
+                    {
+                        "keyword": "Futuristic",
+                        "frequency": 3
+                    },
+                    {
+                        "keyword": "Vibrant",
+                        "frequency": 3
+                    },
+                    {
+                        "keyword": "Refined",
+                        "frequency": 2
+                    },
+                    {
+                        "keyword": "Defiant",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Monumental",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Textured",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Somber",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Resilient",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Digital",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Disruptive",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Ethereal",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Luminous",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Optimistic",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Confrontational",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Glitch",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Distressed",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Urgent",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Dissonant",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Contemplative",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Structured",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Traditional-Modern",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Precise",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Synthetic",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Glossy",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Energetic",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Gritty",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Experimental",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Analog",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Intellectual",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Contemporary",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Digital-Experimental",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Quietly Innovative",
+                        "frequency": 1
+                    }
+                ],
+                "2025": [
+                    {
+                        "keyword": "Playful",
+                        "frequency": 2
+                    },
+                    {
+                        "keyword": "Vibrant",
+                        "frequency": 2
+                    },
+                    {
+                        "keyword": "Modern",
+                        "frequency": 2
+                    },
+                    {
+                        "keyword": "Clean",
+                        "frequency": 2
+                    },
+                    {
+                        "keyword": "Whimsical",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Futuristic",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Digital-Sleek",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Energetic",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Fragmented",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Digital",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Discursive",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Intense",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Complex",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Analytical",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Disquieting",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Systematic",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Organized",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Pristine",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Graphic",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Bold",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Archival",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Dynamic",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Gritty",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Authoritative",
+                        "frequency": 1
+                    }
+                ],
+                "2022": [
+                    {
+                        "keyword": "Playful",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Abstract",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Systematic",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Clean",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Modern",
+                        "frequency": 1
+                    }
+                ]
+            }
+        },
+        "archive1": {
+            "Shape": {
+                "2023": [
+                    {
+                        "keyword": "Distorted Figurative",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Expressive Brushwork",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "High-Contrast Typographic",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Fragmented",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Curvilinear",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Geometric",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Vectorial",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Symbolic",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "3D Render",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Luminescent",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Typographic",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Cylindrical",
+                        "frequency": 1
+                    }
+                ],
+                "2024": [
+                    {
+                        "keyword": "Type-as-Image",
+                        "frequency": 3
+                    },
+                    {
+                        "keyword": "Organic",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Typographic",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Curvilinear",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Textural",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Pixelated",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Hybrid",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Overlapping",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Luminous",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Modular",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Fragmented",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Distorted",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Geometric",
+                        "frequency": 1
+                    }
+                ],
+                "2025": [
+                    {
+                        "keyword": "Type-as-Image",
+                        "frequency": 2
+                    },
+                    {
+                        "keyword": "Abstract-Geometric",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Organic-Curvilinear",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "3D-Rendered",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Modular",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Fragmented",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Typographic",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Organic-Geometric Synthesis",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Layered",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Distorted",
+                        "frequency": 1
+                    }
+                ]
+            },
+            "Mood": {
+                "2023": [
+                    {
+                        "keyword": "Urgent",
+                        "frequency": 2
+                    },
+                    {
+                        "keyword": "Distressed",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Confrontational",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Raw",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Dramatic",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Synthetic",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Contemplative",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Vibrant",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Abstract",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Futuristic",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Luminescent",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Sleek",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Energetic",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Modern",
+                        "frequency": 1
+                    }
+                ],
+                "2024": [
+                    {
+                        "keyword": "Futuristic",
+                        "frequency": 2
+                    },
+                    {
+                        "keyword": "Vibrant",
+                        "frequency": 2
+                    },
+                    {
+                        "keyword": "Defiant",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Monumental",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Textured",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Somber",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Resilient",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Digital",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Disruptive",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Ethereal",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Luminous",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Optimistic",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Confrontational",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Glitch",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Distressed",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Urgent",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Dissonant",
+                        "frequency": 1
+                    }
+                ],
+                "2025": [
+                    {
+                        "keyword": "Whimsical",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Futuristic",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Playful",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Digital-Sleek",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Vibrant",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Energetic",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Fragmented",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Digital",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Discursive",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Intense",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Complex",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Analytical",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Disquieting",
+                        "frequency": 1
+                    }
+                ]
+            }
+        },
+        "archive2": {
+            "Shape": {
+                "2022": [
+                    {
+                        "keyword": "Geometric",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Organic-Abstract",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Vector",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Modular",
+                        "frequency": 1
+                    }
+                ],
+                "2023": [
+                    {
+                        "keyword": "Typographic",
+                        "frequency": 2
+                    },
+                    {
+                        "keyword": "Stylized",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Blurred",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Illustrative",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Photoreal",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Layered",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Geometric",
+                        "frequency": 1
+                    }
+                ],
+                "2024": [
+                    {
+                        "keyword": "Typographic",
+                        "frequency": 3
+                    },
+                    {
+                        "keyword": "Geometric",
+                        "frequency": 2
+                    },
+                    {
+                        "keyword": "Calligraphic",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Modular",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Type-as-Image",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Spherical",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Gradient",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Organic",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Distorted",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Rounded Rectangular",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Deconstructed Halftone",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Grid-based",
+                        "frequency": 1
+                    }
+                ],
+                "2025": [
+                    {
+                        "keyword": "Geometric",
+                        "frequency": 3
+                    },
+                    {
+                        "keyword": "Type-as-Image",
+                        "frequency": 2
+                    },
+                    {
+                        "keyword": "Modular",
+                        "frequency": 2
+                    },
+                    {
+                        "keyword": "Layered",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Typographic",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Rectilinear",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Curvilinear",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Halftone",
+                        "frequency": 1
+                    }
+                ]
+            },
+            "Mood": {
+                "2022": [
+                    {
+                        "keyword": "Playful",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Abstract",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Systematic",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Clean",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Modern",
+                        "frequency": 1
+                    }
+                ],
+                "2023": [
+                    {
+                        "keyword": "Contemplative",
+                        "frequency": 2
+                    },
+                    {
+                        "keyword": "Ethereal",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Diffused",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Abstract",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Refined",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Archival",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Understated",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Textural",
+                        "frequency": 1
+                    }
+                ],
+                "2024": [
+                    {
+                        "keyword": "Refined",
+                        "frequency": 2
+                    },
+                    {
+                        "keyword": "Contemplative",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Structured",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Traditional-Modern",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Precise",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Vibrant",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Synthetic",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Futuristic",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Glossy",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Energetic",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Gritty",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Experimental",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Analog",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Intellectual",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Contemporary",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Digital-Experimental",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Quietly Innovative",
+                        "frequency": 1
+                    }
+                ],
+                "2025": [
+                    {
+                        "keyword": "Modern",
+                        "frequency": 2
+                    },
+                    {
+                        "keyword": "Clean",
+                        "frequency": 2
+                    },
+                    {
+                        "keyword": "Vibrant",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Systematic",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Playful",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Organized",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Pristine",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Graphic",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Bold",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Archival",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Dynamic",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Gritty",
+                        "frequency": 1
+                    },
+                    {
+                        "keyword": "Authoritative",
+                        "frequency": 1
+                    }
+                ]
+            }
+        }
+    },
+    "yearly_statistics": {
+        "all": {
+            "Color": {
+                "2023": [
+                    {
+                        "name": "Blue",
+                        "frequency": 2
+                    },
+                    {
+                        "name": "Green",
+                        "frequency": 2
+                    },
+                    {
+                        "name": "Monochrome",
+                        "frequency": 2
+                    },
+                    {
+                        "name": "Orange",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Purple",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Red",
+                        "frequency": 1
+                    },
+                    {
+                        "name": "Yellow",
+                        "frequency": 0
+                    }
+                ],
+                "2024": [
+                    {
+                        "name": "Blue",
+                        "frequency": 3
+                    },
+                    {
+                        "name": "Green",
+                        "frequency": 3
+                    },
+                    {
+                        "name": "Monochrome",
+                        "frequency": 2
+                    },
+                    {
+                        "name": "Orange",
+                        "frequency": 4
+                    },
+                    {
+                        "name": "Purple",
+                        "frequency": 1
+                    },
+                    {
+                        "name": "Red",
+                        "frequency": 3
+                    },
+                    {
+                        "name": "Yellow",
+                        "frequency": 3
+                    }
+                ],
+                "2025": [
+                    {
+                        "name": "Blue",
+                        "frequency": 4
+                    },
+                    {
+                        "name": "Green",
+                        "frequency": 2
+                    },
+                    {
+                        "name": "Monochrome",
+                        "frequency": 1
+                    },
+                    {
+                        "name": "Orange",
+                        "frequency": 2
+                    },
+                    {
+                        "name": "Purple",
+                        "frequency": 1
+                    },
+                    {
+                        "name": "Red",
+                        "frequency": 4
+                    },
+                    {
+                        "name": "Yellow",
+                        "frequency": 0
+                    }
+                ],
+                "2022": [
+                    {
+                        "name": "Blue",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Green",
+                        "frequency": 1
+                    },
+                    {
+                        "name": "Monochrome",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Orange",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Purple",
+                        "frequency": 1
+                    },
+                    {
+                        "name": "Red",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Yellow",
+                        "frequency": 1
+                    }
+                ]
+            },
+            "Form": {
+                "2023": [
+                    {
+                        "name": "2D",
+                        "frequency": 2
+                    },
+                    {
+                        "name": "3D",
+                        "frequency": 1
+                    },
+                    {
+                        "name": "Photo",
+                        "frequency": 2
+                    }
+                ],
+                "2024": [
+                    {
+                        "name": "2D",
+                        "frequency": 5
+                    },
+                    {
+                        "name": "3D",
+                        "frequency": 3
+                    },
+                    {
+                        "name": "Photo",
+                        "frequency": 0
+                    }
+                ],
+                "2025": [
+                    {
+                        "name": "2D",
+                        "frequency": 4
+                    },
+                    {
+                        "name": "3D",
+                        "frequency": 2
+                    },
+                    {
+                        "name": "Photo",
+                        "frequency": 0
+                    }
+                ],
+                "2022": [
+                    {
+                        "name": "2D",
+                        "frequency": 1
+                    },
+                    {
+                        "name": "3D",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Photo",
+                        "frequency": 0
+                    }
+                ]
+            },
+            "Emphasis": {
+                "2023": [
+                    {
+                        "name": "Bottom",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Center",
+                        "frequency": 4
+                    },
+                    {
+                        "name": "Left",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Right",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Top",
+                        "frequency": 1
+                    }
+                ],
+                "2024": [
+                    {
+                        "name": "Bottom",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Center",
+                        "frequency": 6
+                    },
+                    {
+                        "name": "Left",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Right",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Top",
+                        "frequency": 2
+                    }
+                ],
+                "2025": [
+                    {
+                        "name": "Bottom",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Center",
+                        "frequency": 6
+                    },
+                    {
+                        "name": "Left",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Right",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Top",
+                        "frequency": 0
+                    }
+                ],
+                "2022": [
+                    {
+                        "name": "Bottom",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Center",
+                        "frequency": 1
+                    },
+                    {
+                        "name": "Left",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Right",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Top",
+                        "frequency": 0
+                    }
+                ]
+            },
+            "Balance": {
+                "2023": [
+                    {
+                        "name": "Asymmetric",
+                        "frequency": 4
+                    },
+                    {
+                        "name": "Radial",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Symmetric",
+                        "frequency": 1
+                    }
+                ],
+                "2024": [
+                    {
+                        "name": "Asymmetric",
+                        "frequency": 6
+                    },
+                    {
+                        "name": "Radial",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Symmetric",
+                        "frequency": 2
+                    }
+                ],
+                "2025": [
+                    {
+                        "name": "Asymmetric",
+                        "frequency": 3
+                    },
+                    {
+                        "name": "Radial",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Symmetric",
+                        "frequency": 3
+                    }
+                ],
+                "2022": [
+                    {
+                        "name": "Asymmetric",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Radial",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Symmetric",
+                        "frequency": 1
+                    }
+                ]
+            },
+            "Contrast": {
+                "2023": [
+                    {
+                        "name": "High",
+                        "frequency": 4
+                    },
+                    {
+                        "name": "Low",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Medium",
+                        "frequency": 1
+                    }
+                ],
+                "2024": [
+                    {
+                        "name": "High",
+                        "frequency": 8
+                    },
+                    {
+                        "name": "Low",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Medium",
+                        "frequency": 0
+                    }
+                ],
+                "2025": [
+                    {
+                        "name": "High",
+                        "frequency": 6
+                    },
+                    {
+                        "name": "Low",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Medium",
+                        "frequency": 0
+                    }
+                ],
+                "2022": [
+                    {
+                        "name": "High",
+                        "frequency": 1
+                    },
+                    {
+                        "name": "Low",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Medium",
+                        "frequency": 0
+                    }
+                ]
+            },
+            "White space": {
+                "2023": [
+                    {
+                        "name": "High",
+                        "frequency": 2
+                    },
+                    {
+                        "name": "Low",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Medium",
+                        "frequency": 3
+                    }
+                ],
+                "2024": [
+                    {
+                        "name": "High",
+                        "frequency": 4
+                    },
+                    {
+                        "name": "Low",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Medium",
+                        "frequency": 4
+                    }
+                ],
+                "2025": [
+                    {
+                        "name": "High",
+                        "frequency": 1
+                    },
+                    {
+                        "name": "Low",
+                        "frequency": 2
+                    },
+                    {
+                        "name": "Medium",
+                        "frequency": 3
+                    }
+                ],
+                "2022": [
+                    {
+                        "name": "High",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Low",
+                        "frequency": 1
+                    },
+                    {
+                        "name": "Medium",
+                        "frequency": 0
+                    }
+                ]
+            }
+        },
+        "archive1": {
+            "Color": {
+                "2023": [
+                    {
+                        "name": "Blue",
+                        "frequency": 1
+                    },
+                    {
+                        "name": "Green",
+                        "frequency": 2
+                    },
+                    {
+                        "name": "Monochrome",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Orange",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Purple",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Red",
+                        "frequency": 1
+                    },
+                    {
+                        "name": "Yellow",
+                        "frequency": 0
+                    }
+                ],
+                "2024": [
+                    {
+                        "name": "Blue",
+                        "frequency": 2
+                    },
+                    {
+                        "name": "Green",
+                        "frequency": 2
+                    },
+                    {
+                        "name": "Monochrome",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Orange",
+                        "frequency": 1
+                    },
+                    {
+                        "name": "Purple",
+                        "frequency": 1
+                    },
+                    {
+                        "name": "Red",
+                        "frequency": 1
+                    },
+                    {
+                        "name": "Yellow",
+                        "frequency": 3
+                    }
+                ],
+                "2025": [
+                    {
+                        "name": "Blue",
+                        "frequency": 2
+                    },
+                    {
+                        "name": "Green",
+                        "frequency": 1
+                    },
+                    {
+                        "name": "Monochrome",
+                        "frequency": 1
+                    },
+                    {
+                        "name": "Orange",
+                        "frequency": 1
+                    },
+                    {
+                        "name": "Purple",
+                        "frequency": 1
+                    },
+                    {
+                        "name": "Red",
+                        "frequency": 1
+                    },
+                    {
+                        "name": "Yellow",
+                        "frequency": 0
+                    }
+                ]
+            },
+            "Form": {
+                "2023": [
+                    {
+                        "name": "2D",
+                        "frequency": 1
+                    },
+                    {
+                        "name": "3D",
+                        "frequency": 1
+                    },
+                    {
+                        "name": "Photo",
+                        "frequency": 1
+                    }
+                ],
+                "2024": [
+                    {
+                        "name": "2D",
+                        "frequency": 2
+                    },
+                    {
+                        "name": "3D",
+                        "frequency": 2
+                    },
+                    {
+                        "name": "Photo",
+                        "frequency": 0
+                    }
+                ],
+                "2025": [
+                    {
+                        "name": "2D",
+                        "frequency": 1
+                    },
+                    {
+                        "name": "3D",
+                        "frequency": 2
+                    },
+                    {
+                        "name": "Photo",
+                        "frequency": 0
+                    }
+                ]
+            },
+            "Emphasis": {
+                "2023": [
+                    {
+                        "name": "Bottom",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Center",
+                        "frequency": 2
+                    },
+                    {
+                        "name": "Left",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Right",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Top",
+                        "frequency": 1
+                    }
+                ],
+                "2024": [
+                    {
+                        "name": "Bottom",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Center",
+                        "frequency": 3
+                    },
+                    {
+                        "name": "Left",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Right",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Top",
+                        "frequency": 1
+                    }
+                ],
+                "2025": [
+                    {
+                        "name": "Bottom",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Center",
+                        "frequency": 3
+                    },
+                    {
+                        "name": "Left",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Right",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Top",
+                        "frequency": 0
+                    }
+                ]
+            },
+            "Balance": {
+                "2023": [
+                    {
+                        "name": "Asymmetric",
+                        "frequency": 2
+                    },
+                    {
+                        "name": "Radial",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Symmetric",
+                        "frequency": 1
+                    }
+                ],
+                "2024": [
+                    {
+                        "name": "Asymmetric",
+                        "frequency": 4
+                    },
+                    {
+                        "name": "Radial",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Symmetric",
+                        "frequency": 0
+                    }
+                ],
+                "2025": [
+                    {
+                        "name": "Asymmetric",
+                        "frequency": 2
+                    },
+                    {
+                        "name": "Radial",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Symmetric",
+                        "frequency": 1
+                    }
+                ]
+            },
+            "Contrast": {
+                "2023": [
+                    {
+                        "name": "High",
+                        "frequency": 3
+                    },
+                    {
+                        "name": "Low",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Medium",
+                        "frequency": 0
+                    }
+                ],
+                "2024": [
+                    {
+                        "name": "High",
+                        "frequency": 4
+                    },
+                    {
+                        "name": "Low",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Medium",
+                        "frequency": 0
+                    }
+                ],
+                "2025": [
+                    {
+                        "name": "High",
+                        "frequency": 3
+                    },
+                    {
+                        "name": "Low",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Medium",
+                        "frequency": 0
+                    }
+                ]
+            },
+            "White space": {
+                "2023": [
+                    {
+                        "name": "High",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Low",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Medium",
+                        "frequency": 3
+                    }
+                ],
+                "2024": [
+                    {
+                        "name": "High",
+                        "frequency": 2
+                    },
+                    {
+                        "name": "Low",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Medium",
+                        "frequency": 2
+                    }
+                ],
+                "2025": [
+                    {
+                        "name": "High",
+                        "frequency": 1
+                    },
+                    {
+                        "name": "Low",
+                        "frequency": 1
+                    },
+                    {
+                        "name": "Medium",
+                        "frequency": 1
+                    }
+                ]
+            }
+        },
+        "archive2": {
+            "Color": {
+                "2022": [
+                    {
+                        "name": "Blue",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Green",
+                        "frequency": 1
+                    },
+                    {
+                        "name": "Monochrome",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Orange",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Purple",
+                        "frequency": 1
+                    },
+                    {
+                        "name": "Red",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Yellow",
+                        "frequency": 1
+                    }
+                ],
+                "2023": [
+                    {
+                        "name": "Blue",
+                        "frequency": 1
+                    },
+                    {
+                        "name": "Green",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Monochrome",
+                        "frequency": 2
+                    },
+                    {
+                        "name": "Orange",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Purple",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Red",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Yellow",
+                        "frequency": 0
+                    }
+                ],
+                "2024": [
+                    {
+                        "name": "Blue",
+                        "frequency": 1
+                    },
+                    {
+                        "name": "Green",
+                        "frequency": 1
+                    },
+                    {
+                        "name": "Monochrome",
+                        "frequency": 2
+                    },
+                    {
+                        "name": "Orange",
+                        "frequency": 3
+                    },
+                    {
+                        "name": "Purple",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Red",
+                        "frequency": 2
+                    },
+                    {
+                        "name": "Yellow",
+                        "frequency": 0
+                    }
+                ],
+                "2025": [
+                    {
+                        "name": "Blue",
+                        "frequency": 2
+                    },
+                    {
+                        "name": "Green",
+                        "frequency": 1
+                    },
+                    {
+                        "name": "Monochrome",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Orange",
+                        "frequency": 1
+                    },
+                    {
+                        "name": "Purple",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Red",
+                        "frequency": 3
+                    },
+                    {
+                        "name": "Yellow",
+                        "frequency": 0
+                    }
+                ]
+            },
+            "Form": {
+                "2022": [
+                    {
+                        "name": "2D",
+                        "frequency": 1
+                    },
+                    {
+                        "name": "3D",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Photo",
+                        "frequency": 0
+                    }
+                ],
+                "2023": [
+                    {
+                        "name": "2D",
+                        "frequency": 1
+                    },
+                    {
+                        "name": "3D",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Photo",
+                        "frequency": 1
+                    }
+                ],
+                "2024": [
+                    {
+                        "name": "2D",
+                        "frequency": 3
+                    },
+                    {
+                        "name": "3D",
+                        "frequency": 1
+                    },
+                    {
+                        "name": "Photo",
+                        "frequency": 0
+                    }
+                ],
+                "2025": [
+                    {
+                        "name": "2D",
+                        "frequency": 3
+                    },
+                    {
+                        "name": "3D",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Photo",
+                        "frequency": 0
+                    }
+                ]
+            },
+            "Emphasis": {
+                "2022": [
+                    {
+                        "name": "Bottom",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Center",
+                        "frequency": 1
+                    },
+                    {
+                        "name": "Left",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Right",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Top",
+                        "frequency": 0
+                    }
+                ],
+                "2023": [
+                    {
+                        "name": "Bottom",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Center",
+                        "frequency": 2
+                    },
+                    {
+                        "name": "Left",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Right",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Top",
+                        "frequency": 0
+                    }
+                ],
+                "2024": [
+                    {
+                        "name": "Bottom",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Center",
+                        "frequency": 3
+                    },
+                    {
+                        "name": "Left",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Right",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Top",
+                        "frequency": 1
+                    }
+                ],
+                "2025": [
+                    {
+                        "name": "Bottom",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Center",
+                        "frequency": 3
+                    },
+                    {
+                        "name": "Left",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Right",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Top",
+                        "frequency": 0
+                    }
+                ]
+            },
+            "Balance": {
+                "2022": [
+                    {
+                        "name": "Asymmetric",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Radial",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Symmetric",
+                        "frequency": 1
+                    }
+                ],
+                "2023": [
+                    {
+                        "name": "Asymmetric",
+                        "frequency": 2
+                    },
+                    {
+                        "name": "Radial",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Symmetric",
+                        "frequency": 0
+                    }
+                ],
+                "2024": [
+                    {
+                        "name": "Asymmetric",
+                        "frequency": 2
+                    },
+                    {
+                        "name": "Radial",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Symmetric",
+                        "frequency": 2
+                    }
+                ],
+                "2025": [
+                    {
+                        "name": "Asymmetric",
+                        "frequency": 1
+                    },
+                    {
+                        "name": "Radial",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Symmetric",
+                        "frequency": 2
+                    }
+                ]
+            },
+            "Contrast": {
+                "2022": [
+                    {
+                        "name": "High",
+                        "frequency": 1
+                    },
+                    {
+                        "name": "Low",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Medium",
+                        "frequency": 0
+                    }
+                ],
+                "2023": [
+                    {
+                        "name": "High",
+                        "frequency": 1
+                    },
+                    {
+                        "name": "Low",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Medium",
+                        "frequency": 1
+                    }
+                ],
+                "2024": [
+                    {
+                        "name": "High",
+                        "frequency": 4
+                    },
+                    {
+                        "name": "Low",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Medium",
+                        "frequency": 0
+                    }
+                ],
+                "2025": [
+                    {
+                        "name": "High",
+                        "frequency": 3
+                    },
+                    {
+                        "name": "Low",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Medium",
+                        "frequency": 0
+                    }
+                ]
+            },
+            "White space": {
+                "2022": [
+                    {
+                        "name": "High",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Low",
+                        "frequency": 1
+                    },
+                    {
+                        "name": "Medium",
+                        "frequency": 0
+                    }
+                ],
+                "2023": [
+                    {
+                        "name": "High",
+                        "frequency": 2
+                    },
+                    {
+                        "name": "Low",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Medium",
+                        "frequency": 0
+                    }
+                ],
+                "2024": [
+                    {
+                        "name": "High",
+                        "frequency": 2
+                    },
+                    {
+                        "name": "Low",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Medium",
+                        "frequency": 2
+                    }
+                ],
+                "2025": [
+                    {
+                        "name": "High",
+                        "frequency": 0
+                    },
+                    {
+                        "name": "Low",
+                        "frequency": 1
+                    },
+                    {
+                        "name": "Medium",
+                        "frequency": 2
+                    }
+                ]
+            }
+        }
     }
-  }
 }

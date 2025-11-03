@@ -5,19 +5,11 @@ import ColorCircle from "../ColorCircle";
 import clsx from "clsx";
 import { ICONS } from "../../constants/config";
 import useGetFilterDetail from "../../hooks/useGetFilterDetail";
-import { useFilterStore } from "../../stores/filterState";
-import { useShallow } from "zustand/react/shallow";
 
 export default function FilterDetail({ option, onClose }) {
   const [isOpen, setIsOpen] = useState(false);
   const allArchives = { all: { id: 0, name: "ALL" }, ...archivesData };
-  const {
-    selectedArchive,
-    setSelectedArchive,
-    setFilterOptions,
-    setFilterMode,
-    setTab,
-  } = useFilterStore(useShallow((state) => state));
+  const [archive, setArchive] = useState("all");
 
   useEffect(() => {
     if (option) {
@@ -26,20 +18,18 @@ export default function FilterDetail({ option, onClose }) {
   }, [option]);
 
   const handleSelectArchive = (archive) => {
-    setSelectedArchive(archive);
-    setFilterOptions({ year: "ALL", type: null, value: null });
-    setFilterMode("tab");
-    setTab(null);
+    setArchive(archive);
   };
 
   const handleClose = () => {
     setIsOpen(false);
     setTimeout(() => {
       onClose();
+      setArchive("all");
     }, 500);
   };
 
-  const data = useGetFilterDetail(option, selectedArchive);
+  const data = useGetFilterDetail(option, archive);
 
   return (
     <div
@@ -57,7 +47,7 @@ export default function FilterDetail({ option, onClose }) {
           <li key={index}>
             <button
               onClick={() => handleSelectArchive(item)}
-              className={selectedArchive === item ? styles.selected : ""}
+              className={archive === item ? styles.selected : ""}
             >
               {allArchives[item]?.name}
             </button>

@@ -1,10 +1,17 @@
 import { useMemo } from "react";
-import { useImageListStore } from "../stores/imageState";
 
 import statisticsData from "../datas/statistics.json";
+import archivesData from "../datas/archives.json";
 
 export default function useGetFilterDetail(option, selectedArchive) {
-  const { imageList } = useImageListStore();
+  // selectedArchive에 따라 직접 이미지 목록 가져오기
+  const imageList = useMemo(() => {
+    if (selectedArchive === "all") {
+      return Object.values(archivesData).flatMap((archive) => archive.images);
+    } else {
+      return archivesData[selectedArchive]?.images || [];
+    }
+  }, [selectedArchive]);
 
   const filterDetailData = useMemo(() => {
     console.log("useGetFilterDetail - Input:", {
@@ -12,6 +19,7 @@ export default function useGetFilterDetail(option, selectedArchive) {
       selectedArchive,
       imageListLength: imageList?.length,
     });
+    console.log("useGetFilterDetail - Sample images:", imageList?.slice(0, 2));
 
     if (!imageList || imageList.length === 0 || !option) {
       console.log("useGetFilterDetail - Early return: missing data");
