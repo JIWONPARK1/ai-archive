@@ -9,6 +9,7 @@ import { useImageListStore } from "../../stores/imageState";
 import useGetImages from "../../hooks/useGetImages";
 
 export default function FilterModal({ open, onClose, statistics, years }) {
+  console.log("FilterModal");
   const [isOpenFilterDetailModal, setIsOpenFilterDetailModal] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
   const [selectedDetailOption, setSelectedDetailOption] = useState("");
@@ -106,28 +107,34 @@ export default function FilterModal({ open, onClose, statistics, years }) {
           <Title
             label="SHAPE"
             seeAll={true}
-            onSeeAll={() => handleSeeAll("shape")}
+            onSeeAll={() => handleSeeAll("Shape")}
           />
           <List
             list={shapes}
             type="shape"
             onSelect={handleSelectFilter}
-            selected={null}
+            selected={
+              filterOptions.type === "shape" ? filterOptions.value : null
+            }
           />
         </div>
-        <div className={styles.item}>
-          <Title
-            label="MOOD"
-            seeAll={true}
-            onSeeAll={() => handleSeeAll("mood")}
-          />
-          <List
-            list={moods}
-            type="mood"
-            onSelect={handleSelectFilter}
-            selected={null}
-          />
-        </div>
+        {moods.length > 0 && (
+          <div className={styles.item}>
+            <Title
+              label="MOOD"
+              seeAll={true}
+              onSeeAll={() => handleSeeAll("Mood")}
+            />
+            <List
+              list={moods}
+              type="mood"
+              onSelect={handleSelectFilter}
+              selected={
+                filterOptions.type === "mood" ? filterOptions.value : null
+              }
+            />
+          </div>
+        )}
         <div className={styles.item}>
           <Title
             label="COLOR"
@@ -142,103 +149,100 @@ export default function FilterModal({ open, onClose, statistics, years }) {
               })) || []
             }
             onSelect={handleSelectFilter}
-            selected={null}
-          />
-        </div>
-        <div className={styles.item}>
-          <Title
-            label="FORM"
-            seeAll={true}
-            onSeeAll={() => handleSeeAll("form")}
-          />
-          <List
-            list={
-              statistics?.form_frequency?.map((item) => ({
-                keyword: item.form,
-                value: item.form,
-              })) || []
+            selected={
+              filterOptions.type === "color" ? filterOptions.value : null
             }
-            type="form"
-            onSelect={handleSelectFilter}
-            selected={null}
-            range={{ min: 0, max: 9 }}
           />
         </div>
-        <div className={styles.item}>
-          <Title
-            label="EMPHASIS"
-            seeAll={true}
-            onSeeAll={() => handleSeeAll("emphasis")}
-          />
-          <List
-            list={
-              statistics?.emphasis_frequency?.map((item) => ({
-                keyword: item.emphasis,
-                value: item.emphasis,
-              })) || []
-            }
-            type="emphasis"
-            onSelect={handleSelectFilter}
-            selected={null}
-            range={{ min: 0, max: 9 }}
-          />
-        </div>
-        <div className={styles.item}>
-          <Title
-            label="BALANCE"
-            seeAll={true}
-            onSeeAll={() => handleSeeAll("balance")}
-          />
-          <List
-            list={
-              statistics?.balance_frequency?.map((item) => ({
-                keyword: item.balance,
-                value: item.balance,
-              })) || []
-            }
-            type="balance"
-            onSelect={handleSelectFilter}
-            selected={null}
-            range={{ min: 0, max: 9 }}
-          />
-        </div>
-        <div className={styles.item}>
-          <Title
-            label="CONTRAST"
-            seeAll={true}
-            onSeeAll={() => handleSeeAll("contrast")}
-          />
-          <List
-            list={
-              statistics?.contrast_frequency?.map((item) => ({
-                keyword: item.contrast,
-                value: item.contrast,
-              })) || []
-            }
-            type="contrast"
-            onSelect={handleSelectFilter}
-            selected={null}
-            range={{ min: 0, max: 9 }}
-          />
-        </div>
-        <div className={styles.item}>
-          <Title
-            label="WHITE SPACE"
-            seeAll={true}
-            onSeeAll={() => handleSeeAll("whitespace")}
-          />
-          <List
-            list={
-              statistics?.white_space_frequency?.map((item) => ({
-                keyword: item.white_space,
-                value: item.white_space,
-              })) || []
-            }
-            type="whitespace"
-            onSelect={handleSelectFilter}
-            selected={null}
-          />
-        </div>
+        {statistics?.form_frequency?.length > 0 && (
+          <div className={styles.item}>
+            <Title
+              label="FORM"
+              seeAll={true}
+              onSeeAll={() => handleSeeAll("form")}
+            />
+            <List
+              list={statistics?.form_frequency || []}
+              type="form"
+              onSelect={handleSelectFilter}
+              selected={
+                filterOptions.type === "form" ? filterOptions.value : null
+              }
+              range={{ min: 0, max: 9 }}
+            />
+          </div>
+        )}
+        {statistics?.emphasis_frequency?.length > 0 && (
+          <div className={styles.item}>
+            <Title
+              label="EMPHASIS"
+              seeAll={true}
+              onSeeAll={() => handleSeeAll("emphasis")}
+            />
+            <List
+              list={statistics?.emphasis_frequency || []}
+              type="emphasis"
+              onSelect={handleSelectFilter}
+              selected={
+                filterOptions.type === "emphasis" ? filterOptions.value : null
+              }
+              range={{ min: 0, max: 9 }}
+            />
+          </div>
+        )}
+        {statistics?.balance_frequency?.length > 0 && (
+          <div className={styles.item}>
+            <Title
+              label="BALANCE"
+              seeAll={true}
+              onSeeAll={() => handleSeeAll("balance")}
+            />
+            <List
+              list={statistics?.balance_frequency || []}
+              type="balance"
+              onSelect={handleSelectFilter}
+              selected={
+                filterOptions.type === "balance" ? filterOptions.value : null
+              }
+              range={{ min: 0, max: 9 }}
+            />
+          </div>
+        )}
+        {statistics?.contrast_frequency?.length > 0 && (
+          <div className={styles.item}>
+            <Title
+              label="CONTRAST"
+              seeAll={true}
+              onSeeAll={() => handleSeeAll("contrast")}
+            />
+            <List
+              list={statistics?.contrast_frequency || []}
+              type="contrast"
+              onSelect={handleSelectFilter}
+              selected={
+                filterOptions.type === "contrast" ? filterOptions.value : null
+              }
+              range={{ min: 0, max: 9 }}
+            />
+          </div>
+        )}
+        {statistics?.white_space_frequency?.length > 0 && (
+          <div className={styles.item}>
+            <Title
+              label="WHITE SPACE"
+              seeAll={true}
+              onSeeAll={() => handleSeeAll("whitespace")}
+            />
+            <List
+              list={statistics?.white_space_frequency || []}
+              type="whitespace"
+              onSelect={handleSelectFilter}
+              selected={
+                filterOptions.type === "whitespace" ? filterOptions.value : null
+              }
+            />
+          </div>
+        )}
       </div>
       {isOpenFilterDetailModal && (
         <FilterDetail
@@ -281,13 +285,13 @@ const List = ({ list, type, onSelect, selected }) => {
     <ul className={styles.list}>
       {list.map((item) => (
         <li
-          key={item.value || item.keyword}
+          key={item.keyword}
           className={clsx(
             styles.option,
-            selected === (item.value || item.keyword) ? styles.selected : ""
+            selected === item.keyword ? styles.selected : ""
           )}
         >
-          <button onClick={() => onSelect(type, item.value || item.keyword)}>
+          <button onClick={() => onSelect(type, item.keyword)}>
             {item.keyword}
           </button>
         </li>

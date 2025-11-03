@@ -5,12 +5,24 @@ import { useImageListStore } from "../stores/imageState";
 import useGetImages from "./useGetImages";
 
 export default function useImageList(selectedArchive) {
-  const { filterOptions } = useFilterStore();
+  const { filterOptions, tab } = useFilterStore();
   const { setImageList } = useImageListStore();
   const images = useGetImages();
 
   useEffect(() => {
     let list = [...images];
+
+    if (tab) {
+      if (tab.type === "shape") {
+        list = list.filter((image) => {
+          return image["Shape Keyword"]?.includes(tab.value);
+        });
+      } else if (tab.type === "mood") {
+        list = list.filter((image) => {
+          return image["Mood Keyword"]?.includes(tab.value);
+        });
+      }
+    }
 
     // 5. Filter Options 필터링
     if (filterOptions.type && filterOptions.value) {

@@ -1,21 +1,26 @@
 import { ICONS } from "../../../constants/config";
 import styles from "./RowItem.module.scss";
+import clsx from "clsx";
 
 export default function RowItem({ category, list }) {
-  const totalFrequency = list?.reduce((acc, item) => acc + item.frequency, 0);
-
+  console.log(list);
   return (
     <ul className={styles.container}>
       {list?.map((item) => (
-        <li key={item[category]} className={styles.item}>
+        <li
+          key={item.keyword}
+          className={clsx(styles.item, item.frequency === 0 && styles.none)}
+        >
           <img
-            src={ICONS[category.replace("_", "")][item[category]]}
-            alt={String(item[category.replace("_", "")]).toLowerCase()}
+            src={ICONS[category.replace("_", "")][item.keyword]}
+            alt={String(item.keyword).toLowerCase()}
             className={styles.image}
           />
-          <p className={styles.name}>{item[category]}</p>
+          <p className={styles.name}>{item.keyword}</p>
           <p className={styles.value}>
-            {Math.round((item.frequency / totalFrequency) * 100)}%
+            {item.frequency > 0
+              ? Math.round(item.percentage * 100) + "%"
+              : "None"}
           </p>
         </li>
       ))}

@@ -16,18 +16,18 @@ export default function SubTab() {
     const filteredImages = images.filter((image) => {
       return image["Shape Keyword"]?.includes(keyword);
     });
-    setTab("shape", keyword);
     setImageList(filteredImages);
+    setTab("shape", keyword);
   };
 
   const handleSelectMood = (id, keyword) => {
     const filteredImages = images.filter((image) => {
       return image["Mood Keyword"]?.includes(keyword);
     });
-    setTab("mood", keyword);
     setImageList(filteredImages);
+    setTab("mood", keyword);
   };
-  console.log(tab);
+
   return (
     <ul className={styles.tabList}>
       {shapes?.map((item) => (

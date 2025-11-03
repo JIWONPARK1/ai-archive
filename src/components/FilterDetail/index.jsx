@@ -1,6 +1,7 @@
 import styles from "./FilterDetail.module.scss";
-import dummy from "../../datas/dummy.json";
 import filterDummy from "../../datas/filterDummy.json";
+import statisticsData from "../../datas/statistics.json";
+import archivesData from "../../datas/archives.json";
 import { useEffect, useState } from "react";
 import ColorCircle from "../ColorCircle";
 import clsx from "clsx";
@@ -10,6 +11,8 @@ const years = [2025, 2024, 2023, 2022, 2021];
 
 export default function FilterDetail({ option, onClose }) {
   const [isOpen, setIsOpen] = useState(false);
+  const allArchives = { all: { id: 0, name: "ALL" }, ...archivesData };
+  const [selectedArchive, setSelectedArchive] = useState("ALL");
 
   useEffect(() => {
     if (option) {
@@ -17,10 +20,8 @@ export default function FilterDetail({ option, onClose }) {
     }
   }, [option]);
 
-  const [selectedArchive, setSelectedArchive] = useState(0);
-
-  const handleSelectArchive = (id, index) => {
-    setSelectedArchive(index);
+  const handleSelectArchive = (id) => {
+    setSelectedArchive(id);
   };
 
   const handleClose = () => {
@@ -42,21 +43,23 @@ export default function FilterDetail({ option, onClose }) {
         <img src="/images/icon_back.png" alt="back" />
       </button>
       <ul className={styles.archiveList}>
-        {dummy.archiveList.map((item, index) => (
-          <li key={item.id}>
+        {Object.keys(allArchives).map((item, index) => (
+          <li key={index}>
             <button
-              onClick={() => handleSelectArchive(item.id)}
-              className={selectedArchive === index ? styles.selected : ""}
+              onClick={() => handleSelectArchive(item)}
+              className={selectedArchive === item ? styles.selected : ""}
             >
-              {item.name}
+              {allArchives[item]?.name}
             </button>
           </li>
         ))}
       </ul>
       <div className={styles.optionContainer}>
         <p className={styles.optionTitle}>{option.toUpperCase()}</p>
-        {option === "shape" || option === "mood" ? (
-          <List data={filterDummy[option]} />
+        {option === "Shape" || option === "Mood" ? (
+          <List
+            data={statisticsData.keyword_ranks[selectedArchive]?.[option] || []}
+          />
         ) : (
           <TableList option={option} data={filterDummy[option]} />
         )}
@@ -114,14 +117,14 @@ const TableList = ({ option, data }) => {
 const List = ({ data }) => {
   return (
     <div className={styles.dataContainer}>
-      {years.map((year, index) => (
+      {Object.keys(data)?.map((year, index) => (
         <div key={index}>
           <p className={styles.year}>{year}</p>
           <ul className={styles.dataList}>
             {data?.[year]?.map((item, listIndex) => (
               <li key={`${listIndex}-${item.name}`}>
-                <span className={styles.name}>{item.name}</span>
-                <span className={styles.value}>{item.value}</span>
+                <span className={styles.name}>{item?.keyword}</span>
+                <span className={styles.value}>{item?.frequency}</span>
               </li>
             ))}
           </ul>

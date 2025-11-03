@@ -36,3 +36,31 @@ export const ICONS = {
     Low: "/images/image_whitespace_low.png",
   },
 };
+
+export const INITIAL_MAP = {
+  form: { "2D": 0, Photo: 0, "3D": 0 },
+  emphasis: {
+    Center: 0,
+    Top: 0,
+    Bottom: 0,
+    Left: 0,
+    Right: 0,
+  },
+  balance: {
+    Symmetric: 0,
+    Asymmetric: 0,
+    Radial: 0,
+  },
+  contrast: { High: 0, Medium: 0, Low: 0 },
+  white_space: { High: 0, Medium: 0, Low: 0 },
+};
+
+export const INITIAL_COLOR_OPTIONS = {
+  Red: 0,
+  Orange: 0,
+  Yellow: 0,
+  Blue: 0,
+  Purple: 0,
+  Green: 0,
+  Monochrome: 0,
+};

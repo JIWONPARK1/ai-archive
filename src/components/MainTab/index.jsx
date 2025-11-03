@@ -13,13 +13,16 @@ export default function MainTab() {
     setSelectedArchive,
     setFilterOptions,
     setFilterMode,
+    setTab,
   } = useFilterStore(useShallow((state) => state));
 
   const { setImageList } = useImageListStore();
+
   const handleSelectArchive = (archive) => {
     setSelectedArchive(archive);
     setFilterOptions({ year: "ALL", type: null, value: null });
     setFilterMode("tab");
+    setTab(null);
   };
 
   useEffect(() => {
