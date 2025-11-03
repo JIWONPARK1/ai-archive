@@ -4,7 +4,7 @@ import { FILTER_OPTIONS } from "../constants/config";
 import { useImageListStore } from "../stores/imageState";
 import useGetImages from "./useGetImages";
 
-export default function useImageList(selectedArchive) {
+export default function useImageList() {
   const { filterOptions, tab } = useFilterStore();
   const { setImageList } = useImageListStore();
   const images = useGetImages();
@@ -26,6 +26,7 @@ export default function useImageList(selectedArchive) {
 
     // 5. Filter Options 필터링
     if (filterOptions.type && filterOptions.value) {
+      console.log(filterOptions);
       // 2. Shape Keyword 필터링
       if (filterOptions.type === "shape") {
         list = list.filter((image) => {
@@ -57,5 +58,5 @@ export default function useImageList(selectedArchive) {
       setImageList(list);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [selectedArchive, filterOptions, setImageList]);
+  }, [filterOptions, setImageList]);
 }

@@ -1,18 +1,25 @@
 import styles from "./FilterDetail.module.scss";
-import filterDummy from "../../datas/filterDummy.json";
-import statisticsData from "../../datas/statistics.json";
 import archivesData from "../../datas/archives.json";
 import { useEffect, useState } from "react";
 import ColorCircle from "../ColorCircle";
 import clsx from "clsx";
 import { ICONS } from "../../constants/config";
-
-const years = [2025, 2024, 2023, 2022, 2021];
+import useGetFilterDetail from "../../hooks/useGetFilterDetail";
+import { useFilterStore } from "../../stores/filterState";
+import { useImageListStore } from "../../stores/imageState";
+import { useShallow } from "zustand/react/shallow";
 
 export default function FilterDetail({ option, onClose }) {
   const [isOpen, setIsOpen] = useState(false);
   const allArchives = { all: { id: 0, name: "ALL" }, ...archivesData };
-  const [selectedArchive, setSelectedArchive] = useState("ALL");
+  const {
+    selectedArchive,
+    setSelectedArchive,
+    setFilterOptions,
+    setFilterMode,
+    setTab,
+  } = useFilterStore(useShallow((state) => state));
+  const { setImageList } = useImageListStore();
 
   useEffect(() => {
     if (option) {
@@ -20,9 +27,25 @@ export default function FilterDetail({ option, onClose }) {
     }
   }, [option]);
 
-  const handleSelectArchive = (id) => {
-    setSelectedArchive(id);
+  const handleSelectArchive = (archive) => {
+    setSelectedArchive(archive);
+    setFilterOptions({ year: "ALL", type: null, value: null });
+    setFilterMode("tab");
+    setTab(null);
   };
+
+  // MainTab과 동일한 이미지 리스트 업데이트 로직
+  useEffect(() => {
+    if (selectedArchive === "all") {
+      const images = Object.values(archivesData).flatMap(
+        (archive) => archive.images
+      );
+      setImageList(images);
+    } else {
+      const images = archivesData[selectedArchive]?.images || [];
+      setImageList(images);
+    }
+  }, [selectedArchive, setImageList]);
 
   const handleClose = () => {
     setIsOpen(false);
@@ -30,6 +53,8 @@ export default function FilterDetail({ option, onClose }) {
       onClose();
     }, 500);
   };
+
+  const data = useGetFilterDetail(option, selectedArchive);
 
   return (
     <div
@@ -57,11 +82,9 @@ export default function FilterDetail({ option, onClose }) {
       <div className={styles.optionContainer}>
         <p className={styles.optionTitle}>{option.toUpperCase()}</p>
         {option === "Shape" || option === "Mood" ? (
-          <List
-            data={statisticsData.keyword_ranks[selectedArchive]?.[option] || []}
-          />
+          <List data={data || []} />
         ) : (
-          <TableList option={option} data={filterDummy[option]} />
+          <TableList option={option} data={data || []} />
         )}
       </div>
     </div>
@@ -69,40 +92,99 @@ export default function FilterDetail({ option, onClose }) {
 }
 
 const TableList = ({ option, data }) => {
+  // data가 객체 형태이므로 연도별로 처리
+  if (!data || Object.keys(data).length === 0) {
+    return <div>데이터가 없습니다.</div>;
+  }
+
+  // 데이터를 테이블 형태로 변환
+  const transformDataForTable = (data) => {
+    const years = Object.keys(data).sort((a, b) => b - a); // 연도 내림차순 정렬
+    const allKeywords = new Set();
+
+    // 모든 키워드 수집 (순서 유지를 위해 첫 번째 연도의 순서를 기준으로)
+    const firstYearData = data[years[0]] || [];
+    firstYearData.forEach((item) => {
+      allKeywords.add(item.keyword);
+    });
+
+    // 나머지 연도에서 누락된 키워드 추가
+    years.forEach((year) => {
+      data[year]?.forEach((item) => {
+        allKeywords.add(item.keyword);
+      });
+    });
+
+    // 키워드별로 연도별 데이터 매핑 (빈도수와 퍼센트 모두)
+    const tableData = Array.from(allKeywords).map((keyword) => {
+      const yearData = {};
+      years.forEach((year) => {
+        const item = data[year]?.find((item) => item.keyword === keyword);
+        yearData[year] = item
+          ? {
+              frequency: item.frequency,
+              percentage: item.percentage,
+            }
+          : {
+              frequency: "None",
+              percentage: "0.0%",
+            };
+      });
+      return {
+        keyword,
+        yearData,
+      };
+    });
+
+    return { years, tableData };
+  };
+
+  const { years, tableData } = transformDataForTable(data);
+
   return (
     <div>
+      {/* 연도 헤더 */}
       <ul className={styles.yearList}>
-        {years.map((year, index) => (
-          <div key={index}>
+        {years.map((year) => (
+          <li key={year}>
             <p className={styles.year}>{year}</p>
-          </div>
+          </li>
         ))}
       </ul>
-      <p className={styles.year}>{data?.year}</p>
+
+      {/* 테이블 데이터 */}
       <ul className={styles.table}>
-        {data?.map((item, listIndex) => {
-          const { name, list } = item;
+        {tableData.map((item, listIndex) => {
+          const { keyword, yearData } = item;
           return (
             <li key={listIndex} className={styles.tableItem}>
               {option === "color" ? (
                 <span className={styles.colorCircle}>
-                  <ColorCircle color={name} />
+                  <ColorCircle color={keyword} />
                 </span>
               ) : (
                 <div className={styles.imageContainer}>
                   <img
-                    src={ICONS[option][name]}
-                    alt={name}
+                    src={ICONS[option][keyword]}
+                    alt={keyword}
                     className={styles.image}
                   />
-                  <p>{name}</p>
+                  <p>{keyword}</p>
                 </div>
               )}
               <div className={styles.valueList}>
-                {list?.map((item, index) => (
-                  <div key={index} className={styles.valueContainer}>
-                    <p className={styles.value}>{item.value} </p>
-                    <p className={styles.percent}>{item.percent}%</p>
+                {years.map((year) => (
+                  <div
+                    key={year}
+                    className={clsx(
+                      styles.valueContainer,
+                      yearData[year].frequency === "None" && styles.none
+                    )}
+                  >
+                    <p className={styles.value}>{yearData[year].frequency}</p>
+                    <p className={styles.percent}>
+                      {yearData[year].percentage}
+                    </p>
                   </div>
                 ))}
               </div>

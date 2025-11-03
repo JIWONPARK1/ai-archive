@@ -9,7 +9,6 @@ import { useImageListStore } from "../../stores/imageState";
 import useGetImages from "../../hooks/useGetImages";
 
 export default function FilterModal({ open, onClose, statistics, years }) {
-  console.log("FilterModal");
   const [isOpenFilterDetailModal, setIsOpenFilterDetailModal] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
   const [selectedDetailOption, setSelectedDetailOption] = useState("");
@@ -143,10 +142,9 @@ export default function FilterModal({ open, onClose, statistics, years }) {
           />
           <ColorList
             list={
-              statistics?.color_frequency?.map((item) => ({
-                keyword: item.color,
-                value: item.color,
-              })) || []
+              statistics?.color_frequency?.filter(
+                (item) => item.frequency > 0
+              ) || []
             }
             onSelect={handleSelectFilter}
             selected={
@@ -162,7 +160,11 @@ export default function FilterModal({ open, onClose, statistics, years }) {
               onSeeAll={() => handleSeeAll("form")}
             />
             <List
-              list={statistics?.form_frequency || []}
+              list={
+                statistics?.form_frequency?.filter(
+                  (item) => item.frequency > 0
+                ) || []
+              }
               type="form"
               onSelect={handleSelectFilter}
               selected={
@@ -180,7 +182,11 @@ export default function FilterModal({ open, onClose, statistics, years }) {
               onSeeAll={() => handleSeeAll("emphasis")}
             />
             <List
-              list={statistics?.emphasis_frequency || []}
+              list={
+                statistics?.emphasis_frequency?.filter(
+                  (item) => item.frequency > 0
+                ) || []
+              }
               type="emphasis"
               onSelect={handleSelectFilter}
               selected={
@@ -198,7 +204,11 @@ export default function FilterModal({ open, onClose, statistics, years }) {
               onSeeAll={() => handleSeeAll("balance")}
             />
             <List
-              list={statistics?.balance_frequency || []}
+              list={
+                statistics?.balance_frequency?.filter(
+                  (item) => item.frequency > 0
+                ) || []
+              }
               type="balance"
               onSelect={handleSelectFilter}
               selected={
@@ -216,7 +226,11 @@ export default function FilterModal({ open, onClose, statistics, years }) {
               onSeeAll={() => handleSeeAll("contrast")}
             />
             <List
-              list={statistics?.contrast_frequency || []}
+              list={
+                statistics?.contrast_frequency?.filter(
+                  (item) => item.frequency > 0
+                ) || []
+              }
               type="contrast"
               onSelect={handleSelectFilter}
               selected={
@@ -234,7 +248,11 @@ export default function FilterModal({ open, onClose, statistics, years }) {
               onSeeAll={() => handleSeeAll("whitespace")}
             />
             <List
-              list={statistics?.white_space_frequency || []}
+              list={
+                statistics?.white_space_frequency?.filter(
+                  (item) => item.frequency > 0
+                ) || []
+              }
               type="whitespace"
               onSelect={handleSelectFilter}
               selected={
@@ -270,11 +288,11 @@ const ColorList = ({ list, onSelect }) => {
     <ul className={styles.colorList}>
       {list.map((item) => (
         <li
-          key={item.id}
+          key={item.color}
           className={clsx(styles.colorOption)}
-          onClick={() => onSelect("color", item.value)}
+          onClick={() => onSelect("color", item.color)}
         >
-          <ColorCircle color={item.value} />
+          <ColorCircle color={item.color} />
         </li>
       ))}
     </ul>

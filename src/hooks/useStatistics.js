@@ -56,7 +56,7 @@ export default function useStatistics() {
 
     // Color 배열 처리 함수 - 각 색상에 1점씩 부여하고 퍼센트 계산
     const calculateColorFrequency = (items) => {
-      const colorCount = INITIAL_COLOR_OPTIONS;
+      const colorCount = { ...INITIAL_COLOR_OPTIONS };
       let totalColorPoints = 0;
 
       // 각 이미지의 Color 배열을 순회하며 색상별 점수 계산

@@ -3,7 +3,6 @@ import styles from "./RowItem.module.scss";
 import clsx from "clsx";
 
 export default function RowItem({ category, list }) {
-  console.log(list);
   return (
     <ul className={styles.container}>
       {list?.map((item) => (

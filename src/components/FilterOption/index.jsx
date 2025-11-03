@@ -11,9 +11,7 @@ export default function FilterOption() {
       <span className={styles.filterYear}>{filterOptions?.year}</span>
 
       {filterOptions?.type &&
-        (filterOptions?.type === "shape" ||
-        filterOptions?.type === "mood" ||
-        filterOptions?.type === "color" ? (
+        (filterOptions?.type === "shape" || filterOptions?.type === "mood" ? (
           <span className={styles.filterValue}>
             {filterOptions?.value || ""}
           </span>
