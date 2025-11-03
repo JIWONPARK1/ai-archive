@@ -26,7 +26,6 @@ export default function useImageList() {
 
     // 5. Filter Options 필터링
     if (filterOptions.type && filterOptions.value) {
-      console.log(filterOptions);
       // 2. Shape Keyword 필터링
       if (filterOptions.type === "shape") {
         list = list.filter((image) => {
@@ -51,7 +50,7 @@ export default function useImageList() {
       }
       setImageList(list);
     }
-    if (filterOptions.year !== "ALL") {
+    if (filterOptions.year !== "ALL" && filterOptions.year) {
       list = list.filter((image) => {
         return image.year === filterOptions.year;
       });
