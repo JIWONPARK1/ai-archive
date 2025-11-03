@@ -6,7 +6,6 @@ import clsx from "clsx";
 import { ICONS } from "../../constants/config";
 import useGetFilterDetail from "../../hooks/useGetFilterDetail";
 import { useFilterStore } from "../../stores/filterState";
-import { useImageListStore } from "../../stores/imageState";
 import { useShallow } from "zustand/react/shallow";
 
 export default function FilterDetail({ option, onClose }) {
@@ -19,7 +18,6 @@ export default function FilterDetail({ option, onClose }) {
     setFilterMode,
     setTab,
   } = useFilterStore(useShallow((state) => state));
-  const { setImageList } = useImageListStore();
 
   useEffect(() => {
     if (option) {
@@ -33,19 +31,6 @@ export default function FilterDetail({ option, onClose }) {
     setFilterMode("tab");
     setTab(null);
   };
-
-  // MainTab과 동일한 이미지 리스트 업데이트 로직
-  useEffect(() => {
-    if (selectedArchive === "all") {
-      const images = Object.values(archivesData).flatMap(
-        (archive) => archive.images
-      );
-      setImageList(images);
-    } else {
-      const images = archivesData[selectedArchive]?.images || [];
-      setImageList(images);
-    }
-  }, [selectedArchive, setImageList]);
 
   const handleClose = () => {
     setIsOpen(false);
