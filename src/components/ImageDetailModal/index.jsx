@@ -50,7 +50,7 @@ export default function ImageDetailModal({ image, onClose }) {
         <Icon category="whitespace" value={image?.["White space"]} />
       </div>
       <img
-        src={`/archives/${image?.file_name}`}
+        src={`/archives/${image?.file_name?.replace("#", "")}`}
         alt={image?.name}
         className={styles.image}
       />
