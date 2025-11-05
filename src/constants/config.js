@@ -4,7 +4,7 @@ export const FILTER_OPTIONS = {
   emphasis: "Emphasis",
   balance: "Balance",
   contrast: "Contrast",
-  white_space: "White Space",
+  whitespace: "White space",
 };
 
 export const ICONS = {
