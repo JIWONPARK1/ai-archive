@@ -15,6 +15,7 @@ export default function ImageList({ onSelect }) {
           {imageList?.map((item) => (
             <li key={`${item.title}-${item.id}`} className={styles.item}>
               <img
+                loading="lazy"
                 src={`/archives/${item.file_name.replace("#", "")}`}
                 alt={item.name}
                 className={styles.image}
